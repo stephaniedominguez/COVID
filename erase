@@ -1,1 +1,16 @@
 import pandas as pd
+import seaborn as sns
+import numpy as np
+from hmmlearn import hmm
+import os
+import datetime
+import matplotlib.pyplot as plt
+
+import google.auth
+from google.cloud import bigquery
+from google.cloud import bigquery_storage_v1beta2
+
+#pip install --upgrade google-cloud-bigquery[bqstorage,pandas]
+#pip install --upgrade google-auth
+%load_ext google.cloud.bigquery
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="Covid-19-be0adf05131c.json"
