@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "covid-19-274923",
+  "private_key_id": "be0adf05131cd08be9ce2fa27d9092d1f3e9ff69",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqQrO+mdrkMGp1\ngesT0edh0TG1p93fOO6Gm3aYvha6Vh0OeX2vAx7auZBoit1quSo8knuQcsQyq96P\n1i6JETGIc/iPs+MV22gW8YVYgX9nl5t6hCjUzptl8cPqKeYvmNaddo86KuNptlzy\npafDxRfRQ2YrB8Chhovyj4hTHpNIW4MqOamgD78gYfy17KZju2DluCh0uRfbe8p2\nen/4Tqb7bjx7Od94kO5x8DG9N7PkgXBwljG5RS6gh222ITy239FMfhe259RCBI5s\nws3KjyNdj7flGG6ud8VOEbVFAe9PKP3i4DsD+V9aDbqe6CgYz9hd5QUBMzNtJ/LR\nQlLBExqzAgMBAAECggEAGdJ291PXRl9vbfXvxLhDiurSyrW0aTv1tRWT9ZNy1/zi\neEUFwkrLXaniFHDnJt4BYWFn+x7k0biOTytRMHmalRLdolHKgZCep0gnDKbLP1dX\nfcvYc3oISHxT1cpX/mUEO6p1C4HgrrI5Q5XLLV5Rf+vkbWdGGFlTFU0ehFixRrpW\nephWriIENffKwFNCs8FEFATGWcNK4ji43tecBil3mF4rbrIHMiSbEu7CUzUUkCEs\nnGIgLJ6CCNbZTQ292ipKhCfwDBgZf3JnU0WH9dzBIjq6SWnCk7m2g5IQ6R3aD/JA\nPsUNHZ5qx5XY2qwmrHXS21XlD5ecYMrrNiWEKk3+eQKBgQDt5K9/15nH38gLew/T\nRXeiOPYaHizXQAd9JnBTf8b8LW9rt7k/DbokJug6m2BpeDWwyPUWfcMmzRWFq+0c\nzvimwcnKief1T4yWl3kKd9U72TxZn4GMxDoSHEvYpPQM/GaISpotq2DkS0KF2dGh\nRza/y3Xn4fET7V94jYEpDtePaQKBgQC3ODPwQhZtusLZi1//ldLwST3HCDiA6ALB\nTWZ5IEPVJsggzaoE3578ELLPWmqEVGAg0TFwxiwutVOWk6K1rapW0UN5DM0KFkJF\n6Ey0v4Nka5CkFFE54mdd4kM6kJtbMAuqVE8sMnnl9Q95NykP2Yfon5oGj3I8VdUF\nRGR/jtBxuwKBgHky8kqyoDFZjIR03PopQSsP1Co4R2Yew/H53G5eAhXGXCbIAoPi\nTXxPqi75rCPvz4LSzzL3Pa6N+7IPho0P0VS8FD+xBNFRBvJOF6fCp4uHQJz0i78Y\n1fEWI3orh/75tI8pWuV7k7CbuzeQYqHFM1qBoP9TeExLukEj7rLpUd9JAoGAe2GQ\nsFmAyxH6hw7xbacSLpfTz0U876nNuSiLOkQ9CbwdBuIYfUGtyWbhUvs7QbOkLFVT\navM465dWG899wcSaMe6n9ktlhEZrCLKffRR+wdAhziyUaluJalKlHTomNGkNYf12\nd3fiWLYHXoSD1VWSzVc1HPfaYMEYO3zMBI5C1mMCgYAhwb64mSPqCZ72kWXeTaM0\n2IXWihqhiVYCso4nd7qlAK6cnHgGxUg/ZAuE0NOI4+mYJHaFktbGBoVyIy5jmgoB\nFZBsb0+V/2ABBTWRn22AGShRCZahi/tTfSLschFCbwZ2aelTTsdnOkVrIAo9IWhz\nzjD9Wv7wHLbmZjn4LaOZPw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "hackathon20@covid-19-274923.iam.gserviceaccount.com",
+  "client_id": "117749604582594720995",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hackathon20%40covid-19-274923.iam.gserviceaccount.com"
+}
