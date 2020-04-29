@@ -1,12 +1,18 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
-def hello():
-    return "COVID-19 Hackaton"
+# Import controller
+import src.controller as ctr
 
-@app.route("/get/decision")
-def getDecision():
-    return "decision"
+# Initiate root url
+# @app.route("/")
+# def hello():
+#     return "Lumiata COVID-19 Global Hackaton"
 
+# Bind other url
+app.add_url_rule('/decision', view_func=ctr.get_decision)
+
+# TODO: Probably start scheduling here??
+
+# Run application
 app.run(host='0.0.0.0', port=8018)
