@@ -1,5 +1,5 @@
 from flask import request
-import src.model_service as service
+import src.service as service
 
 def get_decision():
     # Retrieve input arguments
