@@ -4,6 +4,10 @@ from urllib.request import urlopen
 import json
 import pandas as pd
 import plotly.express as px
+import schedule
+import time
+
+
 app = Flask(__name__)
 
 # Import controller
@@ -33,7 +37,8 @@ def map( ):
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
     fig.show()
 
-# TODO: Probably start scheduling here??
-
+# TODO: Is that good? 
+def scheduling():
+    schedule.every().day.at("21:30").do(map)
 # Run application
 app.run(host='0.0.0.0', port=8018)
