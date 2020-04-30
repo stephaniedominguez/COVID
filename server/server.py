@@ -1,7 +1,5 @@
-import os
 from flask import Flask, render_template
-import schedule
-import time
+import src.model_service as service
 
 app = Flask(__name__)
 
@@ -18,11 +16,10 @@ def hello( ):
 app.add_url_rule('/decision', view_func=ctr.get_decision)
 
 # Bind ui url
-app.add_url_rule('/map', view_func=ui.map)
+app.add_url_rule('/map/', view_func=ui.map)
 
-# TODO: Is that good? 
-def scheduling():
-    schedule.every().day.at("21:30").do(map)
+# Setup model
+service.prepare_model()
 
 # Run application
 app.run(host='0.0.0.0', port=8018)

@@ -1,6 +1,7 @@
 import flask
 import src.service as service
 
+
 def get_decision():
     # Prepare response
     data = {"success": False}
@@ -11,7 +12,7 @@ def get_decision():
     # Validate input
     if not service.validate_args(args):
         return flask.jsonify(data)
-        
+
     location = args['location']
     customer_count = int(args['count'])
 
