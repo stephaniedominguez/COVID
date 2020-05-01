@@ -5,6 +5,7 @@ import plotly.express as px
 from plotly.offline import plot
 from flask import render_template
 import os
+import plotly.figure_factory as ff
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 import atexit
@@ -24,12 +25,11 @@ def log(msg):
 
 def generate_map():
     log("Start generating map")
-
+    print(os.getcwd())
     with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
         counties = json.load(response)
     df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/fips-unemp-16.csv",
                      dtype={"fips": str})
-    # counties["features"][0]
     fig = px.choropleth(df, geojson=counties, locations='fips', color='unemp',
                         color_continuous_scale="Viridis",
                         range_color=(0, 12),
@@ -44,9 +44,35 @@ def generate_map():
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
     # Save map to local directory
-    plot(fig, filename="server/templates/map_plot.html", auto_open=False)
+    plot(fig, filename="templates/map_plot.html", auto_open=False)
     log("End generating map")
 
+
+def interactive_map():
+    log("Start interactive map")
+    df_sample = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/minoritymajority.csv')
+    df_sample_r = df_sample[df_sample['STNAME'] == 'California']
+
+    values = df_sample_r['TOT_POP'].tolist()
+    fips = df_sample_r['FIPS'].tolist()
+
+    colorscale = [
+        'rgb(193, 193, 193)',
+        'rgb(239,239,239)',
+        'rgb(195, 196, 222)',
+        'rgb(144,148,194)',
+        'rgb(101,104,168)',
+        'rgb(65, 53, 132)'
+    ]
+
+    fig = ff.create_choropleth(
+        fips=fips, values=values, scope=['CA', 'AZ', 'Nevada', 'Oregon', ' Idaho'],
+        binning_endpoints=[14348, 63983, 134827, 426762, 2081313], colorscale=colorscale,
+        county_outline={'color': 'rgb(255,255,255)', 'width': 0.5}, round_legend_values=True,
+        legend_title='Population by County', title='California and Nearby States'
+    )
+    fig.layout.template = None
+    fig.show()
 
 def prepare_model():
 
