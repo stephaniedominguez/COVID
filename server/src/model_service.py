@@ -25,14 +25,14 @@ def log(msg):
 
 def generate_map():
     log("Start generating map")
-    
+
     with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
         counties = json.load(response)
     df = pd.read_csv("./src/thisone.csv",
                      dtype={"fips": str})
     df['FIPS'] = df['FIPS'].astype('int32').astype('str').str.zfill(5)
-    df['text'] ='State: '+ df['Admin2']  
-    fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Confirmed',  hover_name= 'text',
+    df['text'] = 'State: ' + df['Admin2']
+    fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Confirmed',  hover_name='text',
                         color_continuous_scale="Viridis",
                         range_color=(0, 100),
                         scope="usa",
@@ -50,8 +50,9 @@ def generate_map():
 
 
 def interactive_map():
-    log("Start interactive map")
-    df_sample = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/minoritymajority.csv')
+    log("Start generating interactive map")
+    df_sample = pd.read_csv(
+        'https://raw.githubusercontent.com/plotly/datasets/master/minoritymajority.csv')
     df_sample_r = df_sample[df_sample['STNAME'] == 'California']
 
     values = df_sample_r['TOT_POP'].tolist()
@@ -67,35 +68,41 @@ def interactive_map():
     ]
 
     fig = ff.create_choropleth(
-        fips=fips, values=values, scope=['CA', 'AZ', 'Nevada', 'Oregon', ' Idaho'],
+        fips=fips, values=values, scope=[
+            'CA', 'AZ', 'Nevada', 'Oregon', ' Idaho'],
         binning_endpoints=[14348, 63983, 134827, 426762, 2081313], colorscale=colorscale,
         county_outline={'color': 'rgb(255,255,255)', 'width': 0.5}, round_legend_values=True,
         legend_title='Population by County', title='California and Nearby States'
     )
     fig.layout.template = None
     fig.show()
+    log("End generating interactive map")
+
 
 def update_mobility():
-    #Import mobility from url
+    log("Start updating mobility")
+
+    # Import mobility from url
     url = 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv'
     mobility = pd.read_csv(url)
 
     filterlist = ['retail_and_recreation_percent_change_from_baseline',
-    'grocery_and_pharmacy_percent_change_from_baseline',
-    'parks_percent_change_from_baseline',
-    'transit_stations_percent_change_from_baseline',
-    'workplaces_percent_change_from_baseline',
-    'residential_percent_change_from_baseline']
+                  'grocery_and_pharmacy_percent_change_from_baseline',
+                  'parks_percent_change_from_baseline',
+                  'transit_stations_percent_change_from_baseline',
+                  'workplaces_percent_change_from_baseline',
+                  'residential_percent_change_from_baseline']
 
-    #Get ONLY US mobility
+    # Get ONLY US mobility
     country = mobility['country_region'].value_counts()
     countrylist = country.index.to_list()
-    usmobility = mobility[mobility['country_region']=='United States']
+    usmobility = mobility[mobility['country_region'] == 'United States']
 
-    #Change column names
-    usmobility = usmobility.rename(columns={"sub_region_1":"Province_State", "sub_region_2": "Admin2"})
+    # Change column names
+    usmobility = usmobility.rename(
+        columns={"sub_region_1": "Province_State", "sub_region_2": "Admin2"})
 
-    #Split "county" text out of county
+    # Split "county" text out of county
     countylist = []
     txt = usmobility['Admin2'].to_list()
     for i in txt:
@@ -103,11 +110,12 @@ def update_mobility():
         countylist.append(i.replace(' County', ''))
     usmobility['Admin2'] = countylist
 
-    usmobility['Lookup'] = usmobility['Admin2'] + usmobility['Province_State'] 
+    usmobility['Lookup'] = usmobility['Admin2'] + usmobility['Province_State']
     mobilitylist = usmobility['Lookup'].value_counts().index.to_list()
 
     for i in mobilitylist:
-        usmobility[usmobility['Lookup']==i] = usmobility[usmobility['Lookup']==i].fillna(method='ffill')
+        usmobility[usmobility['Lookup'] ==
+                   i] = usmobility[usmobility['Lookup'] == i].fillna(method='ffill')
 
     usmobility['Lookup'] = usmobility['Lookup'] + usmobility['date']
     lookuplist = usmobility['Lookup'].to_list()
@@ -117,10 +125,11 @@ def update_mobility():
 
     filterlist1 = filterlist.copy()
     filterlist1.append('Lookup')
-    usmobility = usmobility.loc[:,filterlist1]
+    usmobility = usmobility.loc[:, filterlist1]
 
-    #Update usmobility csv
-    usmobility.to_csv('usmobility.csv',index=False)
+    # Update usmobility csv
+    usmobility.to_csv('usmobility.csv', index=False)
+    log("End updating mobility")
 
 
 def prepare_model():
@@ -140,7 +149,7 @@ def prepare_model():
                       replace_existing=True)
 
     ## Update Mobility ####
-    #update_mobility()
+    # update_mobility()
 
     # Set scheduling every Saturday
     scheduler.add_job(func=update_mobility,
@@ -152,5 +161,3 @@ def prepare_model():
 
     # Shut down the scheduler when exiting the app
     atexit.register(lambda: scheduler.shutdown())
-
-
