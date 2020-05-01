@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -25,6 +26,16 @@
 
   <!-- Template Main CSS File -->
   <link href="/static/assets/css/style.css" rel="stylesheet">
+
+
+
+
+  <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("map_plot.html"); 
+    });
+    </script> 
 
   <!-- =======================================================
   * Template Name: Shuffle - v2.0.0
@@ -76,23 +87,7 @@
           <li><a href="#about">Interactive map</a></li>
       
           <li><a href="#team">Team</a></li>
-         <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>-->
+
           <li><a href="#contact">Contact Us</a></li>
 
         </ul>
@@ -111,7 +106,7 @@
           <h2>Interactive map</h2>
          
         </div>
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+        <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> </label>
         <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -165,26 +160,15 @@
           <option value="WI">Wisconsin</option>
           <option value="WY">Wyoming</option>
         </select>
-        <li class="drop-down"><a href="">Drop Down</a>
-          <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="drop-down"><a href="#">Drop Down 2</a>
-              <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
-            <li><a href="#">Drop Down 5</a></li>
-          </ul>
-        </li>
-       
-
+        
       </div>
+    <div>
+      <frameset rows="100%">
+
+        <frame src="map_plot.html"></frame>
+    
+      </frameset>
+    </div>
     </section><!-- End About Us Section -->
 
 
@@ -199,84 +183,92 @@
 
         <div class="section-title">
           <h2>Our Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Passion for helping people in COVID 19 crisis</p>
         </div>
 
-        <div class="row">
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="row justify-content-md-center">
+          <div class="col-xl-3 col-lg-3 col-md-6">
             <div class="member">
-              <img src="/static/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="/static/assets/img/team/ryder-1.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
+                  <h4>Tien "Ryder" Nguyen</h4>
+                  <span>Data Analyst</span>
                 </div>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/tien-ryder-nguyen-2251785a/"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+          <div class="col-xl-3 col-lg-3 col-md-6" data-wow-delay="0.1s">
             <div class="member">
-              <img src="/static/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <img src="/static/assets/img/team/luis.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
+                  <h4>Luis E. Ariza</h4>
+                  <span>Data Analyst</span>
                 </div>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/luis-e-ariza/"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
+          <div class="col-xl-3 col-lg-3 col-md-6" data-wow-delay="0.2s">
             <div class="member">
-              <img src="/static/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <img src="/static/assets/img/team/mats.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Mats Borgen Lunde</h4>
+                  <span>Data Analyst</span>
                 </div>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/matsblunde/"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+          
+
+
+        </div>
+
+        <div class="row justify-content-md-center">
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="/static/assets/img/team/pk.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Punyisa Kraisang</h4>
+                  <span>Software Engineer</span>
+                </div>
+                <div class="social">
+
+                  <a href="https://www.linkedin.com/in/punyisakraisang/"><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
             <div class="member">
-              <img src="/static/assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <img src="/static/assets/img/team/stephanie.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
+                  <h4>Stephanie Dominguez</h4>
+                  <span>Software Engineer</span>
                 </div>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/stephanie-dominguez/"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
+
 
       </div>
     </section><!-- End Our Team Section -->

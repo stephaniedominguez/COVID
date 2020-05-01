@@ -28,13 +28,15 @@ def generate_map():
     print(os.getcwd())
     with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
         counties = json.load(response)
-    df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/fips-unemp-16.csv",
+    df = pd.read_csv("./src/Testingformap.csv",
                      dtype={"fips": str})
-    fig = px.choropleth(df, geojson=counties, locations='fips', color='unemp',
+    df['text'] ='State: '+ df['State']  
+    fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Confirmed',  hover_name= 'text',
                         color_continuous_scale="Viridis",
-                        range_color=(0, 12),
+             
+                        range_color=(0, 100),
                         scope="usa",
-                        labels={'unemp': 'unemployment rate'}
+                        labels={'county': 'Confirmed cases'}
                         )
     # Set the map footer.
     #plt.annotate("Updated on " + get_now(), xy=(-.8, -3.2), size=14, xycoords='axes fraction')
