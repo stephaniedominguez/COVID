@@ -98,7 +98,6 @@
 
         <div class="section-title">
           <h2>The model</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
@@ -106,14 +105,14 @@
             <img src="/static/assets/img/pandas-2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>Voluptatem dignissimos <strong>provident quasi corporis voluptates</strong></h3>
+            <h3>we predict <strong>how many confirmed cases is going to appeer in each county in the next 7 days</strong></h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Using the ARIMA model we forecast new cases in the coming week.
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+              The ARIMA model works by finding a linear regression based on the time series previous timelags (AR, auto-regression).
+              To make the time series stationary we need to differentiate it (I, integrated). It also looks at the moving average (MA) when forecasting.
+              We use a gridsearch function to find the appropriate orders for each county.
             </p>
 
             <div class="skills-content">
