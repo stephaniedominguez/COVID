@@ -25,15 +25,15 @@ def log(msg):
 
 def generate_map():
     log("Start generating map")
-    print(os.getcwd())
+    
     with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
         counties = json.load(response)
-    df = pd.read_csv("./src/Testingformap.csv",
+    df = pd.read_csv("./src/thisone.csv",
                      dtype={"fips": str})
-    df['text'] ='State: '+ df['State']  
+    df['FIPS'] = df['FIPS'].astype('int32').astype('str').str.zfill(5)
+    df['text'] ='State: '+ df['Admin2']  
     fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Confirmed',  hover_name= 'text',
                         color_continuous_scale="Viridis",
-             
                         range_color=(0, 100),
                         scope="usa",
                         labels={'county': 'Confirmed cases'}
