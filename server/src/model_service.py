@@ -39,7 +39,6 @@ def generate_map():
                         labels={'county': 'Confirmed cases'}
                         )
     # Set the map footer.
-    #plt.annotate("Updated on " + get_now(), xy=(-.8, -3.2), size=14, xycoords='axes fraction')
     fig.add_annotation(text="Updated on " + get_now(),
                        x=0.1, y=0, showarrow=False)
 
