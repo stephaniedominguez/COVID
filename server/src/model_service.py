@@ -75,12 +75,61 @@ def interactive_map():
     fig.layout.template = None
     fig.show()
 
+def update_mobility():
+    #Import mobility from url
+    url = 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv'
+    mobility = pd.read_csv(url)
+
+    filterlist = ['retail_and_recreation_percent_change_from_baseline',
+    'grocery_and_pharmacy_percent_change_from_baseline',
+    'parks_percent_change_from_baseline',
+    'transit_stations_percent_change_from_baseline',
+    'workplaces_percent_change_from_baseline',
+    'residential_percent_change_from_baseline']
+
+    #Get ONLY US mobility
+    country = mobility['country_region'].value_counts()
+    countrylist = country.index.to_list()
+    usmobility = mobility[mobility['country_region']=='United States']
+
+    #Change column names
+    usmobility = usmobility.rename(columns={"sub_region_1":"Province_State", "sub_region_2": "Admin2"})
+
+    #Split "county" text out of county
+    countylist = []
+    txt = usmobility['Admin2'].to_list()
+    for i in txt:
+        i = str(i)
+        countylist.append(i.replace(' County', ''))
+    usmobility['Admin2'] = countylist
+
+    usmobility['Lookup'] = usmobility['Admin2'] + usmobility['Province_State'] 
+    mobilitylist = usmobility['Lookup'].value_counts().index.to_list()
+
+    for i in mobilitylist:
+        usmobility[usmobility['Lookup']==i] = usmobility[usmobility['Lookup']==i].fillna(method='ffill')
+
+    usmobility['Lookup'] = usmobility['Lookup'] + usmobility['date']
+    lookuplist = usmobility['Lookup'].to_list()
+    usmobility = usmobility.transpose()
+    usmobility.columns = lookuplist
+    usmobility = usmobility.transpose()
+
+    filterlist1 = filterlist.copy()
+    filterlist1.append('Lookup')
+    usmobility = usmobility.loc[:,filterlist1]
+
+    #Update usmobility csv
+    usmobility.to_csv('usmobility.csv',index=False)
+
+
 def prepare_model():
 
+    ## Update Map #####
     # Run all model
     generate_map()
 
-    # Set scheduling
+    # Set scheduling every 9pm
     scheduler = BackgroundScheduler()
     scheduler.start()
     scheduler.add_job(func=generate_map,
@@ -90,5 +139,18 @@ def prepare_model():
                       name="map_schedule",
                       replace_existing=True)
 
+    ## Update Mobility ####
+    #update_mobility()
+
+    # Set scheduling every Saturday
+    scheduler.add_job(func=update_mobility,
+                      trigger="cron",
+                      day_of_week="5",
+                      id="update_mobility",
+                      name="update_mobility",
+                      replace_existing=True)
+
     # Shut down the scheduler when exiting the app
     atexit.register(lambda: scheduler.shutdown())
+
+
