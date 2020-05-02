@@ -49,9 +49,13 @@
 
     function myFunction() {
       var fips = document.getElementById("state-selection").value;
-      // $("#state-response").src("src", "http://0.0.0.0:8018/decision?fips="+fips)
-      // $("#state-response").
-      document.getElementById("state-response").src = "http://0.0.0.0:8018/decision?fips="+fips;
+      //$("#state-response").src("src", "http://0.0.0.0:8018/decision?fips="+fips)
+      //$("#state-response").
+      $.get("http://localhost:8018/decision", {fips:fips}, function (data, textStatus, jqXHR) {
+        console.log(data)
+        $('#state-response').html(data["decision"]);
+      });
+      //document.getElementById("state-response").src = "http://0.0.0.0:8018/decision?fips="+fips;
     }
 
 </script>
@@ -190,7 +194,8 @@
         </div>
 
         <div id="state-response" class="col-lg-7 align-items-stretch order-1 order-lg-2" >
-          <embed id="state-response" src="" width="100%" style=" height: 100%;" >
+          <!-- <embed id="state-response" src="" width="100%" style=" height: 100%;" > -->
+            <!-- <div id="state-response"></div> -->
         </div>
   
       </div>
