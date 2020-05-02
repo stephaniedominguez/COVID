@@ -13,11 +13,10 @@ def get_decision():
     if not service.validate_args(args):
         return flask.jsonify(data)
 
-    location = args['location']
-    customer_count = int(args['count'])
+    fips = args['fips']
 
     # Get decision based on the arguments
-    decision = service.get_decision(location, customer_count)
+    decision = service.get_decision(fips)
 
     # Create success response
     data["decision"] = decision
