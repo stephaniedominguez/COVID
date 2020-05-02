@@ -3,27 +3,23 @@ import flask
 app = flask.current_app
 
 
-def get_decision(location, customer_count):
+def get_decision(fips):
     # TODO: Implement service to get estimated infected number
     #       from location, customer count, etc
 
-    return "For a store in " + location + " with " + str(customer_count) + " customers ==> O]-["
+    return "For a store in " + fips + " ==> O]-["
 
 
 def validate_args(args):
     if args == None:
         return False
 
-    location = args['location']
-    customer_count = args['count']
+    fips = args['fips']
 
-    if location == None or location == "":
+    if fips == None or fips == "":
         return False
 
-    if customer_count == None or customer_count == "":
-        return False
-
-    if not(isinstance(location, str)) or not(customer_count.isdigit()):
+    if not(isinstance(fips, str)):
         return False
 
     return True
