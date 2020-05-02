@@ -206,7 +206,7 @@ def generate_map():
     df['ML'] = df['ML'].fillna(0)
     df['ML'] = df['ML'].astype('str')
    
-    df['text'] = 'County: ' + df['County'] +'</br>'+'ML: ' + df['ML'] 
+    df['text'] = 'County: ' + df['County'] +'</br>'+'Rt: ' + df['ML'] 
     fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Prediction',  hover_name='text',
                         color_continuous_scale="Viridis",
                         range_color=(0, 100),
