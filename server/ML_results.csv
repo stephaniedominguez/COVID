@@ -1,771 +1,3165 @@
 ,FIPS,ML,County,State,Prediction
-0,1003.0,0.8300000000000001,Baldwin,Alabama,34
-1,1013.0,1.0,Butler,Alabama,28
-2,1015.0,0.51,Calhoun,Alabama,17
-3,1017.0,0.89,Chambers,Alabama,25
-4,1031.0,0.85,Coffee,Alabama,32
-5,1055.0,0.94,Etowah,Alabama,25
-6,1059.0,0.08,Franklin,Alabama,28
-7,1073.0,1.0,Jefferson,Alabama,123
-8,1081.0,1.04,Lee,Alabama,61
-9,1085.0,1.52,Lowndes,Alabama,34
-10,1089.0,,Madison,Alabama,28
-11,1095.0,0.89,Marshall,Alabama,55
-12,1097.0,1.15,Mobile,Alabama,265
-13,1101.0,1.19,Montgomery,Alabama,133
-14,1117.0,0.87,Shelby,Alabama,26
-15,1123.0,0.91,Tallapoosa,Alabama,26
-16,1125.0,0.95,Tuscaloosa,Alabama,38
-17,2020.0,0.86,Anchorage,Alaska,16
-18,2090.0,0.13,Fairbanks North Star,Alaska,1
-19,4001.0,1.46,Apache,Arizona,190
-20,4005.0,1.23,Coconino,Arizona,128
-21,4013.0,1.33,Maricopa,Arizona,1282
-22,4015.0,1.46,Mohave,Arizona,52
-23,4017.0,1.17,Navajo,Arizona,171
-24,4019.0,1.04,Pima,Arizona,224
-25,4021.0,1.16,Pinal,Arizona,107
-26,4027.0,1.69,Yuma,Arizona,51
-27,5007.0,0.11,Benton,Arkansas,21
-28,5035.0,0.95,Crittenden,Arkansas,29
-29,5069.0,0.89,Jefferson,Arkansas,32
-30,5075.0,0.0,Lawrence,Arkansas,17
-31,5079.0,1.09,Lincoln,Arkansas,308
-32,5119.0,1.07,Pulaski,Arkansas,106
-33,5123.0,0.5700000000000001,St. Francis,Arkansas,7
-34,6001.0,1.04,Alameda,California,333
-35,6013.0,1.12,Contra Costa,California,141
-36,6019.0,1.2,Fresno,California,140
-37,6025.0,1.24,Imperial,California,82
-38,6029.0,1.08,Kern,California,184
-39,6031.0,1.88,Kings,California,71
-40,6037.0,1.18,Los Angeles,California,6642
-41,6041.0,0.96,Marin,California,28
-42,6047.0,0.08,Merced,California,31
-43,6053.0,1.17,Monterey,California,49
-44,6059.0,1.27,Orange,California,602
-45,6065.0,1.08,Riverside,California,963
-46,6067.0,0.94,Sacramento,California,86
-47,6071.0,1.31,San Bernardino,California,566
-48,6073.0,1.2,San Diego,California,816
-49,6075.0,0.96,San Francisco,California,205
-50,6077.0,0.98,San Joaquin,California,48
-51,6079.0,1.0,San Luis Obispo,California,34
-52,6081.0,1.19,San Mateo,California,239
-53,6083.0,0.92,Santa Barbara,California,36
-54,6085.0,0.89,Santa Clara,California,172
-55,6095.0,1.35,Solano,California,67
-56,6097.0,0.96,Sonoma,California,35
-57,6099.0,1.18,Stanislaus,California,95
-58,6107.0,1.33,Tulare,California,202
-59,6111.0,1.08,Ventura,California,77
-60,6113.0,0.75,Yolo,California,2
-61,8001.0,1.24,Adams,Colorado,465
-62,8005.0,1.1,Arapahoe,Colorado,637
-63,8013.0,1.17,Boulder,Colorado,146
-64,8014.0,0.65,Broomfield,Colorado,33
-65,8031.0,1.14,Denver,Colorado,820
-66,8035.0,1.06,Douglas,Colorado,81
-67,8037.0,0.95,Eagle,Colorado,47
-68,8041.0,1.05,El Paso,Colorado,138
-69,8051.0,0.12,Gunnison,Colorado,31
-70,8059.0,0.97,Jefferson,Colorado,221
-71,8069.0,1.19,Larimer,Colorado,94
-72,8075.0,0.78,Logan,Colorado,22
-73,8087.0,1.38,Morgan,Colorado,251
-74,8101.0,0.66,Pueblo,Colorado,33
-75,8117.0,1.0,Summit,Colorado,26
-76,8123.0,1.26,Weld,Colorado,582
-77,9001.0,0.73,Fairfield,Connecticut,1695
-78,9003.0,0.97,Hartford,Connecticut,1105
-79,9005.0,1.12,Litchfield,Connecticut,242
-80,9007.0,1.12,Middlesex,Connecticut,132
-81,9009.0,0.96,New Haven,Connecticut,1377
-82,9011.0,1.13,New London,Connecticut,147
-83,9013.0,0.99,Tolland,Connecticut,92
-84,9015.0,1.21,Windham,Connecticut,53
-85,10001.0,1.21,Kent,Delaware,228
-86,10003.0,0.97,New Castle,Delaware,324
-87,10005.0,1.15,Sussex,Delaware,1059
-88,11001.0,1.11,District of Columbia,District of Columbia,1083
-89,12001.0,0.99,Alachua,Florida,37
-90,12009.0,1.08,Brevard,Florida,60
-91,12011.0,0.76,Broward,Florida,265
-92,12015.0,1.13,Charlotte,Florida,64
-93,12017.0,0.51,Citrus,Florida,4
-94,12019.0,0.85,Clay,Florida,21
-95,12021.0,1.05,Collier,Florida,91
-96,12031.0,0.9,Duval,Florida,48
-97,12033.0,1.03,Escambia,Florida,119
-98,12035.0,0.72,Flagler,Florida,37
-99,12039.0,0.13,Gadsden,Florida,29
-100,12051.0,0.0,Hendry,Florida,22
-101,12057.0,1.04,Hillsborough,Florida,141
-102,12069.0,0.84,Lake,Florida,10
-103,12071.0,1.0,Lee,Florida,148
-104,12073.0,0.91,Leon,Florida,28
-105,12081.0,1.1,Manatee,Florida,126
-106,12083.0,1.11,Marion,Florida,40
-107,12085.0,0.95,Martin,Florida,25
-108,12095.0,0.94,Orange,Florida,101
-109,12097.0,0.92,Osceola,Florida,28
-110,12099.0,0.99,Palm Beach,Florida,495
-111,12101.0,0.95,Pasco,Florida,33
-112,12103.0,0.99,Pinellas,Florida,83
-113,12105.0,1.15,Polk,Florida,123
-114,12107.0,1.0,Putnam,Florida,37
-115,12115.0,1.08,Sarasota,Florida,59
-116,12117.0,0.95,Seminole,Florida,36
-117,12109.0,0.8200000000000001,St. Johns,Florida,7
-118,12111.0,0.95,St. Lucie,Florida,34
-119,12119.0,0.76,Sumter,Florida,25
-120,12121.0,0.87,Suwannee,Florida,20
-121,12127.0,0.94,Volusia,Florida,47
-122,13009.0,1.11,Baldwin,Georgia,45
-123,13013.0,1.1,Barrow,Georgia,33
-124,13015.0,1.04,Bartow,Georgia,47
-125,13021.0,1.29,Bibb,Georgia,88
-126,13035.0,0.92,Butts,Georgia,44
-127,13045.0,1.06,Carroll,Georgia,68
-128,13051.0,0.99,Chatham,Georgia,35
-129,13057.0,1.28,Cherokee,Georgia,119
-130,13059.0,1.0,Clarke,Georgia,30
-131,13063.0,1.13,Clayton,Georgia,134
-132,13067.0,1.12,Cobb,Georgia,336
-133,13069.0,1.2,Coffee,Georgia,43
-134,13071.0,0.91,Colquitt,Georgia,48
-135,13073.0,1.0,Columbia,Georgia,36
-136,13077.0,0.86,Coweta,Georgia,20
-137,13081.0,0.89,Crisp,Georgia,30
-138,13089.0,1.13,DeKalb,Georgia,406
-139,13087.0,1.67,Decatur,Georgia,21
-140,13093.0,0.71,Dooly,Georgia,39
-141,13095.0,0.85,Dougherty,Georgia,60
-142,13097.0,1.14,Douglas,Georgia,65
-143,13099.0,0.95,Early,Georgia,31
-144,13113.0,0.9,Fayette,Georgia,24
-145,13117.0,1.12,Forsyth,Georgia,68
-146,13121.0,0.98,Fulton,Georgia,470
-147,13123.0,1.0,Gilmer,Georgia,33
-148,13135.0,1.28,Gwinnett,Georgia,574
-149,13137.0,1.52,Habersham,Georgia,138
-150,13139.0,1.38,Hall,Georgia,465
-151,13141.0,1.4,Hancock,Georgia,86
-152,13151.0,0.99,Henry,Georgia,71
-153,13153.0,0.91,Houston,Georgia,29
-154,13157.0,0.0,Jackson,Georgia,29
-155,13177.0,0.91,Lee,Georgia,32
-156,13185.0,1.0,Lowndes,Georgia,39
-157,13205.0,1.0,Mitchell,Georgia,67
-158,13215.0,1.04,Muscogee,Georgia,59
-159,13217.0,1.09,Newton,Georgia,48
-160,13223.0,1.15,Paulding,Georgia,51
-161,13243.0,0.63,Randolph,Georgia,15
-162,13245.0,1.07,Richmond,Georgia,97
-163,13247.0,1.05,Rockdale,Georgia,42
-164,13255.0,0.95,Spalding,Georgia,71
-165,13257.0,0.11,Stephens,Georgia,26
-166,13261.0,0.97,Sumter,Georgia,41
-167,13273.0,0.96,Terrell,Georgia,24
-168,13275.0,1.09,Thomas,Georgia,49
-169,13277.0,0.0,Tift,Georgia,26
-170,13285.0,0.9,Troup,Georgia,37
-171,13293.0,0.95,Upson,Georgia,42
-172,13295.0,,Walker,Georgia,14
-173,13297.0,1.37,Walton,Georgia,44
-174,13299.0,0.93,Ware,Georgia,26
-175,13311.0,0.09,White,Georgia,20
-176,13313.0,3.01,Whitfield,Georgia,65
-177,13315.0,0.81,Wilcox,Georgia,30
-178,13321.0,0.87,Worth,Georgia,5
-179,15001.0,,Hawaii,Hawaii,15
-180,15003.0,0.87,Honolulu,Hawaii,29
-181,16001.0,0.94,Ada,Idaho,38
-182,16013.0,0.88,Blaine,Idaho,14
-183,16027.0,0.95,Canyon,Idaho,39
-184,16083.0,0.91,Twin Falls,Idaho,37
-185,17007.0,1.12,Boone,Illinois,48
-186,17019.0,2.17,Champaign,Illinois,49
-187,17027.0,1.13,Clinton,Illinois,37
-188,17031.0,1.11,Cook,Illinois,11186
-189,17037.0,1.42,DeKalb,Illinois,29
-190,17043.0,1.36,DuPage,Illinois,1108
-191,17077.0,2.61,Jackson,Illinois,141
-192,17079.0,0.11,Jasper,Illinois,8
-193,17081.0,0.13,Jefferson,Illinois,15
-194,17089.0,1.49,Kane,Illinois,712
-195,17091.0,1.11,Kankakee,Illinois,66
-196,17093.0,1.31,Kendall,Illinois,99
-197,17097.0,1.2,Lake,Illinois,983
-198,17115.0,0.54,Macon,Illinois,24
-199,17119.0,1.04,Madison,Illinois,76
-200,17111.0,1.28,McHenry,Illinois,198
-201,17113.0,,McLean,Illinois,8
-202,17141.0,1.09,Ogle,Illinois,45
-203,17143.0,1.0,Peoria,Illinois,31
-204,17157.0,1.71,Randolph,Illinois,110
-205,17161.0,1.25,Rock Island,Illinois,139
-206,17167.0,1.79,Sangamon,Illinois,164
-207,17163.0,1.26,St. Clair,Illinois,145
-208,17177.0,2.28,Stephenson,Illinois,44
-209,17187.0,0.8200000000000001,Warren,Illinois,33
-210,17195.0,1.0,Whiteside,Illinois,35
-211,17197.0,1.28,Will,Illinois,867
-212,17201.0,1.52,Winnebago,Illinois,238
-213,18003.0,1.3,Allen,Indiana,208
-214,18005.0,1.05,Bartholomew,Indiana,74
-215,18011.0,0.86,Boone,Indiana,17
-216,18017.0,1.41,Cass,Indiana,213
-217,18019.0,1.12,Clark,Indiana,91
-218,18029.0,1.67,Dearborn,Indiana,3
-219,18031.0,0.8300000000000001,Decatur,Indiana,18
-220,18035.0,1.36,Delaware,Indiana,44
-221,18039.0,1.16,Elkhart,Indiana,91
-222,18043.0,0.95,Floyd,Indiana,25
-223,18053.0,0.81,Grant,Indiana,35
-224,18057.0,1.01,Hamilton,Indiana,92
-225,18059.0,1.2,Hancock,Indiana,57
-226,18061.0,0.86,Harrison,Indiana,26
-227,18063.0,0.96,Hendricks,Indiana,88
-228,18067.0,1.37,Howard,Indiana,39
-229,18071.0,1.31,Jackson,Indiana,40
-230,18081.0,1.07,Johnson,Indiana,103
-231,18091.0,1.03,LaPorte,Indiana,52
-232,18089.0,1.25,Lake,Indiana,520
-233,18093.0,0.74,Lawrence,Indiana,16
-234,18095.0,1.03,Madison,Indiana,53
-235,18097.0,1.25,Marion,Indiana,1433
-236,18103.0,1.19,Miami,Indiana,36
-237,18107.0,3.14,Montgomery,Indiana,188
-238,18109.0,1.07,Morgan,Indiana,46
-239,18117.0,1.0,Orange,Indiana,33
-240,18127.0,1.06,Porter,Indiana,48
-241,18137.0,,Ripley,Indiana,4
-242,18145.0,0.99,Shelby,Indiana,54
-243,18141.0,1.07,St. Joseph,Indiana,105
-244,18157.0,1.57,Tippecanoe,Indiana,54
-245,18163.0,1.0,Vanderburgh,Indiana,37
-246,18169.0,1.4,Wabash,Indiana,56
-247,18181.0,0.73,White,Indiana,39
-248,19005.0,0.11,Allamakee,Iowa,35
-249,19013.0,1.58,Black Hawk,Iowa,956
-250,19049.0,2.18,Dallas,Iowa,420
-251,19061.0,1.16,Dubuque,Iowa,41
-252,19099.0,1.44,Jasper,Iowa,101
-253,19103.0,1.01,Johnson,Iowa,102
-254,19113.0,1.13,Linn,Iowa,186
-255,19115.0,0.8300000000000001,Louisa,Iowa,35
-256,19127.0,1.21,Marshall,Iowa,191
-257,19139.0,1.04,Muscatine,Iowa,70
-258,19153.0,1.49,Polk,Iowa,437
-259,19157.0,0.12,Poweshiek,Iowa,9
-260,19163.0,0.95,Scott,Iowa,34
-261,19171.0,0.85,Tama,Iowa,60
-262,19193.0,1.56,Woodbury,Iowa,-328
-263,20055.0,2.18,Finney,Kansas,451
-264,20057.0,1.55,Ford,Kansas,434
-265,20091.0,1.05,Johnson,Kansas,60
-266,20103.0,2.59,Leavenworth,Kansas,1113
-267,20111.0,1.24,Lyon,Kansas,61
-268,20173.0,1.28,Sedgwick,Kansas,110
-269,20175.0,1.55,Seward,Kansas,320
-270,20177.0,0.92,Shawnee,Kansas,27
-271,20209.0,1.36,Wyandotte,Kansas,206
-272,21015.0,1.4,Boone,Kentucky,41
-273,21031.0,0.78,Butler,Kentucky,29
-274,21047.0,0.16,Christian,Kentucky,2
-275,21059.0,1.31,Daviess,Kentucky,44
-276,21083.0,0.93,Graves,Kentucky,19
-277,21085.0,0.12,Grayson,Kentucky,20
-278,21107.0,0.8,Hopkins,Kentucky,49
-279,21109.0,0.12,Jackson,Kentucky,10
-280,21111.0,1.19,Jefferson,Kentucky,361
-281,21117.0,1.23,Kenton,Kentucky,83
-282,21177.0,0.91,Muhlenberg,Kentucky,32
-283,21227.0,1.61,Warren,Kentucky,232
-284,22003.0,,Allen,Louisiana,7
-285,22005.0,0.98,Ascension,Louisiana,56
-286,22007.0,0.85,Assumption,Louisiana,17
-287,22015.0,0.96,Bossier,Louisiana,33
-288,22017.0,0.97,Caddo,Louisiana,178
-289,22019.0,0.99,Calcasieu,Louisiana,42
-290,22031.0,0.75,De Soto,Louisiana,12
-291,22033.0,1.03,East Baton Rouge,Louisiana,303
-292,22037.0,0.86,East Feliciana,Louisiana,26
-293,22041.0,0.67,Franklin,Louisiana,28
-294,22045.0,0.92,Iberia,Louisiana,52
-295,22047.0,0.92,Iberville,Louisiana,95
-296,22051.0,0.6,Jefferson,Louisiana,219
-297,22055.0,0.94,Lafayette,Louisiana,42
-298,22057.0,0.96,Lafourche,Louisiana,51
-299,22063.0,0.96,Livingston,Louisiana,44
-300,22071.0,0.59,Orleans,Louisiana,560
-301,22073.0,1.16,Ouachita,Louisiana,169
-302,22075.0,0.9,Plaquemines,Louisiana,33
-303,22079.0,0.99,Rapides,Louisiana,38
-304,22087.0,0.96,St. Bernard,Louisiana,65
-305,22089.0,0.97,St. Charles,Louisiana,90
-306,22093.0,0.89,St. James,Louisiana,20
-307,22095.0,0.91,St. John the Baptist,Louisiana,119
-308,22097.0,1.0,St. Landry,Louisiana,38
-309,22099.0,0.92,St. Martin,Louisiana,21
-310,22101.0,0.95,St. Mary,Louisiana,37
-311,22103.0,0.98,St. Tammany,Louisiana,125
-312,22105.0,0.96,Tangipahoa,Louisiana,43
-313,22109.0,1.32,Terrebonne,Louisiana,212
-314,22117.0,0.92,Washington,Louisiana,23
-315,22119.0,0.16,Webster,Louisiana,14
-316,22121.0,0.6,West Baton Rouge,Louisiana,10
-317,22125.0,0.76,West Feliciana,Louisiana,30
-318,23005.0,1.04,Cumberland,Maine,80
-319,23019.0,3.01,Penobscot,Maine,45
-320,23031.0,0.91,York,Maine,18
-321,24001.0,0.67,Allegany,Maryland,20
-322,24003.0,1.17,Anne Arundel,Maryland,464
-323,24005.0,1.1,Baltimore,Maryland,699
-324,24510.0,1.02,Baltimore City,Maryland,333
-325,24009.0,0.94,Calvert,Maryland,33
-326,24011.0,0.11,Caroline,Maryland,21
-327,24013.0,1.07,Carroll,Maryland,86
-328,24015.0,0.8200000000000001,Cecil,Maryland,31
-329,24017.0,1.06,Charles,Maryland,102
-330,24021.0,1.06,Frederick,Maryland,168
-331,24025.0,1.37,Harford,Maryland,147
-332,24027.0,1.23,Howard,Maryland,255
-333,24029.0,0.6,Kent,Maryland,26
-334,24031.0,1.11,Montgomery,Maryland,1095
-335,24033.0,1.19,Prince George's,Maryland,1990
-336,24035.0,,Queen Anne's,Maryland,7
-337,24037.0,,St. Mary's,Maryland,34
-338,24043.0,1.15,Washington,Maryland,67
-339,24045.0,1.5,Wicomico,Maryland,184
-340,25001.0,1.09,Barnstable,Massachusetts,98
-341,25003.0,0.95,Berkshire,Massachusetts,31
-342,25005.0,1.21,Bristol,Massachusetts,1250
-343,25009.0,1.05,Essex,Massachusetts,2356
-344,25011.0,1.09,Franklin,Massachusetts,54
-345,25013.0,1.08,Hampden,Massachusetts,928
-346,25015.0,1.31,Hampshire,Massachusetts,170
-347,25017.0,0.84,Middlesex,Massachusetts,3435
-348,25021.0,0.98,Norfolk,Massachusetts,1349
-349,25023.0,1.0,Plymouth,Massachusetts,1504
-350,25025.0,0.84,Suffolk,Massachusetts,2813
-351,25027.0,1.25,Worcester,Massachusetts,1759
-352,26005.0,1.44,Allegan,Michigan,46
-353,26007.0,1.0,Alpena,Michigan,55
-354,26017.0,1.13,Bay,Michigan,51
-355,26021.0,1.13,Berrien,Michigan,53
-356,26025.0,1.12,Calhoun,Michigan,58
-357,26037.0,,Clinton,Michigan,21
-358,26045.0,0.0,Eaton,Michigan,32
-359,26049.0,1.0,Genesee,Michigan,194
-360,26059.0,0.86,Hillsdale,Michigan,28
-361,26065.0,1.19,Ingham,Michigan,135
-362,26067.0,2.64,Ionia,Michigan,110
-363,26069.0,0.11,Iosco,Michigan,33
-364,26075.0,1.07,Jackson,Michigan,38
-365,26077.0,1.3,Kalamazoo,Michigan,135
-366,26081.0,1.49,Kent,Michigan,560
-367,26087.0,0.85,Lapeer,Michigan,15
-368,26093.0,1.01,Livingston,Michigan,34
-369,26099.0,0.84,Macomb,Michigan,621
-370,26115.0,0.95,Monroe,Michigan,24
-371,26121.0,1.27,Muskegon,Michigan,92
-372,26125.0,0.86,Oakland,Michigan,758
-373,26137.0,0.55,Otsego,Michigan,20
-374,26139.0,1.4,Ottawa,Michigan,89
-375,26145.0,1.21,Saginaw,Michigan,184
-376,26155.0,1.14,Shiawassee,Michigan,61
-377,26147.0,1.06,St. Clair,Michigan,78
-378,26157.0,1.67,Tuscola,Michigan,28
-379,26161.0,1.06,Washtenaw,Michigan,150
-380,26163.0,0.87,Wayne,Michigan,1781
-381,27003.0,1.44,Anoka,Minnesota,89
-382,27027.0,1.13,Clay,Minnesota,50
-383,27037.0,1.0,Dakota,Minnesota,32
-384,27053.0,1.41,Hennepin,Minnesota,681
-385,27067.0,1.79,Kandiyohi,Minnesota,115
-386,27091.0,2.88,Martin,Minnesota,126
-387,27105.0,2.09,Nobles,Minnesota,888
-388,27109.0,1.05,Olmsted,Minnesota,53
-389,27115.0,0.11,Pine,Minnesota,11
-390,27123.0,1.48,Ramsey,Minnesota,224
-391,27145.0,3.46,Stearns,Minnesota,1141
-392,27163.0,0.0,Washington,Minnesota,43
-393,28001.0,1.0,Adams,Mississippi,36
-394,28007.0,0.87,Attala,Mississippi,37
-395,28011.0,0.58,Bolivar,Mississippi,14
-396,28015.0,2.28,Carroll,Mississippi,87
-397,28029.0,1.22,Copiah,Mississippi,42
-398,28033.0,0.99,DeSoto,Mississippi,36
-399,28035.0,0.99,Forrest,Mississippi,44
-400,28047.0,0.94,Harrison,Mississippi,26
-401,28049.0,1.17,Hinds,Mississippi,100
-402,28051.0,1.11,Holmes,Mississippi,48
-403,28059.0,0.99,Jackson,Mississippi,38
-404,28067.0,1.07,Jones,Mississippi,38
-405,28069.0,0.11,Kemper,Mississippi,28
-406,28071.0,0.12,Lafayette,Mississippi,12
-407,28075.0,1.19,Lauderdale,Mississippi,102
-408,28079.0,1.34,Leake,Mississippi,78
-409,28083.0,0.84,Leflore,Mississippi,29
-410,28085.0,0.8,Lincoln,Mississippi,26
-411,28089.0,1.19,Madison,Mississippi,63
-412,28095.0,0.93,Monroe,Mississippi,42
-413,28099.0,1.19,Neshoba,Mississippi,76
-414,28101.0,1.0,Newton,Mississippi,30
-415,28103.0,1.0,Noxubee,Mississippi,34
-416,28109.0,0.87,Pearl River,Mississippi,27
-417,28113.0,0.86,Pike,Mississippi,26
-418,28121.0,1.0,Rankin,Mississippi,35
-419,28123.0,1.32,Scott,Mississippi,139
-420,28149.0,1.0,Warren,Mississippi,36
-421,28163.0,0.87,Yazoo,Mississippi,28
-422,29021.0,1.55,Buchanan,Missouri,68
-423,29095.0,0.87,Jackson,Missouri,22
-424,29099.0,0.92,Jefferson,Missouri,39
-425,29133.0,0.1,Mississippi,Missouri,12
-426,29135.0,,Moniteau,Missouri,1
-427,29195.0,1.08,Saline,Missouri,69
-428,29183.0,1.05,St. Charles,Missouri,99
-429,29189.0,1.06,St. Louis,Missouri,542
-430,29510.0,1.06,St. Louis City,Missouri,182
-431,30031.0,0.6900000000000001,Gallatin,Montana,0
-432,31001.0,1.21,Adams,Nebraska,54
-433,31019.0,0.8200000000000001,Buffalo,Nebraska,31
-434,31037.0,2.91,Colfax,Nebraska,244
-435,31043.0,1.52,Dakota,Nebraska,269
-436,31047.0,1.17,Dawson,Nebraska,132
-437,31055.0,1.77,Douglas,Nebraska,716
-438,31079.0,1.22,Hall,Nebraska,402
-439,31109.0,1.86,Lancaster,Nebraska,361
-440,31119.0,1.29,Madison,Nebraska,37
-441,31141.0,2.44,Platte,Nebraska,183
-442,31151.0,1.7,Saline,Nebraska,130
-443,31153.0,1.78,Sarpy,Nebraska,75
-444,32003.0,0.99,Clark,Nevada,514
-445,32031.0,1.08,Washoe,Nevada,125
-446,33011.0,1.19,Hillsborough,New Hampshire,266
-447,33013.0,1.6,Merrimack,New Hampshire,72
-448,33015.0,1.09,Rockingham,New Hampshire,149
-449,33017.0,0.8,Strafford,New Hampshire,27
-450,34001.0,1.5,Atlantic,New Jersey,646
-451,34003.0,0.58,Bergen,New Jersey,1217
-452,34005.0,1.1,Burlington,New Jersey,602
-453,34007.0,1.14,Camden,New Jersey,954
-454,34009.0,1.16,Cape May,New Jersey,86
-455,34011.0,1.38,Cumberland,New Jersey,364
-456,34013.0,0.7000000000000001,Essex,New Jersey,1082
-457,34015.0,1.26,Gloucester,New Jersey,371
-458,34017.0,0.8,Hudson,New Jersey,2258
-459,34019.0,1.09,Hunterdon,New Jersey,134
-460,34021.0,1.21,Mercer,New Jersey,1193
-461,34023.0,0.9,Middlesex,New Jersey,1962
-462,34025.0,0.85,Monmouth,New Jersey,784
-463,34027.0,0.8300000000000001,Morris,New Jersey,608
-464,34029.0,0.84,Ocean,New Jersey,856
-465,34031.0,0.93,Passaic,New Jersey,2691
-466,34033.0,1.14,Salem,New Jersey,100
-467,34035.0,1.01,Somerset,New Jersey,674
-468,34037.0,1.03,Sussex,New Jersey,118
-469,34039.0,0.64,Union,New Jersey,1575
-470,34041.0,1.17,Warren,New Jersey,242
-471,35001.0,1.29,Bernalillo,New Mexico,209
-472,35013.0,1.21,Dona Ana,New Mexico,50
-473,35031.0,1.57,McKinley,New Mexico,488
-474,35045.0,1.56,San Juan,New Mexico,240
-475,35043.0,0.92,Sandoval,New Mexico,42
-476,36001.0,1.39,Albany,New York,448
-477,36007.0,1.07,Broome,New York,52
-478,36015.0,0.92,Chemung,New York,28
-479,36021.0,1.12,Columbia,New York,44
-480,36027.0,1.0,Dutchess,New York,475
-481,36029.0,1.09,Erie,New York,823
-482,36035.0,0.63,Fulton,New York,17
-483,36037.0,0.8200000000000001,Genesee,New York,34
-484,36039.0,1.54,Greene,New York,28
-485,36045.0,0.13,Jefferson,New York,4
-486,36051.0,0.1,Livingston,New York,15
-487,36055.0,1.08,Monroe,New York,283
-488,36059.0,0.47,Nassau,New York,2739
-489,36061.0,0.62,New York,New York,19077
-490,36063.0,1.15,Niagara,New York,111
-491,36065.0,1.14,Oneida,New York,116
-492,36067.0,1.33,Onondaga,New York,250
-493,36071.0,0.79,Orange,New York,1297
-494,36073.0,0.12,Orleans,New York,27
-495,36079.0,,Putnam,New York,189
-496,36083.0,1.25,Rensselaer,New York,74
-497,36087.0,0.61,Rockland,New York,1186
-498,36091.0,1.0,Saratoga,New York,74
-499,36093.0,1.1,Schenectady,New York,134
-500,36089.0,0.85,St. Lawrence,New York,30
-501,36101.0,,Steuben,New York,27
-502,36103.0,0.5700000000000001,Suffolk,New York,3359
-503,36105.0,1.19,Sullivan,New York,217
-504,36107.0,0.84,Tioga,New York,35
-505,36111.0,0.99,Ulster,New York,254
-506,36113.0,1.71,Warren,New York,54
-507,36115.0,1.08,Washington,New York,94
-508,36119.0,0.62,Westchester,New York,2846
-509,37001.0,1.17,Alamance,North Carolina,26
-510,37021.0,0.0,Buncombe,North Carolina,14
-511,37023.0,1.01,Burke,North Carolina,24
-512,37025.0,1.21,Cabarrus,North Carolina,79
-513,37037.0,1.33,Chatham,North Carolina,184
-514,37047.0,2.52,Columbus,North Carolina,132
-515,37051.0,1.16,Cumberland,North Carolina,75
-516,37057.0,0.85,Davidson,North Carolina,31
-517,37061.0,1.28,Duplin,North Carolina,65
-518,37063.0,1.36,Durham,North Carolina,316
-519,37065.0,0.0,Edgecombe,North Carolina,27
-520,37067.0,1.81,Forsyth,North Carolina,224
-521,37069.0,0.11,Franklin,North Carolina,22
-522,37071.0,0.7000000000000001,Gaston,North Carolina,7
-523,37077.0,,Granville,North Carolina,17
-524,37081.0,1.28,Guilford,North Carolina,134
-525,37085.0,0.91,Harnett,North Carolina,60
-526,37089.0,1.33,Henderson,North Carolina,49
-527,37093.0,1.36,Hoke,North Carolina,47
-528,37101.0,1.06,Johnston,North Carolina,42
-529,37105.0,1.62,Lee,North Carolina,116
-530,37107.0,1.67,Lenoir,North Carolina,55
-531,37119.0,1.13,Mecklenburg,North Carolina,310
-532,37125.0,0.94,Moore,North Carolina,26
-533,37135.0,0.91,Orange,North Carolina,22
-534,37151.0,1.97,Randolph,North Carolina,146
-535,37155.0,1.78,Robeson,North Carolina,126
-536,37159.0,1.08,Rowan,North Carolina,99
-537,37161.0,1.18,Rutherford,North Carolina,41
-538,37163.0,2.69,Sampson,North Carolina,56
-539,37179.0,1.27,Union,North Carolina,66
-540,37181.0,1.14,Vance,North Carolina,37
-541,37183.0,1.26,Wake,North Carolina,195
-542,37191.0,0.92,Wayne,North Carolina,114
-543,37195.0,0.94,Wilson,North Carolina,37
-544,38017.0,1.28,Cass,North Dakota,256
-545,38035.0,1.14,Grand Forks,North Dakota,86
-546,39003.0,1.0,Allen,Ohio,30
-547,39007.0,1.0,Ashtabula,Ohio,30
-548,39013.0,1.63,Belmont,Ohio,84
-549,39017.0,1.3,Butler,Ohio,87
-550,39023.0,0.09,Clark,Ohio,31
-551,39029.0,1.06,Columbiana,Ohio,56
-552,39035.0,1.16,Cuyahoga,Ohio,442
-553,39045.0,1.15,Fairfield,Ohio,43
-554,39049.0,1.49,Franklin,Ohio,1328
-555,39055.0,0.6900000000000001,Geauga,Ohio,21
-556,39061.0,1.31,Hamilton,Ohio,403
-557,39085.0,0.9,Lake,Ohio,23
-558,39089.0,0.74,Licking,Ohio,16
-559,39093.0,1.25,Lorain,Ohio,123
-560,39095.0,1.13,Lucas,Ohio,359
-561,39099.0,1.11,Mahoning,Ohio,169
-562,39101.0,0.6900000000000001,Marion,Ohio,120
-563,39109.0,,Miami,Ohio,7
-564,39113.0,1.05,Montgomery,Ohio,46
-565,39129.0,0.8200000000000001,Pickaway,Ohio,110
-566,39133.0,0.99,Portage,Ohio,28
-567,39137.0,0.66,Putnam,Ohio,-3
-568,39151.0,1.12,Stark,Ohio,78
-569,39153.0,1.34,Summit,Ohio,174
-570,39155.0,0.95,Trumbull,Ohio,26
-571,39157.0,2.28,Tuscarawas,Ohio,38
-572,39165.0,1.13,Warren,Ohio,32
-573,39167.0,0.64,Washington,Ohio,23
-574,39169.0,1.0,Wayne,Ohio,36
-575,39173.0,1.24,Wood,Ohio,56
-576,40027.0,0.94,Cleveland,Oklahoma,44
-577,40055.0,,Greer,Oklahoma,5
-578,40087.0,3.36,McClain,Oklahoma,1
-579,40109.0,1.12,Oklahoma,Oklahoma,155
-580,40139.0,1.54,Texas,Oklahoma,125
-581,40143.0,1.25,Tulsa,Oklahoma,168
-582,40145.0,0.71,Wagoner,Oklahoma,9
-583,40147.0,1.02,Washington,Oklahoma,56
-584,41005.0,0.91,Clackamas,Oregon,18
-585,41047.0,1.13,Marion,Oregon,100
-586,41051.0,1.04,Multnomah,Oregon,121
-587,41059.0,0.0,Umatilla,Oregon,18
-588,41067.0,1.0,Washington,Oregon,40
-589,42001.0,1.0,Adams,Pennsylvania,39
-590,42003.0,1.01,Allegheny,Pennsylvania,154
-591,42007.0,1.04,Beaver,Pennsylvania,98
-592,42011.0,0.93,Berks,Pennsylvania,483
-593,42017.0,1.16,Bucks,Pennsylvania,608
-594,42019.0,0.86,Butler,Pennsylvania,19
-595,42025.0,0.9,Carbon,Pennsylvania,24
-596,42027.0,,Centre,Pennsylvania,18
-597,42029.0,1.23,Chester,Pennsylvania,385
-598,42037.0,0.89,Columbia,Pennsylvania,7
-599,42041.0,1.36,Cumberland,Pennsylvania,130
-600,42043.0,1.12,Dauphin,Pennsylvania,131
-601,42045.0,1.06,Delaware,Pennsylvania,789
-602,42055.0,1.49,Franklin,Pennsylvania,154
-603,42061.0,0.0,Huntingdon,Pennsylvania,50
-604,42069.0,1.15,Lackawanna,Pennsylvania,205
-605,42071.0,1.06,Lancaster,Pennsylvania,378
-606,42075.0,1.1,Lebanon,Pennsylvania,143
-607,42077.0,0.98,Lehigh,Pennsylvania,453
-608,42079.0,0.97,Luzerne,Pennsylvania,209
-609,42089.0,0.98,Monroe,Pennsylvania,96
-610,42091.0,1.17,Montgomery,Pennsylvania,961
-611,42095.0,1.12,Northampton,Pennsylvania,474
-612,42101.0,1.12,Philadelphia,Pennsylvania,3484
-613,42103.0,1.04,Pike,Pennsylvania,57
-614,42107.0,1.21,Schuylkill,Pennsylvania,109
-615,42129.0,0.94,Westmoreland,Pennsylvania,76
-616,42133.0,1.03,York,Pennsylvania,83
-617,44001.0,1.29,Bristol,Rhode Island,43
-618,44003.0,1.16,Kent,Rhode Island,193
-619,44005.0,0.78,Newport,Rhode Island,32
-620,44007.0,1.17,Providence,Rhode Island,2060
-621,44009.0,1.08,Washington,Rhode Island,84
-622,45013.0,0.86,Beaufort,South Carolina,19
-623,45015.0,0.8,Berkeley,South Carolina,30
-624,45019.0,0.92,Charleston,South Carolina,29
-625,45027.0,1.11,Clarendon,South Carolina,61
-626,45031.0,1.23,Darlington,South Carolina,40
-627,45041.0,1.18,Florence,South Carolina,104
-628,45045.0,1.22,Greenville,South Carolina,166
-629,45051.0,0.91,Horry,South Carolina,20
-630,45055.0,1.0,Kershaw,South Carolina,33
-631,45063.0,1.05,Lexington,South Carolina,72
-632,45079.0,1.03,Richland,South Carolina,164
-633,45083.0,1.17,Spartanburg,South Carolina,67
-634,45085.0,0.96,Sumter,South Carolina,31
-635,45089.0,0.12,Williamsburg,South Carolina,18
-636,45091.0,1.13,York,South Carolina,61
-637,46083.0,1.07,Lincoln,South Dakota,41
-638,46099.0,1.01,Minnehaha,South Dakota,616
-639,47003.0,0.8300000000000001,Bedford,Tennessee,15
-640,47007.0,0.64,Bledsoe,Tennessee,40
-641,47037.0,1.22,Davidson,Tennessee,657
-642,47065.0,0.95,Hamilton,Tennessee,26
-643,47081.0,0.11,Hickman,Tennessee,-6
-644,47093.0,1.0,Knox,Tennessee,36
-645,47095.0,0.11,Lake,Tennessee,16
-646,47113.0,1.2,Madison,Tennessee,38
-647,47107.0,1.78,McMinn,Tennessee,37
-648,47125.0,0.88,Montgomery,Tennessee,23
-649,47141.0,0.86,Putnam,Tennessee,20
-650,47147.0,0.85,Robertson,Tennessee,29
-651,47149.0,1.2,Rutherford,Tennessee,132
-652,47157.0,1.01,Shelby,Tennessee,531
-653,47165.0,0.96,Sumner,Tennessee,50
-654,47167.0,0.12,Tipton,Tennessee,20
-655,47169.0,2.6,Trousdale,Tennessee,154
-656,47187.0,0.95,Williamson,Tennessee,37
-657,47189.0,0.95,Wilson,Tennessee,53
-658,48005.0,0.0,Angelina,Texas,23
-659,48021.0,0.0,Bastrop,Texas,18
-660,48027.0,1.1,Bell,Texas,42
-661,48029.0,0.97,Bexar,Texas,298
-662,48039.0,1.06,Brazoria,Texas,114
-663,48041.0,0.96,Brazos,Texas,16
-664,48061.0,1.1,Cameron,Texas,78
-665,48085.0,1.07,Collin,Texas,116
-666,48099.0,4.03,Coryell,Texas,54
-667,48113.0,1.35,Dallas,Texas,760
-668,48121.0,1.0,Denton,Texas,102
-669,48141.0,1.13,El Paso,Texas,254
-670,48139.0,1.13,Ellis,Texas,37
-671,48157.0,1.1,Fort Bend,Texas,162
-672,48167.0,1.03,Galveston,Texas,94
-673,48201.0,1.27,Harris,Texas,1821
-674,48203.0,2.2,Harrison,Texas,31
-675,48209.0,0.95,Hays,Texas,33
-676,48215.0,1.0,Hidalgo,Texas,48
-677,48245.0,1.09,Jefferson,Texas,89
-678,48253.0,2.69,Jones,Texas,55
-679,48277.0,1.59,Lamar,Texas,0
-680,48303.0,0.95,Lubbock,Texas,41
-681,48339.0,1.23,Montgomery,Texas,157
-682,48341.0,1.3,Moore,Texas,162
-683,48347.0,1.24,Nacogdoches,Texas,51
-684,48355.0,,Nueces,Texas,8
-685,48357.0,0.09,Ochiltree,Texas,-2
-686,48365.0,3.44,Panola,Texas,37
-687,48375.0,1.7,Potter,Texas,382
-688,48381.0,1.35,Randall,Texas,117
-689,48397.0,1.61,Rockwall,Texas,28
-690,48419.0,0.63,Shelby,Texas,28
-691,48423.0,0.77,Smith,Texas,15
-692,48439.0,1.22,Tarrant,Texas,682
-693,48441.0,1.49,Taylor,Texas,112
-694,48453.0,1.35,Travis,Texas,419
-695,48469.0,0.93,Victoria,Texas,28
-696,48471.0,1.47,Walker,Texas,104
-697,48477.0,1.17,Washington,Texas,72
-698,48479.0,0.97,Webb,Texas,31
-699,48491.0,1.43,Williamson,Texas,111
-700,49011.0,0.92,Davis,Utah,27
-701,49035.0,1.15,Salt Lake,Utah,594
-702,49043.0,0.96,Summit,Utah,30
-703,49049.0,1.28,Utah,Utah,356
-704,49057.0,0.8,Weber,Utah,0
-705,50007.0,0.88,Chittenden,Vermont,13
-706,51001.0,1.45,Accomack,Virginia,180
-707,51003.0,3.01,Albemarle,Virginia,31
-708,51510.0,1.38,Alexandria,Virginia,287
-709,51013.0,1.3,Arlington,Virginia,315
-710,51029.0,0.1,Buckingham,Virginia,24
-711,51550.0,1.13,Chesapeake,Virginia,67
-712,51041.0,1.2,Chesterfield,Virginia,149
-713,51047.0,1.28,Culpeper,Virginia,64
-714,51059.0,1.27,Fairfax,Virginia,1349
-715,51610.0,0.11,Falls Church,Virginia,0
-716,51061.0,0.89,Fauquier,Virginia,32
-717,51069.0,0.81,Frederick,Virginia,22
-718,51085.0,0.9,Hanover,Virginia,27
-719,51660.0,1.08,Harrisonburg,Virginia,75
-720,51087.0,1.08,Henrico,Virginia,159
-721,51093.0,0.68,Isle of Wight,Virginia,18
-722,51107.0,1.3,Loudoun,Virginia,243
-723,51683.0,1.51,Manassas,Virginia,111
-724,51117.0,0.1,Mecklenburg,Virginia,18
-725,51710.0,0.99,Norfolk,Virginia,43
-726,51131.0,2.56,Northampton,Virginia,87
-727,51139.0,0.91,Page,Virginia,46
-728,51740.0,1.5,Portsmouth,Virginia,74
-729,51153.0,1.38,Prince William,Virginia,810
-730,51159.0,1.1,Richmond,Virginia,78
-731,51760.0,1.09,Richmond City,Virginia,86
-732,51770.0,3.17,Roanoke City,Virginia,104
-733,51165.0,1.3,Rockingham,Virginia,97
-734,51775.0,0.0,Salem,Virginia,70
-735,51171.0,1.68,Shenandoah,Virginia,48
-736,51175.0,0.86,Southampton,Virginia,31
-737,51177.0,1.52,Spotsylvania,Virginia,64
-738,51179.0,1.07,Stafford,Virginia,64
-739,51800.0,1.11,Suffolk,Virginia,51
-740,51810.0,1.12,Virginia Beach,Virginia,86
-741,53005.0,1.0,Benton,Washington,78
-742,53007.0,0.0,Chelan,Washington,27
-743,53011.0,,Clark,Washington,37
-744,53021.0,1.04,Franklin,Washington,46
-745,53029.0,,Island,Washington,6
-746,53033.0,0.9,King,Washington,665
-747,53035.0,0.74,Kitsap,Washington,6
-748,53053.0,0.99,Pierce,Washington,126
-749,53057.0,1.15,Skagit,Washington,63
-750,53061.0,0.98,Snohomish,Washington,246
-751,53063.0,0.91,Spokane,Washington,20
-752,53073.0,0.94,Whatcom,Washington,32
-753,53077.0,1.12,Yakima,Washington,213
-754,54003.0,0.88,Berkeley,West Virginia,20
-755,54035.0,0.53,Jackson,West Virginia,30
-756,54037.0,0.5700000000000001,Jefferson,West Virginia,13
-757,54039.0,0.8,Kanawha,West Virginia,28
-758,54061.0,0.15,Monongalia,West Virginia,4
-759,55009.0,1.4,Brown,Wisconsin,524
-760,55025.0,0.98,Dane,Wisconsin,40
-761,55059.0,1.2,Kenosha,Wisconsin,108
-762,55079.0,1.17,Milwaukee,Wisconsin,624
-763,55101.0,1.44,Racine,Wisconsin,154
-764,55105.0,1.36,Rock,Wisconsin,86
-765,55127.0,1.12,Walworth,Wisconsin,52
-766,55133.0,1.03,Waukesha,Wisconsin,55
-767,56013.0,0.86,Fremont,Wyoming,42
-768,56021.0,0.89,Laramie,Wyoming,32
-769,56039.0,0.11,Teton,Wyoming,19
+0,1003.0,0.8300000000000001,Baldwin,Alabama,34.0
+1,1013.0,1.0,Butler,Alabama,28.0
+2,1015.0,0.51,Calhoun,Alabama,17.0
+3,1017.0,0.89,Chambers,Alabama,25.0
+4,1031.0,0.85,Coffee,Alabama,32.0
+5,1055.0,0.94,Etowah,Alabama,25.0
+6,1059.0,0.08,Franklin,Alabama,28.0
+7,1073.0,1.0,Jefferson,Alabama,123.0
+8,1081.0,1.04,Lee,Alabama,61.0
+9,1085.0,1.52,Lowndes,Alabama,34.0
+10,1089.0,,Madison,Alabama,28.0
+11,1095.0,0.89,Marshall,Alabama,55.0
+12,1097.0,1.15,Mobile,Alabama,265.0
+13,1101.0,1.19,Montgomery,Alabama,133.0
+14,1117.0,0.87,Shelby,Alabama,26.0
+15,1123.0,0.91,Tallapoosa,Alabama,26.0
+16,1125.0,0.95,Tuscaloosa,Alabama,38.0
+17,2020.0,0.86,Anchorage,Alaska,16.0
+18,2090.0,0.13,Fairbanks North Star,Alaska,1.0
+19,4001.0,1.46,Apache,Arizona,190.0
+20,4005.0,1.23,Coconino,Arizona,128.0
+21,4013.0,1.33,Maricopa,Arizona,1282.0
+22,4015.0,1.46,Mohave,Arizona,52.0
+23,4017.0,1.17,Navajo,Arizona,171.0
+24,4019.0,1.04,Pima,Arizona,224.0
+25,4021.0,1.16,Pinal,Arizona,107.0
+26,4027.0,1.69,Yuma,Arizona,51.0
+27,5007.0,0.11,Benton,Arkansas,21.0
+28,5035.0,0.95,Crittenden,Arkansas,29.0
+29,5069.0,0.89,Jefferson,Arkansas,32.0
+30,5075.0,0.0,Lawrence,Arkansas,17.0
+31,5079.0,1.09,Lincoln,Arkansas,308.0
+32,5119.0,1.07,Pulaski,Arkansas,106.0
+33,5123.0,0.5700000000000001,St. Francis,Arkansas,7.0
+34,90005.0,,,,
+35,6001.0,1.04,Alameda,California,333.0
+36,6013.0,1.12,Contra Costa,California,141.0
+37,6019.0,1.2,Fresno,California,140.0
+38,6025.0,1.24,Imperial,California,82.0
+39,6029.0,1.08,Kern,California,184.0
+40,6031.0,1.88,Kings,California,71.0
+41,6037.0,1.18,Los Angeles,California,6642.0
+42,6041.0,0.96,Marin,California,28.0
+43,6047.0,0.08,Merced,California,31.0
+44,6053.0,1.17,Monterey,California,49.0
+45,6059.0,1.27,Orange,California,602.0
+46,6065.0,1.08,Riverside,California,963.0
+47,6067.0,0.94,Sacramento,California,86.0
+48,6071.0,1.31,San Bernardino,California,566.0
+49,6073.0,1.2,San Diego,California,816.0
+50,6075.0,0.96,San Francisco,California,205.0
+51,6077.0,0.98,San Joaquin,California,48.0
+52,6079.0,1.0,San Luis Obispo,California,34.0
+53,6081.0,1.19,San Mateo,California,239.0
+54,6083.0,0.92,Santa Barbara,California,36.0
+55,6085.0,0.89,Santa Clara,California,172.0
+56,6095.0,1.35,Solano,California,67.0
+57,6097.0,0.96,Sonoma,California,35.0
+58,6099.0,1.18,Stanislaus,California,95.0
+59,6107.0,1.33,Tulare,California,202.0
+60,90006.0,,,,
+61,6111.0,1.08,Ventura,California,77.0
+62,6113.0,0.75,Yolo,California,2.0
+63,8001.0,1.24,Adams,Colorado,465.0
+64,8005.0,1.1,Arapahoe,Colorado,637.0
+65,8013.0,1.17,Boulder,Colorado,146.0
+66,8014.0,0.65,Broomfield,Colorado,33.0
+67,8031.0,1.14,Denver,Colorado,820.0
+68,8035.0,1.06,Douglas,Colorado,81.0
+69,8037.0,0.95,Eagle,Colorado,47.0
+70,8041.0,1.05,El Paso,Colorado,138.0
+71,8051.0,0.12,Gunnison,Colorado,31.0
+72,8059.0,0.97,Jefferson,Colorado,221.0
+73,8069.0,1.19,Larimer,Colorado,94.0
+74,8075.0,0.78,Logan,Colorado,22.0
+75,8087.0,1.38,Morgan,Colorado,251.0
+76,8101.0,0.66,Pueblo,Colorado,33.0
+77,8117.0,1.0,Summit,Colorado,26.0
+78,90008.0,,,,
+79,8123.0,1.26,Weld,Colorado,582.0
+80,9001.0,0.73,Fairfield,Connecticut,1695.0
+81,9003.0,0.97,Hartford,Connecticut,1105.0
+82,9005.0,1.12,Litchfield,Connecticut,242.0
+83,9007.0,1.12,Middlesex,Connecticut,132.0
+84,9009.0,0.96,New Haven,Connecticut,1377.0
+85,9011.0,1.13,New London,Connecticut,147.0
+86,9013.0,0.99,Tolland,Connecticut,92.0
+87,90009.0,,,,
+88,9015.0,1.21,Windham,Connecticut,53.0
+89,10001.0,1.21,Kent,Delaware,228.0
+90,10003.0,0.97,New Castle,Delaware,324.0
+91,10005.0,1.15,Sussex,Delaware,1059.0
+92,90010.0,0.09,,,
+93,11001.0,1.11,District of Columbia,District of Columbia,1083.0
+94,12001.0,0.99,Alachua,Florida,37.0
+95,12009.0,1.08,Brevard,Florida,60.0
+96,12011.0,0.76,Broward,Florida,265.0
+97,12015.0,1.13,Charlotte,Florida,64.0
+98,12017.0,0.51,Citrus,Florida,4.0
+99,12019.0,0.85,Clay,Florida,21.0
+100,12021.0,1.05,Collier,Florida,91.0
+101,12031.0,0.9,Duval,Florida,48.0
+102,12033.0,1.03,Escambia,Florida,119.0
+103,12035.0,0.72,Flagler,Florida,37.0
+104,12039.0,0.13,Gadsden,Florida,29.0
+105,12051.0,0.0,Hendry,Florida,22.0
+106,12057.0,1.04,Hillsborough,Florida,141.0
+107,12069.0,0.84,Lake,Florida,10.0
+108,12071.0,1.0,Lee,Florida,148.0
+109,12073.0,0.91,Leon,Florida,28.0
+110,12081.0,1.1,Manatee,Florida,126.0
+111,12083.0,1.11,Marion,Florida,40.0
+112,12085.0,0.95,Martin,Florida,25.0
+113,12095.0,0.94,Orange,Florida,101.0
+114,12097.0,0.92,Osceola,Florida,28.0
+115,12099.0,0.99,Palm Beach,Florida,495.0
+116,12101.0,0.95,Pasco,Florida,33.0
+117,12103.0,0.99,Pinellas,Florida,83.0
+118,12105.0,1.15,Polk,Florida,123.0
+119,12107.0,1.0,Putnam,Florida,37.0
+120,12115.0,1.08,Sarasota,Florida,59.0
+121,12117.0,0.95,Seminole,Florida,36.0
+122,12109.0,0.8200000000000001,St. Johns,Florida,7.0
+123,12111.0,0.95,St. Lucie,Florida,34.0
+124,12119.0,0.76,Sumter,Florida,25.0
+125,12121.0,0.87,Suwannee,Florida,20.0
+126,12127.0,0.94,Volusia,Florida,47.0
+127,13009.0,1.11,Baldwin,Georgia,45.0
+128,13013.0,1.1,Barrow,Georgia,33.0
+129,13015.0,1.04,Bartow,Georgia,47.0
+130,13021.0,1.29,Bibb,Georgia,88.0
+131,13035.0,0.92,Butts,Georgia,44.0
+132,13045.0,1.06,Carroll,Georgia,68.0
+133,13051.0,0.99,Chatham,Georgia,35.0
+134,13057.0,1.28,Cherokee,Georgia,119.0
+135,13059.0,1.0,Clarke,Georgia,30.0
+136,13063.0,1.13,Clayton,Georgia,134.0
+137,13067.0,1.12,Cobb,Georgia,336.0
+138,13069.0,1.2,Coffee,Georgia,43.0
+139,13071.0,0.91,Colquitt,Georgia,48.0
+140,13073.0,1.0,Columbia,Georgia,36.0
+141,13077.0,0.86,Coweta,Georgia,20.0
+142,13081.0,0.89,Crisp,Georgia,30.0
+143,13089.0,1.13,DeKalb,Georgia,406.0
+144,13087.0,1.67,Decatur,Georgia,21.0
+145,13093.0,0.71,Dooly,Georgia,39.0
+146,13095.0,0.85,Dougherty,Georgia,60.0
+147,13097.0,1.14,Douglas,Georgia,65.0
+148,13099.0,0.95,Early,Georgia,31.0
+149,13113.0,0.9,Fayette,Georgia,24.0
+150,13117.0,1.12,Forsyth,Georgia,68.0
+151,13121.0,0.98,Fulton,Georgia,470.0
+152,13123.0,1.0,Gilmer,Georgia,33.0
+153,13135.0,1.28,Gwinnett,Georgia,574.0
+154,13137.0,1.52,Habersham,Georgia,138.0
+155,13139.0,1.38,Hall,Georgia,465.0
+156,13141.0,1.4,Hancock,Georgia,86.0
+157,13151.0,0.99,Henry,Georgia,71.0
+158,13153.0,0.91,Houston,Georgia,29.0
+159,13157.0,0.0,Jackson,Georgia,29.0
+160,13177.0,0.91,Lee,Georgia,32.0
+161,13185.0,1.0,Lowndes,Georgia,39.0
+162,13205.0,1.0,Mitchell,Georgia,67.0
+163,13215.0,1.04,Muscogee,Georgia,59.0
+164,13217.0,1.09,Newton,Georgia,48.0
+165,80013.0,,,,
+166,13223.0,1.15,Paulding,Georgia,51.0
+167,13243.0,0.63,Randolph,Georgia,15.0
+168,13245.0,1.07,Richmond,Georgia,97.0
+169,13247.0,1.05,Rockdale,Georgia,42.0
+170,13255.0,0.95,Spalding,Georgia,71.0
+171,13257.0,0.11,Stephens,Georgia,26.0
+172,13261.0,0.97,Sumter,Georgia,41.0
+173,13273.0,0.96,Terrell,Georgia,24.0
+174,13275.0,1.09,Thomas,Georgia,49.0
+175,13277.0,0.0,Tift,Georgia,26.0
+176,13285.0,0.9,Troup,Georgia,37.0
+177,90013.0,,,,
+178,13293.0,0.95,Upson,Georgia,42.0
+179,13295.0,,Walker,Georgia,14.0
+180,13297.0,1.37,Walton,Georgia,44.0
+181,13299.0,0.93,Ware,Georgia,26.0
+182,13311.0,0.09,White,Georgia,20.0
+183,13313.0,3.01,Whitfield,Georgia,65.0
+184,13315.0,0.81,Wilcox,Georgia,30.0
+185,13321.0,0.87,Worth,Georgia,5.0
+186,15001.0,,Hawaii,Hawaii,15.0
+187,15003.0,0.87,Honolulu,Hawaii,29.0
+188,16001.0,0.94,Ada,Idaho,38.0
+189,16013.0,0.88,Blaine,Idaho,14.0
+190,16027.0,0.95,Canyon,Idaho,39.0
+191,16083.0,0.91,Twin Falls,Idaho,37.0
+192,17007.0,1.12,Boone,Illinois,48.0
+193,17019.0,2.17,Champaign,Illinois,49.0
+194,17027.0,1.13,Clinton,Illinois,37.0
+195,17031.0,1.11,Cook,Illinois,11186.0
+196,17037.0,1.42,DeKalb,Illinois,29.0
+197,17043.0,1.36,DuPage,Illinois,1108.0
+198,17077.0,2.61,Jackson,Illinois,141.0
+199,17079.0,0.11,Jasper,Illinois,8.0
+200,17081.0,0.13,Jefferson,Illinois,15.0
+201,17089.0,1.49,Kane,Illinois,712.0
+202,17091.0,1.11,Kankakee,Illinois,66.0
+203,17093.0,1.31,Kendall,Illinois,99.0
+204,17097.0,1.2,Lake,Illinois,983.0
+205,17115.0,0.54,Macon,Illinois,24.0
+206,17119.0,1.04,Madison,Illinois,76.0
+207,17111.0,1.28,McHenry,Illinois,198.0
+208,17113.0,,McLean,Illinois,8.0
+209,17141.0,1.09,Ogle,Illinois,45.0
+210,17143.0,1.0,Peoria,Illinois,31.0
+211,17157.0,1.71,Randolph,Illinois,110.0
+212,17161.0,1.25,Rock Island,Illinois,139.0
+213,17167.0,1.79,Sangamon,Illinois,164.0
+214,17163.0,1.26,St. Clair,Illinois,145.0
+215,17177.0,2.28,Stephenson,Illinois,44.0
+216,90017.0,1.12,,,
+217,17187.0,0.8200000000000001,Warren,Illinois,33.0
+218,17195.0,1.0,Whiteside,Illinois,35.0
+219,17197.0,1.28,Will,Illinois,867.0
+220,17201.0,1.52,Winnebago,Illinois,238.0
+221,18003.0,1.3,Allen,Indiana,208.0
+222,18005.0,1.05,Bartholomew,Indiana,74.0
+223,18011.0,0.86,Boone,Indiana,17.0
+224,18017.0,1.41,Cass,Indiana,213.0
+225,18019.0,1.12,Clark,Indiana,91.0
+226,18029.0,1.67,Dearborn,Indiana,3.0
+227,18031.0,0.8300000000000001,Decatur,Indiana,18.0
+228,18035.0,1.36,Delaware,Indiana,44.0
+229,18039.0,1.16,Elkhart,Indiana,91.0
+230,18043.0,0.95,Floyd,Indiana,25.0
+231,18053.0,0.81,Grant,Indiana,35.0
+232,18057.0,1.01,Hamilton,Indiana,92.0
+233,18059.0,1.2,Hancock,Indiana,57.0
+234,18061.0,0.86,Harrison,Indiana,26.0
+235,18063.0,0.96,Hendricks,Indiana,88.0
+236,18067.0,1.37,Howard,Indiana,39.0
+237,18071.0,1.31,Jackson,Indiana,40.0
+238,18081.0,1.07,Johnson,Indiana,103.0
+239,18091.0,1.03,LaPorte,Indiana,52.0
+240,18089.0,1.25,Lake,Indiana,520.0
+241,18093.0,0.74,Lawrence,Indiana,16.0
+242,18095.0,1.03,Madison,Indiana,53.0
+243,18097.0,1.25,Marion,Indiana,1433.0
+244,18103.0,1.19,Miami,Indiana,36.0
+245,18107.0,3.14,Montgomery,Indiana,188.0
+246,18109.0,1.07,Morgan,Indiana,46.0
+247,18117.0,1.0,Orange,Indiana,33.0
+248,18127.0,1.06,Porter,Indiana,48.0
+249,18137.0,,Ripley,Indiana,4.0
+250,18145.0,0.99,Shelby,Indiana,54.0
+251,18141.0,1.07,St. Joseph,Indiana,105.0
+252,18157.0,1.57,Tippecanoe,Indiana,54.0
+253,18163.0,1.0,Vanderburgh,Indiana,37.0
+254,18169.0,1.4,Wabash,Indiana,56.0
+255,18181.0,0.73,White,Indiana,39.0
+256,19005.0,0.11,Allamakee,Iowa,35.0
+257,19013.0,1.58,Black Hawk,Iowa,956.0
+258,19049.0,2.18,Dallas,Iowa,420.0
+259,19061.0,1.16,Dubuque,Iowa,41.0
+260,19099.0,1.44,Jasper,Iowa,101.0
+261,19103.0,1.01,Johnson,Iowa,102.0
+262,19113.0,1.13,Linn,Iowa,186.0
+263,19115.0,0.8300000000000001,Louisa,Iowa,35.0
+264,19127.0,1.21,Marshall,Iowa,191.0
+265,19139.0,1.04,Muscatine,Iowa,70.0
+266,19153.0,1.49,Polk,Iowa,437.0
+267,19157.0,0.12,Poweshiek,Iowa,9.0
+268,19163.0,0.95,Scott,Iowa,34.0
+269,19171.0,0.85,Tama,Iowa,60.0
+270,90019.0,0.08,,,
+271,19193.0,1.56,Woodbury,Iowa,-328.0
+272,20055.0,2.18,Finney,Kansas,451.0
+273,20057.0,1.55,Ford,Kansas,434.0
+274,20091.0,1.05,Johnson,Kansas,60.0
+275,20103.0,2.59,Leavenworth,Kansas,1113.0
+276,20111.0,1.24,Lyon,Kansas,61.0
+277,20173.0,1.28,Sedgwick,Kansas,110.0
+278,20175.0,1.55,Seward,Kansas,320.0
+279,20177.0,0.92,Shawnee,Kansas,27.0
+280,20209.0,1.36,Wyandotte,Kansas,206.0
+281,21015.0,1.4,Boone,Kentucky,41.0
+282,21031.0,0.78,Butler,Kentucky,29.0
+283,21047.0,0.16,Christian,Kentucky,2.0
+284,21059.0,1.31,Daviess,Kentucky,44.0
+285,21083.0,0.93,Graves,Kentucky,19.0
+286,21085.0,0.12,Grayson,Kentucky,20.0
+287,21107.0,0.8,Hopkins,Kentucky,49.0
+288,21109.0,0.12,Jackson,Kentucky,10.0
+289,21111.0,1.19,Jefferson,Kentucky,361.0
+290,21117.0,1.23,Kenton,Kentucky,83.0
+291,21177.0,0.91,Muhlenberg,Kentucky,32.0
+292,90021.0,,,,
+293,21227.0,1.61,Warren,Kentucky,232.0
+294,22003.0,,Allen,Louisiana,7.0
+295,22005.0,0.98,Ascension,Louisiana,56.0
+296,22007.0,0.85,Assumption,Louisiana,17.0
+297,22015.0,0.96,Bossier,Louisiana,33.0
+298,22017.0,0.97,Caddo,Louisiana,178.0
+299,22019.0,0.99,Calcasieu,Louisiana,42.0
+300,22031.0,0.75,De Soto,Louisiana,12.0
+301,22033.0,1.03,East Baton Rouge,Louisiana,303.0
+302,22037.0,0.86,East Feliciana,Louisiana,26.0
+303,22041.0,0.67,Franklin,Louisiana,28.0
+304,22045.0,0.92,Iberia,Louisiana,52.0
+305,22047.0,0.92,Iberville,Louisiana,95.0
+306,22051.0,0.6,Jefferson,Louisiana,219.0
+307,22055.0,0.94,Lafayette,Louisiana,42.0
+308,22057.0,0.96,Lafourche,Louisiana,51.0
+309,22063.0,0.96,Livingston,Louisiana,44.0
+310,22071.0,0.59,Orleans,Louisiana,560.0
+311,22073.0,1.16,Ouachita,Louisiana,169.0
+312,22075.0,0.9,Plaquemines,Louisiana,33.0
+313,22079.0,0.99,Rapides,Louisiana,38.0
+314,22087.0,0.96,St. Bernard,Louisiana,65.0
+315,22089.0,0.97,St. Charles,Louisiana,90.0
+316,22093.0,0.89,St. James,Louisiana,20.0
+317,22095.0,0.91,St. John the Baptist,Louisiana,119.0
+318,22097.0,1.0,St. Landry,Louisiana,38.0
+319,22099.0,0.92,St. Martin,Louisiana,21.0
+320,22101.0,0.95,St. Mary,Louisiana,37.0
+321,22103.0,0.98,St. Tammany,Louisiana,125.0
+322,22105.0,0.96,Tangipahoa,Louisiana,43.0
+323,22109.0,1.32,Terrebonne,Louisiana,212.0
+324,22117.0,0.92,Washington,Louisiana,23.0
+325,22119.0,0.16,Webster,Louisiana,14.0
+326,22121.0,0.6,West Baton Rouge,Louisiana,10.0
+327,22125.0,0.76,West Feliciana,Louisiana,30.0
+328,23005.0,1.04,Cumberland,Maine,80.0
+329,23019.0,3.01,Penobscot,Maine,45.0
+330,23031.0,0.91,York,Maine,18.0
+331,24001.0,0.67,Allegany,Maryland,20.0
+332,24003.0,1.17,Anne Arundel,Maryland,464.0
+333,24005.0,1.1,Baltimore,Maryland,699.0
+334,24510.0,1.02,Baltimore City,Maryland,333.0
+335,24009.0,0.94,Calvert,Maryland,33.0
+336,24011.0,0.11,Caroline,Maryland,21.0
+337,24013.0,1.07,Carroll,Maryland,86.0
+338,24015.0,0.8200000000000001,Cecil,Maryland,31.0
+339,24017.0,1.06,Charles,Maryland,102.0
+340,24021.0,1.06,Frederick,Maryland,168.0
+341,24025.0,1.37,Harford,Maryland,147.0
+342,24027.0,1.23,Howard,Maryland,255.0
+343,24029.0,0.6,Kent,Maryland,26.0
+344,24031.0,1.11,Montgomery,Maryland,1095.0
+345,24033.0,1.19,Prince George's,Maryland,1990.0
+346,24035.0,,Queen Anne's,Maryland,7.0
+347,24037.0,,St. Mary's,Maryland,34.0
+348,24043.0,1.15,Washington,Maryland,67.0
+349,24045.0,1.5,Wicomico,Maryland,184.0
+350,25001.0,1.09,Barnstable,Massachusetts,98.0
+351,25003.0,0.95,Berkshire,Massachusetts,31.0
+352,25005.0,1.21,Bristol,Massachusetts,1250.0
+353,25009.0,1.05,Essex,Massachusetts,2356.0
+354,25011.0,1.09,Franklin,Massachusetts,54.0
+355,25013.0,1.08,Hampden,Massachusetts,928.0
+356,25015.0,1.31,Hampshire,Massachusetts,170.0
+357,25017.0,0.84,Middlesex,Massachusetts,3435.0
+358,25021.0,0.98,Norfolk,Massachusetts,1349.0
+359,25023.0,1.0,Plymouth,Massachusetts,1504.0
+360,25025.0,0.84,Suffolk,Massachusetts,2813.0
+361,90025.0,,,,
+362,25027.0,1.25,Worcester,Massachusetts,1759.0
+363,26005.0,1.44,Allegan,Michigan,46.0
+364,26007.0,1.0,Alpena,Michigan,55.0
+365,26017.0,1.13,Bay,Michigan,51.0
+366,26021.0,1.13,Berrien,Michigan,53.0
+367,26025.0,1.12,Calhoun,Michigan,58.0
+368,26037.0,,Clinton,Michigan,21.0
+369,26045.0,0.0,Eaton,Michigan,32.0
+370,26049.0,1.0,Genesee,Michigan,194.0
+371,26059.0,0.86,Hillsdale,Michigan,28.0
+372,26065.0,1.19,Ingham,Michigan,135.0
+373,26067.0,2.64,Ionia,Michigan,110.0
+374,26069.0,0.11,Iosco,Michigan,33.0
+375,26075.0,1.07,Jackson,Michigan,38.0
+376,26077.0,1.3,Kalamazoo,Michigan,135.0
+377,26081.0,1.49,Kent,Michigan,560.0
+378,26087.0,0.85,Lapeer,Michigan,15.0
+379,26093.0,1.01,Livingston,Michigan,34.0
+380,26099.0,0.84,Macomb,Michigan,621.0
+381,,1.63,,,
+382,,1.1,,,
+383,,0.12,,,
+384,,0.84,,,
+385,26115.0,0.95,Monroe,Michigan,24.0
+386,26121.0,1.27,Muskegon,Michigan,92.0
+387,26125.0,0.86,Oakland,Michigan,758.0
+388,26137.0,0.55,Otsego,Michigan,20.0
+389,26139.0,1.4,Ottawa,Michigan,89.0
+390,80026.0,,,,
+391,26145.0,1.21,Saginaw,Michigan,184.0
+392,26155.0,1.14,Shiawassee,Michigan,61.0
+393,26147.0,1.06,St. Clair,Michigan,78.0
+394,26157.0,1.67,Tuscola,Michigan,28.0
+395,90026.0,,,,
+396,26161.0,1.06,Washtenaw,Michigan,150.0
+397,26163.0,0.87,Wayne,Michigan,1781.0
+398,27003.0,1.44,Anoka,Minnesota,89.0
+399,27027.0,1.13,Clay,Minnesota,50.0
+400,27037.0,1.0,Dakota,Minnesota,32.0
+401,27053.0,1.41,Hennepin,Minnesota,681.0
+402,27067.0,1.79,Kandiyohi,Minnesota,115.0
+403,27091.0,2.88,Martin,Minnesota,126.0
+404,27105.0,2.09,Nobles,Minnesota,888.0
+405,27109.0,1.05,Olmsted,Minnesota,53.0
+406,27115.0,0.11,Pine,Minnesota,11.0
+407,27123.0,1.48,Ramsey,Minnesota,224.0
+408,27145.0,3.46,Stearns,Minnesota,1141.0
+409,27163.0,0.0,Washington,Minnesota,43.0
+410,28001.0,1.0,Adams,Mississippi,36.0
+411,28007.0,0.87,Attala,Mississippi,37.0
+412,28011.0,0.58,Bolivar,Mississippi,14.0
+413,28015.0,2.28,Carroll,Mississippi,87.0
+414,28029.0,1.22,Copiah,Mississippi,42.0
+415,28033.0,0.99,DeSoto,Mississippi,36.0
+416,28035.0,0.99,Forrest,Mississippi,44.0
+417,28047.0,0.94,Harrison,Mississippi,26.0
+418,28049.0,1.17,Hinds,Mississippi,100.0
+419,28051.0,1.11,Holmes,Mississippi,48.0
+420,28059.0,0.99,Jackson,Mississippi,38.0
+421,28067.0,1.07,Jones,Mississippi,38.0
+422,28069.0,0.11,Kemper,Mississippi,28.0
+423,28071.0,0.12,Lafayette,Mississippi,12.0
+424,28075.0,1.19,Lauderdale,Mississippi,102.0
+425,28079.0,1.34,Leake,Mississippi,78.0
+426,28083.0,0.84,Leflore,Mississippi,29.0
+427,28085.0,0.8,Lincoln,Mississippi,26.0
+428,28089.0,1.19,Madison,Mississippi,63.0
+429,28095.0,0.93,Monroe,Mississippi,42.0
+430,28099.0,1.19,Neshoba,Mississippi,76.0
+431,28101.0,1.0,Newton,Mississippi,30.0
+432,28103.0,1.0,Noxubee,Mississippi,34.0
+433,28109.0,0.87,Pearl River,Mississippi,27.0
+434,28113.0,0.86,Pike,Mississippi,26.0
+435,28121.0,1.0,Rankin,Mississippi,35.0
+436,28123.0,1.32,Scott,Mississippi,139.0
+437,28149.0,1.0,Warren,Mississippi,36.0
+438,28163.0,0.87,Yazoo,Mississippi,28.0
+439,29021.0,1.55,Buchanan,Missouri,68.0
+440,29095.0,0.87,Jackson,Missouri,22.0
+441,29099.0,0.92,Jefferson,Missouri,39.0
+442,29133.0,0.1,Mississippi,Missouri,12.0
+443,29135.0,,Moniteau,Missouri,1.0
+444,29195.0,1.08,Saline,Missouri,69.0
+445,29183.0,1.05,St. Charles,Missouri,99.0
+446,29189.0,1.06,St. Louis,Missouri,542.0
+447,29510.0,1.06,St. Louis City,Missouri,182.0
+448,30031.0,0.6900000000000001,Gallatin,Montana,0.0
+449,31001.0,1.21,Adams,Nebraska,54.0
+450,31019.0,0.8200000000000001,Buffalo,Nebraska,31.0
+451,31037.0,2.91,Colfax,Nebraska,244.0
+452,31043.0,1.52,Dakota,Nebraska,269.0
+453,31047.0,1.17,Dawson,Nebraska,132.0
+454,31055.0,1.77,Douglas,Nebraska,716.0
+455,31079.0,1.22,Hall,Nebraska,402.0
+456,31109.0,1.86,Lancaster,Nebraska,361.0
+457,31119.0,1.29,Madison,Nebraska,37.0
+458,31141.0,2.44,Platte,Nebraska,183.0
+459,31151.0,1.7,Saline,Nebraska,130.0
+460,31153.0,1.78,Sarpy,Nebraska,75.0
+461,90031.0,1.93,,,
+462,32003.0,0.99,Clark,Nevada,514.0
+463,32031.0,1.08,Washoe,Nevada,125.0
+464,33011.0,1.19,Hillsborough,New Hampshire,266.0
+465,33013.0,1.6,Merrimack,New Hampshire,72.0
+466,33015.0,1.09,Rockingham,New Hampshire,149.0
+467,33017.0,0.8,Strafford,New Hampshire,27.0
+468,34001.0,1.5,Atlantic,New Jersey,646.0
+469,34003.0,0.58,Bergen,New Jersey,1217.0
+470,34005.0,1.1,Burlington,New Jersey,602.0
+471,34007.0,1.14,Camden,New Jersey,954.0
+472,34009.0,1.16,Cape May,New Jersey,86.0
+473,34011.0,1.38,Cumberland,New Jersey,364.0
+474,34013.0,0.7000000000000001,Essex,New Jersey,1082.0
+475,34015.0,1.26,Gloucester,New Jersey,371.0
+476,34017.0,0.8,Hudson,New Jersey,2258.0
+477,34019.0,1.09,Hunterdon,New Jersey,134.0
+478,34021.0,1.21,Mercer,New Jersey,1193.0
+479,34023.0,0.9,Middlesex,New Jersey,1962.0
+480,34025.0,0.85,Monmouth,New Jersey,784.0
+481,34027.0,0.8300000000000001,Morris,New Jersey,608.0
+482,34029.0,0.84,Ocean,New Jersey,856.0
+483,34031.0,0.93,Passaic,New Jersey,2691.0
+484,34033.0,1.14,Salem,New Jersey,100.0
+485,34035.0,1.01,Somerset,New Jersey,674.0
+486,34037.0,1.03,Sussex,New Jersey,118.0
+487,90034.0,,,,
+488,34039.0,0.64,Union,New Jersey,1575.0
+489,34041.0,1.17,Warren,New Jersey,242.0
+490,35001.0,1.29,Bernalillo,New Mexico,209.0
+491,35013.0,1.21,Dona Ana,New Mexico,50.0
+492,35031.0,1.57,McKinley,New Mexico,488.0
+493,35045.0,1.56,San Juan,New Mexico,240.0
+494,35043.0,0.92,Sandoval,New Mexico,42.0
+495,36001.0,1.39,Albany,New York,448.0
+496,36007.0,1.07,Broome,New York,52.0
+497,36015.0,0.92,Chemung,New York,28.0
+498,36021.0,1.12,Columbia,New York,44.0
+499,36027.0,1.0,Dutchess,New York,475.0
+500,36029.0,1.09,Erie,New York,823.0
+501,36035.0,0.63,Fulton,New York,17.0
+502,36037.0,0.8200000000000001,Genesee,New York,34.0
+503,36039.0,1.54,Greene,New York,28.0
+504,36045.0,0.13,Jefferson,New York,4.0
+505,36051.0,0.1,Livingston,New York,15.0
+506,36055.0,1.08,Monroe,New York,283.0
+507,36059.0,0.47,Nassau,New York,2739.0
+508,36061.0,0.62,New York,New York,19077.0
+509,36063.0,1.15,Niagara,New York,111.0
+510,36065.0,1.14,Oneida,New York,116.0
+511,36067.0,1.33,Onondaga,New York,250.0
+512,36071.0,0.79,Orange,New York,1297.0
+513,36073.0,0.12,Orleans,New York,27.0
+514,36079.0,,Putnam,New York,189.0
+515,36083.0,1.25,Rensselaer,New York,74.0
+516,36087.0,0.61,Rockland,New York,1186.0
+517,36091.0,1.0,Saratoga,New York,74.0
+518,36093.0,1.1,Schenectady,New York,134.0
+519,36089.0,0.85,St. Lawrence,New York,30.0
+520,36101.0,,Steuben,New York,27.0
+521,36103.0,0.5700000000000001,Suffolk,New York,3359.0
+522,36105.0,1.19,Sullivan,New York,217.0
+523,36107.0,0.84,Tioga,New York,35.0
+524,36111.0,0.99,Ulster,New York,254.0
+525,36113.0,1.71,Warren,New York,54.0
+526,36115.0,1.08,Washington,New York,94.0
+527,36119.0,0.62,Westchester,New York,2846.0
+528,37001.0,1.17,Alamance,North Carolina,26.0
+529,37021.0,0.0,Buncombe,North Carolina,14.0
+530,37023.0,1.01,Burke,North Carolina,24.0
+531,37025.0,1.21,Cabarrus,North Carolina,79.0
+532,37037.0,1.33,Chatham,North Carolina,184.0
+533,37047.0,2.52,Columbus,North Carolina,132.0
+534,37051.0,1.16,Cumberland,North Carolina,75.0
+535,37057.0,0.85,Davidson,North Carolina,31.0
+536,37061.0,1.28,Duplin,North Carolina,65.0
+537,37063.0,1.36,Durham,North Carolina,316.0
+538,37065.0,0.0,Edgecombe,North Carolina,27.0
+539,37067.0,1.81,Forsyth,North Carolina,224.0
+540,37069.0,0.11,Franklin,North Carolina,22.0
+541,37071.0,0.7000000000000001,Gaston,North Carolina,7.0
+542,37077.0,,Granville,North Carolina,17.0
+543,37081.0,1.28,Guilford,North Carolina,134.0
+544,37085.0,0.91,Harnett,North Carolina,60.0
+545,37089.0,1.33,Henderson,North Carolina,49.0
+546,37093.0,1.36,Hoke,North Carolina,47.0
+547,37101.0,1.06,Johnston,North Carolina,42.0
+548,37105.0,1.62,Lee,North Carolina,116.0
+549,37107.0,1.67,Lenoir,North Carolina,55.0
+550,37119.0,1.13,Mecklenburg,North Carolina,310.0
+551,37125.0,0.94,Moore,North Carolina,26.0
+552,37135.0,0.91,Orange,North Carolina,22.0
+553,37151.0,1.97,Randolph,North Carolina,146.0
+554,37155.0,1.78,Robeson,North Carolina,126.0
+555,37159.0,1.08,Rowan,North Carolina,99.0
+556,37161.0,1.18,Rutherford,North Carolina,41.0
+557,37163.0,2.69,Sampson,North Carolina,56.0
+558,37179.0,1.27,Union,North Carolina,66.0
+559,37181.0,1.14,Vance,North Carolina,37.0
+560,37183.0,1.26,Wake,North Carolina,195.0
+561,37191.0,0.92,Wayne,North Carolina,114.0
+562,37195.0,0.94,Wilson,North Carolina,37.0
+563,38017.0,1.28,Cass,North Dakota,256.0
+564,38035.0,1.14,Grand Forks,North Dakota,86.0
+565,39003.0,1.0,Allen,Ohio,30.0
+566,39007.0,1.0,Ashtabula,Ohio,30.0
+567,39013.0,1.63,Belmont,Ohio,84.0
+568,39017.0,1.3,Butler,Ohio,87.0
+569,39023.0,0.09,Clark,Ohio,31.0
+570,39029.0,1.06,Columbiana,Ohio,56.0
+571,39035.0,1.16,Cuyahoga,Ohio,442.0
+572,39045.0,1.15,Fairfield,Ohio,43.0
+573,39049.0,1.49,Franklin,Ohio,1328.0
+574,39055.0,0.6900000000000001,Geauga,Ohio,21.0
+575,39061.0,1.31,Hamilton,Ohio,403.0
+576,39085.0,0.9,Lake,Ohio,23.0
+577,39089.0,0.74,Licking,Ohio,16.0
+578,39093.0,1.25,Lorain,Ohio,123.0
+579,39095.0,1.13,Lucas,Ohio,359.0
+580,39099.0,1.11,Mahoning,Ohio,169.0
+581,39101.0,0.6900000000000001,Marion,Ohio,120.0
+582,39109.0,,Miami,Ohio,7.0
+583,39113.0,1.05,Montgomery,Ohio,46.0
+584,39129.0,0.8200000000000001,Pickaway,Ohio,110.0
+585,39133.0,0.99,Portage,Ohio,28.0
+586,39137.0,0.66,Putnam,Ohio,-3.0
+587,39151.0,1.12,Stark,Ohio,78.0
+588,39153.0,1.34,Summit,Ohio,174.0
+589,39155.0,0.95,Trumbull,Ohio,26.0
+590,39157.0,2.28,Tuscarawas,Ohio,38.0
+591,39165.0,1.13,Warren,Ohio,32.0
+592,39167.0,0.64,Washington,Ohio,23.0
+593,39169.0,1.0,Wayne,Ohio,36.0
+594,39173.0,1.24,Wood,Ohio,56.0
+595,40027.0,0.94,Cleveland,Oklahoma,44.0
+596,40055.0,,Greer,Oklahoma,5.0
+597,40087.0,3.36,McClain,Oklahoma,1.0
+598,40109.0,1.12,Oklahoma,Oklahoma,155.0
+599,40139.0,1.54,Texas,Oklahoma,125.0
+600,40143.0,1.25,Tulsa,Oklahoma,168.0
+601,40145.0,0.71,Wagoner,Oklahoma,9.0
+602,40147.0,1.02,Washington,Oklahoma,56.0
+603,41005.0,0.91,Clackamas,Oregon,18.0
+604,41047.0,1.13,Marion,Oregon,100.0
+605,41051.0,1.04,Multnomah,Oregon,121.0
+606,41059.0,0.0,Umatilla,Oregon,18.0
+607,41067.0,1.0,Washington,Oregon,40.0
+608,42001.0,1.0,Adams,Pennsylvania,39.0
+609,42003.0,1.01,Allegheny,Pennsylvania,154.0
+610,42007.0,1.04,Beaver,Pennsylvania,98.0
+611,42011.0,0.93,Berks,Pennsylvania,483.0
+612,42017.0,1.16,Bucks,Pennsylvania,608.0
+613,42019.0,0.86,Butler,Pennsylvania,19.0
+614,42025.0,0.9,Carbon,Pennsylvania,24.0
+615,42027.0,,Centre,Pennsylvania,18.0
+616,42029.0,1.23,Chester,Pennsylvania,385.0
+617,42037.0,0.89,Columbia,Pennsylvania,7.0
+618,42041.0,1.36,Cumberland,Pennsylvania,130.0
+619,42043.0,1.12,Dauphin,Pennsylvania,131.0
+620,42045.0,1.06,Delaware,Pennsylvania,789.0
+621,42055.0,1.49,Franklin,Pennsylvania,154.0
+622,42061.0,0.0,Huntingdon,Pennsylvania,50.0
+623,42069.0,1.15,Lackawanna,Pennsylvania,205.0
+624,42071.0,1.06,Lancaster,Pennsylvania,378.0
+625,42075.0,1.1,Lebanon,Pennsylvania,143.0
+626,42077.0,0.98,Lehigh,Pennsylvania,453.0
+627,42079.0,0.97,Luzerne,Pennsylvania,209.0
+628,42089.0,0.98,Monroe,Pennsylvania,96.0
+629,42091.0,1.17,Montgomery,Pennsylvania,961.0
+630,42095.0,1.12,Northampton,Pennsylvania,474.0
+631,42101.0,1.12,Philadelphia,Pennsylvania,3484.0
+632,42103.0,1.04,Pike,Pennsylvania,57.0
+633,42107.0,1.21,Schuylkill,Pennsylvania,109.0
+634,42129.0,0.94,Westmoreland,Pennsylvania,76.0
+635,42133.0,1.03,York,Pennsylvania,83.0
+636,44001.0,1.29,Bristol,Rhode Island,43.0
+637,44003.0,1.16,Kent,Rhode Island,193.0
+638,44005.0,0.78,Newport,Rhode Island,32.0
+639,44007.0,1.17,Providence,Rhode Island,2060.0
+640,90044.0,,,,
+641,44009.0,1.08,Washington,Rhode Island,84.0
+642,45013.0,0.86,Beaufort,South Carolina,19.0
+643,45015.0,0.8,Berkeley,South Carolina,30.0
+644,45019.0,0.92,Charleston,South Carolina,29.0
+645,45027.0,1.11,Clarendon,South Carolina,61.0
+646,45031.0,1.23,Darlington,South Carolina,40.0
+647,45041.0,1.18,Florence,South Carolina,104.0
+648,45045.0,1.22,Greenville,South Carolina,166.0
+649,45051.0,0.91,Horry,South Carolina,20.0
+650,45055.0,1.0,Kershaw,South Carolina,33.0
+651,45063.0,1.05,Lexington,South Carolina,72.0
+652,45079.0,1.03,Richland,South Carolina,164.0
+653,45083.0,1.17,Spartanburg,South Carolina,67.0
+654,45085.0,0.96,Sumter,South Carolina,31.0
+655,45089.0,0.12,Williamsburg,South Carolina,18.0
+656,45091.0,1.13,York,South Carolina,61.0
+657,46083.0,1.07,Lincoln,South Dakota,41.0
+658,46099.0,1.01,Minnehaha,South Dakota,616.0
+659,47003.0,0.8300000000000001,Bedford,Tennessee,15.0
+660,47007.0,0.64,Bledsoe,Tennessee,40.0
+661,47037.0,1.22,Davidson,Tennessee,657.0
+662,47065.0,0.95,Hamilton,Tennessee,26.0
+663,47081.0,0.11,Hickman,Tennessee,-6.0
+664,47093.0,1.0,Knox,Tennessee,36.0
+665,47095.0,0.11,Lake,Tennessee,16.0
+666,47113.0,1.2,Madison,Tennessee,38.0
+667,47107.0,1.78,McMinn,Tennessee,37.0
+668,47125.0,0.88,Montgomery,Tennessee,23.0
+669,80047.0,,,,
+670,47141.0,0.86,Putnam,Tennessee,20.0
+671,47147.0,0.85,Robertson,Tennessee,29.0
+672,47149.0,1.2,Rutherford,Tennessee,132.0
+673,47157.0,1.01,Shelby,Tennessee,531.0
+674,47165.0,0.96,Sumner,Tennessee,50.0
+675,47167.0,0.12,Tipton,Tennessee,20.0
+676,47169.0,2.6,Trousdale,Tennessee,154.0
+677,47187.0,0.95,Williamson,Tennessee,37.0
+678,47189.0,0.95,Wilson,Tennessee,53.0
+679,48005.0,0.0,Angelina,Texas,23.0
+680,48021.0,0.0,Bastrop,Texas,18.0
+681,48027.0,1.1,Bell,Texas,42.0
+682,48029.0,0.97,Bexar,Texas,298.0
+683,48039.0,1.06,Brazoria,Texas,114.0
+684,48041.0,0.96,Brazos,Texas,16.0
+685,48061.0,1.1,Cameron,Texas,78.0
+686,48085.0,1.07,Collin,Texas,116.0
+687,48099.0,4.03,Coryell,Texas,54.0
+688,48113.0,1.35,Dallas,Texas,760.0
+689,48121.0,1.0,Denton,Texas,102.0
+690,48141.0,1.13,El Paso,Texas,254.0
+691,48139.0,1.13,Ellis,Texas,37.0
+692,48157.0,1.1,Fort Bend,Texas,162.0
+693,48167.0,1.03,Galveston,Texas,94.0
+694,48201.0,1.27,Harris,Texas,1821.0
+695,48203.0,2.2,Harrison,Texas,31.0
+696,48209.0,0.95,Hays,Texas,33.0
+697,48215.0,1.0,Hidalgo,Texas,48.0
+698,48245.0,1.09,Jefferson,Texas,89.0
+699,48253.0,2.69,Jones,Texas,55.0
+700,48277.0,1.59,Lamar,Texas,0.0
+701,48303.0,0.95,Lubbock,Texas,41.0
+702,48339.0,1.23,Montgomery,Texas,157.0
+703,48341.0,1.3,Moore,Texas,162.0
+704,48347.0,1.24,Nacogdoches,Texas,51.0
+705,48355.0,,Nueces,Texas,8.0
+706,48357.0,0.09,Ochiltree,Texas,-2.0
+707,48365.0,3.44,Panola,Texas,37.0
+708,48375.0,1.7,Potter,Texas,382.0
+709,48381.0,1.35,Randall,Texas,117.0
+710,48397.0,1.61,Rockwall,Texas,28.0
+711,48419.0,0.63,Shelby,Texas,28.0
+712,48423.0,0.77,Smith,Texas,15.0
+713,48439.0,1.22,Tarrant,Texas,682.0
+714,48441.0,1.49,Taylor,Texas,112.0
+715,48453.0,1.35,Travis,Texas,419.0
+716,48469.0,0.93,Victoria,Texas,28.0
+717,48471.0,1.47,Walker,Texas,104.0
+718,48477.0,1.17,Washington,Texas,72.0
+719,48479.0,0.97,Webb,Texas,31.0
+720,48491.0,1.43,Williamson,Texas,111.0
+721,49011.0,0.92,Davis,Utah,27.0
+722,49035.0,1.15,Salt Lake,Utah,594.0
+723,49043.0,0.96,Summit,Utah,30.0
+724,49049.0,1.28,Utah,Utah,356.0
+725,49057.0,0.8,Weber,Utah,0.0
+726,50007.0,0.88,Chittenden,Vermont,13.0
+727,51001.0,1.45,Accomack,Virginia,180.0
+728,51003.0,3.01,Albemarle,Virginia,31.0
+729,51510.0,1.38,Alexandria,Virginia,287.0
+730,51013.0,1.3,Arlington,Virginia,315.0
+731,51029.0,0.1,Buckingham,Virginia,24.0
+732,51550.0,1.13,Chesapeake,Virginia,67.0
+733,51041.0,1.2,Chesterfield,Virginia,149.0
+734,51047.0,1.28,Culpeper,Virginia,64.0
+735,51059.0,1.27,Fairfax,Virginia,1349.0
+736,51610.0,0.11,Falls Church,Virginia,0.0
+737,51061.0,0.89,Fauquier,Virginia,32.0
+738,51069.0,0.81,Frederick,Virginia,22.0
+739,51085.0,0.9,Hanover,Virginia,27.0
+740,51660.0,1.08,Harrisonburg,Virginia,75.0
+741,51087.0,1.08,Henrico,Virginia,159.0
+742,51093.0,0.68,Isle of Wight,Virginia,18.0
+743,51107.0,1.3,Loudoun,Virginia,243.0
+744,51683.0,1.51,Manassas,Virginia,111.0
+745,51117.0,0.1,Mecklenburg,Virginia,18.0
+746,51710.0,0.99,Norfolk,Virginia,43.0
+747,51131.0,2.56,Northampton,Virginia,87.0
+748,51139.0,0.91,Page,Virginia,46.0
+749,51740.0,1.5,Portsmouth,Virginia,74.0
+750,51153.0,1.38,Prince William,Virginia,810.0
+751,51159.0,1.1,Richmond,Virginia,78.0
+752,51760.0,1.09,Richmond City,Virginia,86.0
+753,51770.0,3.17,Roanoke City,Virginia,104.0
+754,51165.0,1.3,Rockingham,Virginia,97.0
+755,51775.0,0.0,Salem,Virginia,70.0
+756,51171.0,1.68,Shenandoah,Virginia,48.0
+757,51175.0,0.86,Southampton,Virginia,31.0
+758,51177.0,1.52,Spotsylvania,Virginia,64.0
+759,51179.0,1.07,Stafford,Virginia,64.0
+760,51800.0,1.11,Suffolk,Virginia,51.0
+761,51810.0,1.12,Virginia Beach,Virginia,86.0
+762,53005.0,1.0,Benton,Washington,78.0
+763,53007.0,0.0,Chelan,Washington,27.0
+764,53011.0,,Clark,Washington,37.0
+765,53021.0,1.04,Franklin,Washington,46.0
+766,53029.0,,Island,Washington,6.0
+767,53033.0,0.9,King,Washington,665.0
+768,53035.0,0.74,Kitsap,Washington,6.0
+769,53053.0,0.99,Pierce,Washington,126.0
+770,53057.0,1.15,Skagit,Washington,63.0
+771,53061.0,0.98,Snohomish,Washington,246.0
+772,53063.0,0.91,Spokane,Washington,20.0
+773,90053.0,,,,
+774,53073.0,0.94,Whatcom,Washington,32.0
+775,53077.0,1.12,Yakima,Washington,213.0
+776,54003.0,0.88,Berkeley,West Virginia,20.0
+777,54035.0,0.53,Jackson,West Virginia,30.0
+778,54037.0,0.5700000000000001,Jefferson,West Virginia,13.0
+779,54039.0,0.8,Kanawha,West Virginia,28.0
+780,54061.0,0.15,Monongalia,West Virginia,4.0
+781,55009.0,1.4,Brown,Wisconsin,524.0
+782,55025.0,0.98,Dane,Wisconsin,40.0
+783,55059.0,1.2,Kenosha,Wisconsin,108.0
+784,55079.0,1.17,Milwaukee,Wisconsin,624.0
+785,55101.0,1.44,Racine,Wisconsin,154.0
+786,55105.0,1.36,Rock,Wisconsin,86.0
+787,55127.0,1.12,Walworth,Wisconsin,52.0
+788,55133.0,1.03,Waukesha,Wisconsin,55.0
+789,56013.0,0.86,Fremont,Wyoming,42.0
+790,56021.0,0.89,Laramie,Wyoming,32.0
+791,56039.0,0.11,Teton,Wyoming,19.0
+792,1001.0,,Autauga,Alabama,9.0
+793,1005.0,,Barbour,Alabama,11.0
+794,1007.0,,Bibb,Alabama,9.0
+795,1009.0,,Blount,Alabama,8.0
+796,1011.0,,Bullock,Alabama,2.0
+797,1019.0,,Cherokee,Alabama,3.0
+798,1021.0,,Chilton,Alabama,6.0
+799,1023.0,,Choctaw,Alabama,18.0
+800,1025.0,,Clarke,Alabama,9.0
+801,1027.0,,Clay,Alabama,4.0
+802,1029.0,,Cleburne,Alabama,0.0
+803,1033.0,,Colbert,Alabama,6.0
+804,1035.0,,Conecuh,Alabama,1.0
+805,1037.0,,Coosa,Alabama,2.0
+806,1039.0,,Covington,Alabama,8.0
+807,1041.0,,Crenshaw,Alabama,9.0
+808,1043.0,,Cullman,Alabama,8.0
+809,1045.0,,Dale,Alabama,6.0
+810,1047.0,,Dallas,Alabama,10.0
+811,1049.0,,DeKalb,Alabama,12.0
+812,1051.0,,Elmore,Alabama,15.0
+813,1053.0,,Escambia,Alabama,8.0
+814,1057.0,,Fayette,Alabama,1.0
+815,1061.0,,Geneva,Alabama,3.0
+816,1063.0,,Greene,Alabama,16.0
+817,1065.0,,Hale,Alabama,12.0
+818,1067.0,,Henry,Alabama,4.0
+819,1069.0,,Houston,Alabama,18.0
+820,1071.0,,Jackson,Alabama,6.0
+821,1075.0,,Lamar,Alabama,2.0
+822,1077.0,,Lauderdale,Alabama,12.0
+823,1079.0,,Lawrence,Alabama,2.0
+824,1083.0,,Limestone,Alabama,3.0
+825,1087.0,,Macon,Alabama,8.0
+826,1091.0,,Marengo,Alabama,12.0
+827,1093.0,,Marion,Alabama,7.0
+828,1099.0,,Monroe,Alabama,2.0
+829,1103.0,,Morgan,Alabama,13.0
+830,1105.0,,Perry,Alabama,0.0
+831,1107.0,,Pickens,Alabama,3.0
+832,1109.0,,Pike,Alabama,9.0
+833,1111.0,,Randolph,Alabama,2.0
+834,1113.0,,Russell,Alabama,7.0
+835,1115.0,,St. Clair,Alabama,9.0
+836,1119.0,,Sumter,Alabama,19.0
+837,1121.0,,Talladega,Alabama,9.0
+838,1127.0,,Walker,Alabama,7.0
+839,1129.0,,Washington,Alabama,8.0
+840,1131.0,,Wilcox,Alabama,17.0
+841,1133.0,,Winston,Alabama,3.0
+842,2013.0,,Aleutians East,Alaska,0.0
+843,2016.0,,Aleutians West,Alaska,0.0
+844,2050.0,,Bethel,Alaska,0.0
+845,2060.0,,Bristol Bay,Alaska,0.0
+846,2068.0,,Denali,Alaska,0.0
+847,2070.0,,Dillingham,Alaska,0.0
+848,2100.0,,Haines,Alaska,0.0
+849,2105.0,,Hoonah-Angoon,Alaska,0.0
+850,2110.0,,Juneau,Alaska,0.0
+851,2122.0,,Kenai Peninsula,Alaska,0.0
+852,2130.0,,Ketchikan Gateway,Alaska,0.0
+853,2150.0,,Kodiak Island,Alaska,0.0
+854,2158.0,,Kusilvak,Alaska,0.0
+855,2164.0,,Lake and Peninsula,Alaska,0.0
+856,2170.0,,Matanuska-Susitna,Alaska,3.0
+857,2180.0,,Nome,Alaska,0.0
+858,2185.0,,North Slope,Alaska,0.0
+859,2188.0,,Northwest Arctic,Alaska,0.0
+860,2195.0,,Petersburg,Alaska,0.0
+861,2198.0,,Prince of Wales-Hyder,Alaska,0.0
+862,2220.0,,Sitka,Alaska,0.0
+863,2230.0,,Skagway,Alaska,0.0
+864,2240.0,,Southeast Fairbanks,Alaska,0.0
+865,2261.0,,Valdez-Cordova,Alaska,0.0
+866,2275.0,,Wrangell,Alaska,0.0
+867,2282.0,,Yakutat,Alaska,0.0
+868,2290.0,,Yukon-Koyukuk,Alaska,0.0
+869,4003.0,,Cochise,Arizona,9.0
+870,4007.0,,Gila,Arizona,3.0
+871,4009.0,,Graham,Arizona,14.0
+872,4011.0,,Greenlee,Arizona,0.0
+873,4012.0,,La Paz,Arizona,3.0
+874,4023.0,,Santa Cruz,Arizona,8.0
+875,4025.0,,Yavapai,Arizona,1.0
+876,5001.0,,Arkansas,Arkansas,0.0
+877,5003.0,,Ashley,Arkansas,6.0
+878,5005.0,,Baxter,Arkansas,0.0
+879,5009.0,,Boone,Arkansas,1.0
+880,5011.0,,Bradley,Arkansas,2.0
+881,5013.0,,Calhoun,Arkansas,0.0
+882,5015.0,,Carroll,Arkansas,1.0
+883,5017.0,,Chicot,Arkansas,1.0
+884,5019.0,,Clark,Arkansas,4.0
+885,5021.0,,Clay,Arkansas,1.0
+886,5023.0,,Cleburne,Arkansas,4.0
+887,5025.0,,Cleveland,Arkansas,2.0
+888,5027.0,,Columbia,Arkansas,7.0
+889,5029.0,,Conway,Arkansas,3.0
+890,5031.0,,Craighead,Arkansas,19.0
+891,5033.0,,Crawford,Arkansas,0.0
+892,5037.0,,Cross,Arkansas,4.0
+893,5039.0,,Dallas,Arkansas,0.0
+894,5041.0,,Desha,Arkansas,3.0
+895,5043.0,,Drew,Arkansas,4.0
+896,5045.0,,Faulkner,Arkansas,10.0
+897,5047.0,,Franklin,Arkansas,0.0
+898,5049.0,,Fulton,Arkansas,0.0
+899,5051.0,,Garland,Arkansas,6.0
+900,5053.0,,Grant,Arkansas,3.0
+901,5055.0,,Greene,Arkansas,3.0
+902,5057.0,,Hempstead,Arkansas,0.0
+903,5059.0,,Hot Spring,Arkansas,18.0
+904,5061.0,,Howard,Arkansas,1.0
+905,5063.0,,Independence,Arkansas,1.0
+906,5065.0,,Izard,Arkansas,1.0
+907,5067.0,,Jackson,Arkansas,0.0
+908,5071.0,,Johnson,Arkansas,6.0
+909,5073.0,,Lafayette,Arkansas,1.0
+910,5077.0,,Lee,Arkansas,0.0
+911,5081.0,,Little River,Arkansas,0.0
+912,5083.0,,Logan,Arkansas,0.0
+913,5085.0,,Lonoke,Arkansas,8.0
+914,5087.0,,Madison,Arkansas,0.0
+915,5089.0,,Marion,Arkansas,0.0
+916,5091.0,,Miller,Arkansas,5.0
+917,5093.0,,Mississippi,Arkansas,7.0
+918,5095.0,,Monroe,Arkansas,0.0
+919,5097.0,,Montgomery,Arkansas,0.0
+920,5099.0,,Nevada,Arkansas,0.0
+921,5101.0,,Newton,Arkansas,0.0
+922,5103.0,,Ouachita,Arkansas,0.0
+923,5105.0,,Perry,Arkansas,1.0
+924,5107.0,,Phillips,Arkansas,1.0
+925,5109.0,,Pike,Arkansas,0.0
+926,5111.0,,Poinsett,Arkansas,8.0
+927,5113.0,,Polk,Arkansas,0.0
+928,5115.0,,Pope,Arkansas,5.0
+929,5117.0,,Prairie,Arkansas,0.0
+930,5121.0,,Randolph,Arkansas,3.0
+931,5125.0,,Saline,Arkansas,19.0
+932,5127.0,,Scott,Arkansas,0.0
+933,5129.0,,Searcy,Arkansas,0.0
+934,5131.0,,Sebastian,Arkansas,2.0
+935,5133.0,,Sevier,Arkansas,2.0
+936,5135.0,,Sharp,Arkansas,13.0
+937,5137.0,,Stone,Arkansas,0.0
+938,5139.0,,Union,Arkansas,25.0
+939,5141.0,,Van Buren,Arkansas,2.0
+940,5143.0,,Washington,Arkansas,20.0
+941,5145.0,,White,Arkansas,5.0
+942,5147.0,,Woodruff,Arkansas,0.0
+943,5149.0,,Yell,Arkansas,0.0
+944,6003.0,,Alpine,California,0.0
+945,6005.0,,Amador,California,0.0
+946,6007.0,,Butte,California,0.0
+947,6009.0,,Calaveras,California,2.0
+948,6011.0,,Colusa,California,0.0
+949,6015.0,,Del Norte,California,0.0
+950,6017.0,,El Dorado,California,5.0
+951,6021.0,,Glenn,California,0.0
+952,6023.0,,Humboldt,California,1.0
+953,6027.0,,Inyo,California,2.0
+954,6033.0,,Lake,California,1.0
+955,6035.0,,Lassen,California,0.0
+956,6039.0,,Madera,California,8.0
+957,6043.0,,Mariposa,California,-1.0
+958,6045.0,,Mendocino,California,2.0
+959,6049.0,,Modoc,California,0.0
+960,6051.0,,Mono,California,2.0
+961,6055.0,,Napa,California,14.0
+962,6057.0,,Nevada,California,9.0
+963,6061.0,,Placer,California,11.0
+964,6063.0,,Plumas,California,0.0
+965,6069.0,,San Benito,California,8.0
+966,6087.0,,Santa Cruz,California,19.0
+967,6089.0,,Shasta,California,4.0
+968,6091.0,,Sierra,California,0.0
+969,6093.0,,Siskiyou,California,0.0
+970,6101.0,,Sutter,California,0.0
+971,6103.0,,Tehama,California,0.0
+972,6105.0,,Trinity,California,0.0
+973,6109.0,,Tuolumne,California,0.0
+974,6115.0,,Yuba,California,3.0
+975,8003.0,,Alamosa,Colorado,2.0
+976,8007.0,,Archuleta,Colorado,0.0
+977,8009.0,,Baca,Colorado,0.0
+978,8011.0,,Bent,Colorado,0.0
+979,8015.0,,Chaffee,Colorado,12.0
+980,8017.0,,Cheyenne,Colorado,0.0
+981,8019.0,,Clear Creek,Colorado,2.0
+982,8021.0,,Conejos,Colorado,0.0
+983,8023.0,,Costilla,Colorado,0.0
+984,8025.0,,Crowley,Colorado,0.0
+985,8027.0,,Custer,Colorado,0.0
+986,8029.0,,Delta,Colorado,21.0
+987,8033.0,,Dolores,Colorado,0.0
+988,8039.0,,Elbert,Colorado,5.0
+989,8043.0,,Fremont,Colorado,5.0
+990,8045.0,,Garfield,Colorado,16.0
+991,8047.0,,Gilpin,Colorado,0.0
+992,8049.0,,Grand,Colorado,0.0
+993,8053.0,,Hinsdale,Colorado,0.0
+994,8055.0,,Huerfano,Colorado,0.0
+995,8057.0,,Jackson,Colorado,0.0
+996,8061.0,,Kiowa,Colorado,0.0
+997,8063.0,,Kit Carson,Colorado,4.0
+998,8065.0,,Lake,Colorado,5.0
+999,8067.0,,La Plata,Colorado,8.0
+1000,8071.0,,Las Animas,Colorado,0.0
+1001,8073.0,,Lincoln,Colorado,0.0
+1002,8077.0,,Mesa,Colorado,10.0
+1003,8079.0,,Mineral,Colorado,0.0
+1004,8081.0,,Moffat,Colorado,0.0
+1005,8083.0,,Montezuma,Colorado,3.0
+1006,8085.0,,Montrose,Colorado,19.0
+1007,8089.0,,Otero,Colorado,2.0
+1008,8091.0,,Ouray,Colorado,0.0
+1009,8093.0,,Park,Colorado,2.0
+1010,8095.0,,Phillips,Colorado,1.0
+1011,8097.0,,Pitkin,Colorado,11.0
+1012,8099.0,,Prowers,Colorado,0.0
+1013,8103.0,,Rio Blanco,Colorado,0.0
+1014,8105.0,,Rio Grande,Colorado,0.0
+1015,8107.0,,Routt,Colorado,7.0
+1016,8109.0,,Saguache,Colorado,0.0
+1017,8111.0,,San Juan,Colorado,0.0
+1018,8113.0,,San Miguel,Colorado,3.0
+1019,8115.0,,Sedgwick,Colorado,0.0
+1020,8119.0,,Teller,Colorado,5.0
+1021,8121.0,,Washington,Colorado,1.0
+1022,8125.0,,Yuma,Colorado,1.0
+1023,12003.0,,Baker,Florida,1.0
+1024,12005.0,,Bay,Florida,15.0
+1025,12007.0,,Bradford,Florida,4.0
+1026,12013.0,,Calhoun,Florida,1.0
+1027,12023.0,,Columbia,Florida,14.0
+1028,12027.0,,DeSoto,Florida,6.0
+1029,12029.0,,Dixie,Florida,2.0
+1030,12037.0,,Franklin,Florida,0.0
+1031,12041.0,,Gilchrist,Florida,0.0
+1032,12043.0,,Glades,Florida,0.0
+1033,12045.0,,Gulf,Florida,0.0
+1034,12047.0,,Hamilton,Florida,1.0
+1035,12049.0,,Hardee,Florida,10.0
+1036,12053.0,,Hernando,Florida,3.0
+1037,12055.0,,Highlands,Florida,6.0
+1038,12059.0,,Holmes,Florida,2.0
+1039,12061.0,,Indian River,Florida,1.0
+1040,12063.0,,Jackson,Florida,3.0
+1041,12065.0,,Jefferson,Florida,3.0
+1042,12067.0,,Lafayette,Florida,0.0
+1043,12075.0,,Levy,Florida,3.0
+1044,12077.0,,Liberty,Florida,0.0
+1045,12079.0,,Madison,Florida,19.0
+1046,12086.0,,Miami-Dade,Florida,1130.0
+1047,12087.0,,Monroe,Florida,3.0
+1048,12089.0,,Nassau,Florida,8.0
+1049,12091.0,,Okaloosa,Florida,2.0
+1050,12093.0,,Okeechobee,Florida,2.0
+1051,12113.0,,Santa Rosa,Florida,17.0
+1052,12123.0,,Taylor,Florida,0.0
+1053,12125.0,,Union,Florida,0.0
+1054,12129.0,,Wakulla,Florida,5.0
+1055,12131.0,,Walton,Florida,5.0
+1056,12133.0,,Washington,Florida,2.0
+1057,13001.0,,Appling,Georgia,24.0
+1058,13003.0,,Atkinson,Georgia,0.0
+1059,13005.0,,Bacon,Georgia,5.0
+1060,13007.0,,Baker,Georgia,4.0
+1061,13011.0,,Banks,Georgia,8.0
+1062,13017.0,,Ben Hill,Georgia,4.0
+1063,13019.0,,Berrien,Georgia,5.0
+1064,13023.0,,Bleckley,Georgia,8.0
+1065,13025.0,,Brantley,Georgia,3.0
+1066,13027.0,,Brooks,Georgia,22.0
+1067,13029.0,,Bryan,Georgia,10.0
+1068,13031.0,,Bulloch,Georgia,6.0
+1069,13033.0,,Burke,Georgia,24.0
+1070,13037.0,,Calhoun,Georgia,27.0
+1071,13039.0,,Camden,Georgia,6.0
+1072,13043.0,,Candler,Georgia,1.0
+1073,13047.0,,Catoosa,Georgia,10.0
+1074,13049.0,,Charlton,Georgia,1.0
+1075,13053.0,,Chattahoochee,Georgia,4.0
+1076,13055.0,,Chattooga,Georgia,4.0
+1077,13061.0,,Clay,Georgia,3.0
+1078,13065.0,,Clinch,Georgia,1.0
+1079,13075.0,,Cook,Georgia,8.0
+1080,13079.0,,Crawford,Georgia,3.0
+1081,13083.0,,Dade,Georgia,3.0
+1082,13085.0,,Dawson,Georgia,14.0
+1083,13091.0,,Dodge,Georgia,6.0
+1084,13101.0,,Echols,Georgia,1.0
+1085,13103.0,,Effingham,Georgia,6.0
+1086,13105.0,,Elbert,Georgia,15.0
+1087,13107.0,,Emanuel,Georgia,5.0
+1088,13109.0,,Evans,Georgia,0.0
+1089,13111.0,,Fannin,Georgia,7.0
+1090,13115.0,,Floyd,Georgia,28.0
+1091,13119.0,,Franklin,Georgia,3.0
+1092,13125.0,,Glascock,Georgia,0.0
+1093,13127.0,,Glynn,Georgia,5.0
+1094,13129.0,,Gordon,Georgia,22.0
+1095,13131.0,,Grady,Georgia,20.0
+1096,13133.0,,Greene,Georgia,7.0
+1097,13143.0,,Haralson,Georgia,5.0
+1098,13145.0,,Harris,Georgia,12.0
+1099,13147.0,,Hart,Georgia,2.0
+1100,13149.0,,Heard,Georgia,2.0
+1101,13155.0,,Irwin,Georgia,-2.0
+1102,13159.0,,Jasper,Georgia,3.0
+1103,13161.0,,Jeff Davis,Georgia,8.0
+1104,13163.0,,Jefferson,Georgia,3.0
+1105,13165.0,,Jenkins,Georgia,1.0
+1106,13167.0,,Johnson,Georgia,14.0
+1107,13169.0,,Jones,Georgia,4.0
+1108,13171.0,,Lamar,Georgia,8.0
+1109,13173.0,,Lanier,Georgia,1.0
+1110,13175.0,,Laurens,Georgia,13.0
+1111,13179.0,,Liberty,Georgia,3.0
+1112,13181.0,,Lincoln,Georgia,2.0
+1113,13183.0,,Long,Georgia,1.0
+1114,13187.0,,Lumpkin,Georgia,15.0
+1115,13189.0,,McDuffie,Georgia,5.0
+1116,13191.0,,McIntosh,Georgia,0.0
+1117,13193.0,,Macon,Georgia,19.0
+1118,13195.0,,Madison,Georgia,5.0
+1119,13197.0,,Marion,Georgia,1.0
+1120,13199.0,,Meriwether,Georgia,10.0
+1121,13201.0,,Miller,Georgia,7.0
+1122,13207.0,,Monroe,Georgia,4.0
+1123,13209.0,,Montgomery,Georgia,0.0
+1124,13211.0,,Morgan,Georgia,9.0
+1125,13213.0,,Murray,Georgia,13.0
+1126,13219.0,,Oconee,Georgia,12.0
+1127,13221.0,,Oglethorpe,Georgia,10.0
+1128,13225.0,,Peach,Georgia,10.0
+1129,13227.0,,Pickens,Georgia,6.0
+1130,13229.0,,Pierce,Georgia,9.0
+1131,13231.0,,Pike,Georgia,3.0
+1132,13233.0,,Polk,Georgia,21.0
+1133,13235.0,,Pulaski,Georgia,10.0
+1134,13237.0,,Putnam,Georgia,12.0
+1135,13239.0,,Quitman,Georgia,0.0
+1136,13241.0,,Rabun,Georgia,2.0
+1137,13249.0,,Schley,Georgia,0.0
+1138,13251.0,,Screven,Georgia,2.0
+1139,13253.0,,Seminole,Georgia,6.0
+1140,13259.0,,Stewart,Georgia,7.0
+1141,13263.0,,Talbot,Georgia,7.0
+1142,13265.0,,Taliaferro,Georgia,0.0
+1143,13267.0,,Tattnall,Georgia,2.0
+1144,13269.0,,Taylor,Georgia,2.0
+1145,13271.0,,Telfair,Georgia,6.0
+1146,13279.0,,Toombs,Georgia,8.0
+1147,13281.0,,Towns,Georgia,-2.0
+1148,13283.0,,Treutlen,Georgia,0.0
+1149,13287.0,,Turner,Georgia,8.0
+1150,13289.0,,Twiggs,Georgia,1.0
+1151,13291.0,,Union,Georgia,5.0
+1152,13301.0,,Warren,Georgia,2.0
+1153,13303.0,,Washington,Georgia,10.0
+1154,13305.0,,Wayne,Georgia,3.0
+1155,13307.0,,Webster,Georgia,2.0
+1156,13309.0,,Wheeler,Georgia,0.0
+1157,13317.0,,Wilkes,Georgia,6.0
+1158,13319.0,,Wilkinson,Georgia,10.0
+1159,15005.0,,Kalawao,Hawaii,0.0
+1160,15007.0,,Kauai,Hawaii,1.0
+1161,15009.0,,Maui,Hawaii,9.0
+1162,16003.0,,Adams,Idaho,0.0
+1163,16005.0,,Bannock,Idaho,2.0
+1164,16007.0,,Bear Lake,Idaho,0.0
+1165,16009.0,,Benewah,Idaho,0.0
+1166,16011.0,,Bingham,Idaho,0.0
+1167,16015.0,,Boise,Idaho,0.0
+1168,16017.0,,Bonner,Idaho,0.0
+1169,16019.0,,Bonneville,Idaho,6.0
+1170,16021.0,,Boundary,Idaho,0.0
+1171,16023.0,,Butte,Idaho,0.0
+1172,16025.0,,Camas,Idaho,0.0
+1173,16029.0,,Caribou,Idaho,0.0
+1174,16031.0,,Cassia,Idaho,2.0
+1175,16033.0,,Clark,Idaho,0.0
+1176,16035.0,,Clearwater,Idaho,0.0
+1177,16037.0,,Custer,Idaho,0.0
+1178,16039.0,,Elmore,Idaho,6.0
+1179,16041.0,,Franklin,Idaho,0.0
+1180,16043.0,,Fremont,Idaho,0.0
+1181,16045.0,,Gem,Idaho,2.0
+1182,16047.0,,Gooding,Idaho,2.0
+1183,16049.0,,Idaho,Idaho,0.0
+1184,16051.0,,Jefferson,Idaho,0.0
+1185,16053.0,,Jerome,Idaho,8.0
+1186,16055.0,,Kootenai,Idaho,7.0
+1187,16057.0,,Latah,Idaho,1.0
+1188,16059.0,,Lemhi,Idaho,0.0
+1189,16061.0,,Lewis,Idaho,0.0
+1190,16063.0,,Lincoln,Idaho,7.0
+1191,16065.0,,Madison,Idaho,1.0
+1192,16067.0,,Minidoka,Idaho,2.0
+1193,16069.0,,Nez Perce,Idaho,14.0
+1194,16071.0,,Oneida,Idaho,0.0
+1195,16073.0,,Owyhee,Idaho,1.0
+1196,16075.0,,Payette,Idaho,2.0
+1197,16077.0,,Power,Idaho,0.0
+1198,16079.0,,Shoshone,Idaho,0.0
+1199,16081.0,,Teton,Idaho,1.0
+1200,16085.0,,Valley,Idaho,0.0
+1201,16087.0,,Washington,Idaho,0.0
+1202,17001.0,,Adams,Illinois,9.0
+1203,17003.0,,Alexander,Illinois,0.0
+1204,17005.0,,Bond,Illinois,1.0
+1205,17009.0,,Brown,Illinois,0.0
+1206,17011.0,,Bureau,Illinois,2.0
+1207,17013.0,,Calhoun,Illinois,0.0
+1208,17015.0,,Carroll,Illinois,1.0
+1209,17017.0,,Cass,Illinois,20.0
+1210,17021.0,,Christian,Illinois,4.0
+1211,17023.0,,Clark,Illinois,1.0
+1212,17025.0,,Clay,Illinois,0.0
+1213,17029.0,,Coles,Illinois,4.0
+1214,17033.0,,Crawford,Illinois,2.0
+1215,17035.0,,Cumberland,Illinois,0.0
+1216,17039.0,,De Witt,Illinois,0.0
+1217,17041.0,,Douglas,Illinois,0.0
+1218,17045.0,,Edgar,Illinois,0.0
+1219,17047.0,,Edwards,Illinois,0.0
+1220,17049.0,,Effingham,Illinois,1.0
+1221,17051.0,,Fayette,Illinois,1.0
+1222,17053.0,,Ford,Illinois,2.0
+1223,17055.0,,Franklin,Illinois,1.0
+1224,17057.0,,Fulton,Illinois,0.0
+1225,17059.0,,Gallatin,Illinois,0.0
+1226,17061.0,,Greene,Illinois,0.0
+1227,17063.0,,Grundy,Illinois,9.0
+1228,17065.0,,Hamilton,Illinois,0.0
+1229,17067.0,,Hancock,Illinois,1.0
+1230,17069.0,,Hardin,Illinois,0.0
+1231,17071.0,,Henderson,Illinois,0.0
+1232,17073.0,,Henry,Illinois,14.0
+1233,17075.0,,Iroquois,Illinois,22.0
+1234,17083.0,,Jersey,Illinois,2.0
+1235,17085.0,,Jo Daviess,Illinois,3.0
+1236,17087.0,,Johnson,Illinois,1.0
+1237,17095.0,,Knox,Illinois,21.0
+1238,17099.0,,LaSalle,Illinois,15.0
+1239,17101.0,,Lawrence,Illinois,0.0
+1240,17103.0,,Lee,Illinois,7.0
+1241,17105.0,,Livingston,Illinois,2.0
+1242,17107.0,,Logan,Illinois,2.0
+1243,17109.0,,McDonough,Illinois,21.0
+1244,17117.0,,Macoupin,Illinois,4.0
+1245,17121.0,,Marion,Illinois,9.0
+1246,17123.0,,Marshall,Illinois,0.0
+1247,17125.0,,Mason,Illinois,6.0
+1248,17127.0,,Massac,Illinois,0.0
+1249,17129.0,,Menard,Illinois,1.0
+1250,17131.0,,Mercer,Illinois,2.0
+1251,17133.0,,Monroe,Illinois,15.0
+1252,17135.0,,Montgomery,Illinois,7.0
+1253,17137.0,,Morgan,Illinois,6.0
+1254,17139.0,,Moultrie,Illinois,1.0
+1255,17145.0,,Perry,Illinois,35.0
+1256,17147.0,,Piatt,Illinois,0.0
+1257,17149.0,,Pike,Illinois,0.0
+1258,17151.0,,Pope,Illinois,0.0
+1259,17153.0,,Pulaski,Illinois,5.0
+1260,17155.0,,Putnam,Illinois,0.0
+1261,17159.0,,Richland,Illinois,0.0
+1262,17165.0,,Saline,Illinois,0.0
+1263,17169.0,,Schuyler,Illinois,0.0
+1264,17171.0,,Scott,Illinois,0.0
+1265,17173.0,,Shelby,Illinois,2.0
+1266,17175.0,,Stark,Illinois,0.0
+1267,17179.0,,Tazewell,Illinois,8.0
+1268,17181.0,,Union,Illinois,41.0
+1269,17183.0,,Vermilion,Illinois,4.0
+1270,17185.0,,Wabash,Illinois,0.0
+1271,17189.0,,Washington,Illinois,2.0
+1272,17191.0,,Wayne,Illinois,0.0
+1273,17193.0,,White,Illinois,0.0
+1274,17199.0,,Williamson,Illinois,10.0
+1275,17203.0,,Woodford,Illinois,2.0
+1276,18001.0,,Adams,Indiana,1.0
+1277,18007.0,,Benton,Indiana,2.0
+1278,18009.0,,Blackford,Indiana,1.0
+1279,18013.0,,Brown,Indiana,0.0
+1280,18015.0,,Carroll,Indiana,13.0
+1281,18021.0,,Clay,Indiana,4.0
+1282,18023.0,,Clinton,Indiana,12.0
+1283,18025.0,,Crawford,Indiana,3.0
+1284,18027.0,,Daviess,Indiana,8.0
+1285,18033.0,,DeKalb,Indiana,-2.0
+1286,18037.0,,Dubois,Indiana,6.0
+1287,18041.0,,Fayette,Indiana,5.0
+1288,18045.0,,Fountain,Indiana,2.0
+1289,18047.0,,Franklin,Indiana,7.0
+1290,18049.0,,Fulton,Indiana,7.0
+1291,18051.0,,Gibson,Indiana,0.0
+1292,18055.0,,Greene,Indiana,14.0
+1293,18065.0,,Henry,Indiana,8.0
+1294,18069.0,,Huntington,Indiana,1.0
+1295,18073.0,,Jasper,Indiana,19.0
+1296,18075.0,,Jay,Indiana,4.0
+1297,18077.0,,Jefferson,Indiana,5.0
+1298,18079.0,,Jennings,Indiana,6.0
+1299,18083.0,,Knox,Indiana,0.0
+1300,18085.0,,Kosciusko,Indiana,9.0
+1301,18087.0,,LaGrange,Indiana,6.0
+1302,18099.0,,Marshall,Indiana,4.0
+1303,18101.0,,Martin,Indiana,1.0
+1304,18105.0,,Monroe,Indiana,5.0
+1305,18111.0,,Newton,Indiana,10.0
+1306,18113.0,,Noble,Indiana,23.0
+1307,18115.0,,Ohio,Indiana,0.0
+1308,18119.0,,Owen,Indiana,1.0
+1309,18121.0,,Parke,Indiana,2.0
+1310,18123.0,,Perry,Indiana,2.0
+1311,18125.0,,Pike,Indiana,0.0
+1312,18129.0,,Posey,Indiana,2.0
+1313,18131.0,,Pulaski,Indiana,0.0
+1314,18133.0,,Putnam,Indiana,14.0
+1315,18135.0,,Randolph,Indiana,3.0
+1316,18139.0,,Rush,Indiana,6.0
+1317,18143.0,,Scott,Indiana,15.0
+1318,18147.0,,Spencer,Indiana,1.0
+1319,18149.0,,Starke,Indiana,3.0
+1320,18151.0,,Steuben,Indiana,5.0
+1321,18153.0,,Sullivan,Indiana,5.0
+1322,18155.0,,Switzerland,Indiana,1.0
+1323,18159.0,,Tipton,Indiana,3.0
+1324,18161.0,,Union,Indiana,0.0
+1325,18165.0,,Vermillion,Indiana,1.0
+1326,18167.0,,Vigo,Indiana,11.0
+1327,18171.0,,Warren,Indiana,2.0
+1328,18173.0,,Warrick,Indiana,22.0
+1329,18175.0,,Washington,Indiana,9.0
+1330,18177.0,,Wayne,Indiana,7.0
+1331,18179.0,,Wells,Indiana,0.0
+1332,18183.0,,Whitley,Indiana,4.0
+1333,19001.0,,Adair,Iowa,0.0
+1334,19003.0,,Adams,Iowa,0.0
+1335,19007.0,,Appanoose,Iowa,0.0
+1336,19009.0,,Audubon,Iowa,0.0
+1337,19011.0,,Benton,Iowa,6.0
+1338,19015.0,,Boone,Iowa,8.0
+1339,19017.0,,Bremer,Iowa,16.0
+1340,19019.0,,Buchanan,Iowa,4.0
+1341,19021.0,,Buena Vista,Iowa,0.0
+1342,19023.0,,Butler,Iowa,5.0
+1343,19025.0,,Calhoun,Iowa,0.0
+1344,19027.0,,Carroll,Iowa,0.0
+1345,19029.0,,Cass,Iowa,0.0
+1346,19031.0,,Cedar,Iowa,3.0
+1347,19033.0,,Cerro Gordo,Iowa,0.0
+1348,19035.0,,Cherokee,Iowa,0.0
+1349,19037.0,,Chickasaw,Iowa,1.0
+1350,19039.0,,Clarke,Iowa,0.0
+1351,19041.0,,Clay,Iowa,0.0
+1352,19043.0,,Clayton,Iowa,3.0
+1353,19045.0,,Clinton,Iowa,5.0
+1354,19047.0,,Crawford,Iowa,14.0
+1355,19051.0,,Davis,Iowa,0.0
+1356,19053.0,,Decatur,Iowa,0.0
+1357,19055.0,,Delaware,Iowa,1.0
+1358,19057.0,,Des Moines,Iowa,3.0
+1359,19059.0,,Dickinson,Iowa,2.0
+1360,19063.0,,Emmet,Iowa,0.0
+1361,19065.0,,Fayette,Iowa,9.0
+1362,19067.0,,Floyd,Iowa,0.0
+1363,19069.0,,Franklin,Iowa,0.0
+1364,19071.0,,Fremont,Iowa,0.0
+1365,19073.0,,Greene,Iowa,6.0
+1366,19075.0,,Grundy,Iowa,4.0
+1367,19077.0,,Guthrie,Iowa,8.0
+1368,19079.0,,Hamilton,Iowa,0.0
+1369,19081.0,,Hancock,Iowa,0.0
+1370,19083.0,,Hardin,Iowa,5.0
+1371,19085.0,,Harrison,Iowa,2.0
+1372,19087.0,,Henry,Iowa,1.0
+1373,19089.0,,Howard,Iowa,10.0
+1374,19091.0,,Humboldt,Iowa,0.0
+1375,19093.0,,Ida,Iowa,0.0
+1376,19095.0,,Iowa,Iowa,3.0
+1377,19097.0,,Jackson,Iowa,0.0
+1378,19101.0,,Jefferson,Iowa,0.0
+1379,19105.0,,Jones,Iowa,4.0
+1380,19107.0,,Keokuk,Iowa,0.0
+1381,19109.0,,Kossuth,Iowa,0.0
+1382,19111.0,,Lee,Iowa,4.0
+1383,19117.0,,Lucas,Iowa,0.0
+1384,19119.0,,Lyon,Iowa,5.0
+1385,19121.0,,Madison,Iowa,1.0
+1386,19123.0,,Mahaska,Iowa,2.0
+1387,19125.0,,Marion,Iowa,2.0
+1388,19129.0,,Mills,Iowa,0.0
+1389,19131.0,,Mitchell,Iowa,0.0
+1390,19133.0,,Monona,Iowa,0.0
+1391,19135.0,,Monroe,Iowa,0.0
+1392,19137.0,,Montgomery,Iowa,0.0
+1393,19141.0,,O'Brien,Iowa,1.0
+1394,19143.0,,Osceola,Iowa,2.0
+1395,19145.0,,Page,Iowa,1.0
+1396,19147.0,,Palo Alto,Iowa,0.0
+1397,19149.0,,Plymouth,Iowa,2.0
+1398,19151.0,,Pocahontas,Iowa,0.0
+1399,19155.0,,Pottawattamie,Iowa,11.0
+1400,19159.0,,Ringgold,Iowa,0.0
+1401,19161.0,,Sac,Iowa,0.0
+1402,19165.0,,Shelby,Iowa,1.0
+1403,19167.0,,Sioux,Iowa,2.0
+1404,19169.0,,Story,Iowa,6.0
+1405,19173.0,,Taylor,Iowa,0.0
+1406,19175.0,,Union,Iowa,0.0
+1407,19177.0,,Van Buren,Iowa,0.0
+1408,19179.0,,Wapello,Iowa,2.0
+1409,19181.0,,Warren,Iowa,3.0
+1410,19183.0,,Washington,Iowa,14.0
+1411,19185.0,,Wayne,Iowa,0.0
+1412,19187.0,,Webster,Iowa,0.0
+1413,19189.0,,Winnebago,Iowa,0.0
+1414,19191.0,,Winneshiek,Iowa,1.0
+1415,19195.0,,Worth,Iowa,0.0
+1416,19197.0,,Wright,Iowa,0.0
+1417,20001.0,,Allen,Kansas,0.0
+1418,20003.0,,Anderson,Kansas,0.0
+1419,20005.0,,Atchison,Kansas,1.0
+1420,20007.0,,Barber,Kansas,0.0
+1421,20009.0,,Barton,Kansas,1.0
+1422,20011.0,,Bourbon,Kansas,0.0
+1423,20013.0,,Brown,Kansas,0.0
+1424,20015.0,,Butler,Kansas,3.0
+1425,20017.0,,Chase,Kansas,0.0
+1426,20019.0,,Chautauqua,Kansas,0.0
+1427,20021.0,,Cherokee,Kansas,1.0
+1428,20023.0,,Cheyenne,Kansas,-1.0
+1429,20025.0,,Clark,Kansas,0.0
+1430,20027.0,,Clay,Kansas,0.0
+1431,20029.0,,Cloud,Kansas,0.0
+1432,20031.0,,Coffey,Kansas,0.0
+1433,20033.0,,Comanche,Kansas,0.0
+1434,20035.0,,Cowley,Kansas,0.0
+1435,20037.0,,Crawford,Kansas,0.0
+1436,20039.0,,Decatur,Kansas,0.0
+1437,20041.0,,Dickinson,Kansas,0.0
+1438,20043.0,,Doniphan,Kansas,0.0
+1439,20045.0,,Douglas,Kansas,-1.0
+1440,20047.0,,Edwards,Kansas,2.0
+1441,20049.0,,Elk,Kansas,0.0
+1442,20051.0,,Ellis,Kansas,1.0
+1443,20053.0,,Ellsworth,Kansas,0.0
+1444,20059.0,,Franklin,Kansas,2.0
+1445,20061.0,,Geary,Kansas,2.0
+1446,20063.0,,Gove,Kansas,0.0
+1447,20065.0,,Graham,Kansas,0.0
+1448,20067.0,,Grant,Kansas,14.0
+1449,20069.0,,Gray,Kansas,4.0
+1450,20071.0,,Greeley,Kansas,0.0
+1451,20073.0,,Greenwood,Kansas,0.0
+1452,20075.0,,Hamilton,Kansas,0.0
+1453,20077.0,,Harper,Kansas,-1.0
+1454,20079.0,,Harvey,Kansas,1.0
+1455,20081.0,,Haskell,Kansas,0.0
+1456,20083.0,,Hodgeman,Kansas,0.0
+1457,20085.0,,Jackson,Kansas,0.0
+1458,20087.0,,Jefferson,Kansas,1.0
+1459,20089.0,,Jewell,Kansas,0.0
+1460,20093.0,,Kearny,Kansas,8.0
+1461,20095.0,,Kingman,Kansas,0.0
+1462,20097.0,,Kiowa,Kansas,0.0
+1463,20099.0,,Labette,Kansas,2.0
+1464,20101.0,,Lane,Kansas,0.0
+1465,20105.0,,Lincoln,Kansas,0.0
+1466,20107.0,,Linn,Kansas,0.0
+1467,20109.0,,Logan,Kansas,0.0
+1468,20113.0,,McPherson,Kansas,4.0
+1469,20115.0,,Marion,Kansas,0.0
+1470,20117.0,,Marshall,Kansas,0.0
+1471,20119.0,,Meade,Kansas,7.0
+1472,20121.0,,Miami,Kansas,1.0
+1473,20123.0,,Mitchell,Kansas,0.0
+1474,20125.0,,Montgomery,Kansas,3.0
+1475,20127.0,,Morris,Kansas,0.0
+1476,20129.0,,Morton,Kansas,0.0
+1477,20131.0,,Nemaha,Kansas,0.0
+1478,20133.0,,Neosho,Kansas,0.0
+1479,20135.0,,Ness,Kansas,0.0
+1480,20137.0,,Norton,Kansas,0.0
+1481,20139.0,,Osage,Kansas,0.0
+1482,20141.0,,Osborne,Kansas,0.0
+1483,20143.0,,Ottawa,Kansas,0.0
+1484,20145.0,,Pawnee,Kansas,0.0
+1485,20147.0,,Phillips,Kansas,0.0
+1486,20149.0,,Pottawatomie,Kansas,3.0
+1487,20151.0,,Pratt,Kansas,0.0
+1488,20153.0,,Rawlins,Kansas,0.0
+1489,20155.0,,Reno,Kansas,24.0
+1490,20157.0,,Republic,Kansas,0.0
+1491,20159.0,,Rice,Kansas,0.0
+1492,20161.0,,Riley,Kansas,10.0
+1493,20163.0,,Rooks,Kansas,1.0
+1494,20165.0,,Rush,Kansas,0.0
+1495,20167.0,,Russell,Kansas,0.0
+1496,20169.0,,Saline,Kansas,4.0
+1497,20171.0,,Scott,Kansas,0.0
+1498,20179.0,,Sheridan,Kansas,0.0
+1499,20181.0,,Sherman,Kansas,1.0
+1500,20183.0,,Smith,Kansas,0.0
+1501,20185.0,,Stafford,Kansas,0.0
+1502,20187.0,,Stanton,Kansas,1.0
+1503,20189.0,,Stevens,Kansas,3.0
+1504,20191.0,,Sumner,Kansas,0.0
+1505,20193.0,,Thomas,Kansas,0.0
+1506,20195.0,,Trego,Kansas,0.0
+1507,20197.0,,Wabaunsee,Kansas,14.0
+1508,20199.0,,Wallace,Kansas,0.0
+1509,20201.0,,Washington,Kansas,-1.0
+1510,20203.0,,Wichita,Kansas,0.0
+1511,20205.0,,Wilson,Kansas,0.0
+1512,20207.0,,Woodson,Kansas,0.0
+1513,21001.0,,Adair,Kentucky,19.0
+1514,21003.0,,Allen,Kentucky,7.0
+1515,21005.0,,Anderson,Kentucky,1.0
+1516,21007.0,,Ballard,Kentucky,4.0
+1517,21009.0,,Barren,Kentucky,6.0
+1518,21011.0,,Bath,Kentucky,0.0
+1519,21013.0,,Bell,Kentucky,0.0
+1520,21017.0,,Bourbon,Kentucky,0.0
+1521,21019.0,,Boyd,Kentucky,0.0
+1522,21021.0,,Boyle,Kentucky,3.0
+1523,21023.0,,Bracken,Kentucky,0.0
+1524,21025.0,,Breathitt,Kentucky,0.0
+1525,21027.0,,Breckinridge,Kentucky,2.0
+1526,21029.0,,Bullitt,Kentucky,12.0
+1527,21033.0,,Caldwell,Kentucky,3.0
+1528,21035.0,,Calloway,Kentucky,8.0
+1529,21037.0,,Campbell,Kentucky,14.0
+1530,21039.0,,Carlisle,Kentucky,2.0
+1531,21041.0,,Carroll,Kentucky,0.0
+1532,21043.0,,Carter,Kentucky,0.0
+1533,21045.0,,Casey,Kentucky,0.0
+1534,21049.0,,Clark,Kentucky,3.0
+1535,21051.0,,Clay,Kentucky,0.0
+1536,21053.0,,Clinton,Kentucky,0.0
+1537,21055.0,,Crittenden,Kentucky,0.0
+1538,21057.0,,Cumberland,Kentucky,2.0
+1539,21061.0,,Edmonson,Kentucky,22.0
+1540,21063.0,,Elliott,Kentucky,0.0
+1541,21065.0,,Estill,Kentucky,0.0
+1542,21067.0,,Fayette,Kentucky,31.0
+1543,21069.0,,Fleming,Kentucky,0.0
+1544,21071.0,,Floyd,Kentucky,6.0
+1545,21073.0,,Franklin,Kentucky,1.0
+1546,21075.0,,Fulton,Kentucky,0.0
+1547,21077.0,,Gallatin,Kentucky,0.0
+1548,21079.0,,Garrard,Kentucky,0.0
+1549,21081.0,,Grant,Kentucky,4.0
+1550,21087.0,,Green,Kentucky,0.0
+1551,21089.0,,Greenup,Kentucky,1.0
+1552,21091.0,,Hancock,Kentucky,0.0
+1553,21093.0,,Hardin,Kentucky,8.0
+1554,21095.0,,Harlan,Kentucky,0.0
+1555,21097.0,,Harrison,Kentucky,1.0
+1556,21099.0,,Hart,Kentucky,0.0
+1557,21101.0,,Henderson,Kentucky,13.0
+1558,21103.0,,Henry,Kentucky,0.0
+1559,21105.0,,Hickman,Kentucky,0.0
+1560,21113.0,,Jessamine,Kentucky,8.0
+1561,21115.0,,Johnson,Kentucky,0.0
+1562,21119.0,,Knott,Kentucky,0.0
+1563,21121.0,,Knox,Kentucky,1.0
+1564,21123.0,,Larue,Kentucky,0.0
+1565,21125.0,,Laurel,Kentucky,4.0
+1566,21127.0,,Lawrence,Kentucky,0.0
+1567,21129.0,,Lee,Kentucky,0.0
+1568,21131.0,,Leslie,Kentucky,1.0
+1569,21133.0,,Letcher,Kentucky,0.0
+1570,21135.0,,Lewis,Kentucky,0.0
+1571,21137.0,,Lincoln,Kentucky,1.0
+1572,21139.0,,Livingston,Kentucky,0.0
+1573,21141.0,,Logan,Kentucky,1.0
+1574,21143.0,,Lyon,Kentucky,0.0
+1575,21145.0,,McCracken,Kentucky,17.0
+1576,21147.0,,McCreary,Kentucky,0.0
+1577,21149.0,,McLean,Kentucky,4.0
+1578,21151.0,,Madison,Kentucky,4.0
+1579,21153.0,,Magoffin,Kentucky,0.0
+1580,21155.0,,Marion,Kentucky,3.0
+1581,21157.0,,Marshall,Kentucky,-8.0
+1582,21159.0,,Martin,Kentucky,0.0
+1583,21161.0,,Mason,Kentucky,0.0
+1584,21163.0,,Meade,Kentucky,7.0
+1585,21165.0,,Menifee,Kentucky,0.0
+1586,21167.0,,Mercer,Kentucky,2.0
+1587,21169.0,,Metcalfe,Kentucky,0.0
+1588,21171.0,,Monroe,Kentucky,1.0
+1589,21173.0,,Montgomery,Kentucky,2.0
+1590,21175.0,,Morgan,Kentucky,0.0
+1591,21179.0,,Nelson,Kentucky,5.0
+1592,21181.0,,Nicholas,Kentucky,0.0
+1593,21183.0,,Ohio,Kentucky,11.0
+1594,21185.0,,Oldham,Kentucky,6.0
+1595,21187.0,,Owen,Kentucky,0.0
+1596,21189.0,,Owsley,Kentucky,0.0
+1597,21191.0,,Pendleton,Kentucky,1.0
+1598,21193.0,,Perry,Kentucky,5.0
+1599,21195.0,,Pike,Kentucky,2.0
+1600,21197.0,,Powell,Kentucky,0.0
+1601,21199.0,,Pulaski,Kentucky,9.0
+1602,21201.0,,Robertson,Kentucky,0.0
+1603,21203.0,,Rockcastle,Kentucky,0.0
+1604,21205.0,,Rowan,Kentucky,0.0
+1605,21207.0,,Russell,Kentucky,1.0
+1606,21209.0,,Scott,Kentucky,4.0
+1607,21211.0,,Shelby,Kentucky,5.0
+1608,21213.0,,Simpson,Kentucky,5.0
+1609,21215.0,,Spencer,Kentucky,2.0
+1610,21217.0,,Taylor,Kentucky,1.0
+1611,21219.0,,Todd,Kentucky,2.0
+1612,21221.0,,Trigg,Kentucky,2.0
+1613,21223.0,,Trimble,Kentucky,0.0
+1614,21225.0,,Union,Kentucky,1.0
+1615,21229.0,,Washington,Kentucky,1.0
+1616,21231.0,,Wayne,Kentucky,1.0
+1617,21233.0,,Webster,Kentucky,6.0
+1618,21235.0,,Whitley,Kentucky,0.0
+1619,21237.0,,Wolfe,Kentucky,0.0
+1620,21239.0,,Woodford,Kentucky,1.0
+1621,22001.0,,Acadia,Louisiana,7.0
+1622,22009.0,,Avoyelles,Louisiana,2.0
+1623,22011.0,,Beauregard,Louisiana,8.0
+1624,22013.0,,Bienville,Louisiana,17.0
+1625,22021.0,,Caldwell,Louisiana,2.0
+1626,22023.0,,Cameron,Louisiana,0.0
+1627,22025.0,,Catahoula,Louisiana,42.0
+1628,22027.0,,Claiborne,Louisiana,16.0
+1629,22029.0,,Concordia,Louisiana,7.0
+1630,22035.0,,East Carroll,Louisiana,2.0
+1631,22039.0,,Evangeline,Louisiana,6.0
+1632,22043.0,,Grant,Louisiana,2.0
+1633,22049.0,,Jackson,Louisiana,15.0
+1634,22053.0,,Jefferson Davis,Louisiana,5.0
+1635,22059.0,,LaSalle,Louisiana,5.0
+1636,22061.0,,Lincoln,Louisiana,22.0
+1637,22065.0,,Madison,Louisiana,1.0
+1638,22067.0,,Morehouse,Louisiana,10.0
+1639,22069.0,,Natchitoches,Louisiana,19.0
+1640,22077.0,,Pointe Coupee,Louisiana,8.0
+1641,22081.0,,Red River,Louisiana,6.0
+1642,22083.0,,Richland,Louisiana,17.0
+1643,22085.0,,Sabine,Louisiana,3.0
+1644,22091.0,,St. Helena,Louisiana,5.0
+1645,22107.0,,Tensas,Louisiana,0.0
+1646,22111.0,,Union,Louisiana,27.0
+1647,22113.0,,Vermilion,Louisiana,3.0
+1648,22115.0,,Vernon,Louisiana,1.0
+1649,22123.0,,West Carroll,Louisiana,0.0
+1650,22127.0,,Winn,Louisiana,10.0
+1651,23001.0,,Androscoggin,Maine,9.0
+1652,23003.0,,Aroostook,Maine,1.0
+1653,23007.0,,Franklin,Maine,6.0
+1654,23009.0,,Hancock,Maine,2.0
+1655,23011.0,,Kennebec,Maine,19.0
+1656,23013.0,,Knox,Maine,3.0
+1657,23015.0,,Lincoln,Maine,2.0
+1658,23017.0,,Oxford,Maine,0.0
+1659,23021.0,,Piscataquis,Maine,0.0
+1660,23023.0,,Sagadahoc,Maine,1.0
+1661,23025.0,,Somerset,Maine,0.0
+1662,23027.0,,Waldo,Maine,1.0
+1663,23029.0,,Washington,Maine,0.0
+1664,24019.0,,Dorchester,Maryland,25.0
+1665,24023.0,,Garrett,Maryland,0.0
+1666,24039.0,,Somerset,Maryland,14.0
+1667,24041.0,,Talbot,Maryland,11.0
+1668,24047.0,,Worcester,Maryland,20.0
+1669,25007.0,,Dukes,Massachusetts,0.0
+1670,25019.0,,Nantucket,Massachusetts,0.0
+1671,26001.0,,Alcona,Michigan,0.0
+1672,26003.0,,Alger,Michigan,0.0
+1673,26009.0,,Antrim,Michigan,0.0
+1674,26011.0,,Arenac,Michigan,6.0
+1675,26013.0,,Baraga,Michigan,0.0
+1676,26015.0,,Barry,Michigan,9.0
+1677,26019.0,,Benzie,Michigan,1.0
+1678,26023.0,,Branch,Michigan,26.0
+1679,26027.0,,Cass,Michigan,7.0
+1680,26029.0,,Charlevoix,Michigan,1.0
+1681,26031.0,,Cheboygan,Michigan,4.0
+1682,26033.0,,Chippewa,Michigan,0.0
+1683,26035.0,,Clare,Michigan,0.0
+1684,26039.0,,Crawford,Michigan,16.0
+1685,26041.0,,Delta,Michigan,2.0
+1686,26043.0,,Dickinson,Michigan,0.0
+1687,26047.0,,Emmet,Michigan,0.0
+1688,26051.0,,Gladwin,Michigan,3.0
+1689,26053.0,,Gogebic,Michigan,0.0
+1690,26055.0,,Grand Traverse,Michigan,0.0
+1691,26057.0,,Gratiot,Michigan,3.0
+1692,26061.0,,Houghton,Michigan,0.0
+1693,26063.0,,Huron,Michigan,4.0
+1694,26071.0,,Iron,Michigan,0.0
+1695,26073.0,,Isabella,Michigan,11.0
+1696,26079.0,,Kalkaska,Michigan,0.0
+1697,26083.0,,Keweenaw,Michigan,0.0
+1698,26085.0,,Lake,Michigan,0.0
+1699,26089.0,,Leelanau,Michigan,1.0
+1700,26091.0,,Lenawee,Michigan,19.0
+1701,26095.0,,Luce,Michigan,0.0
+1702,26097.0,,Mackinac,Michigan,1.0
+1703,26101.0,,Manistee,Michigan,0.0
+1704,26103.0,,Marquette,Michigan,10.0
+1705,26105.0,,Mason,Michigan,15.0
+1706,26107.0,,Mecosta,Michigan,0.0
+1707,26109.0,,Menominee,Michigan,4.0
+1708,26111.0,,Midland,Michigan,12.0
+1709,26113.0,,Missaukee,Michigan,4.0
+1710,26117.0,,Montcalm,Michigan,12.0
+1711,26119.0,,Montmorency,Michigan,0.0
+1712,26123.0,,Newaygo,Michigan,4.0
+1713,26127.0,,Oceana,Michigan,4.0
+1714,26129.0,,Ogemaw,Michigan,6.0
+1715,26131.0,,Ontonagon,Michigan,0.0
+1716,26133.0,,Osceola,Michigan,1.0
+1717,26135.0,,Oscoda,Michigan,0.0
+1718,26141.0,,Presque Isle,Michigan,2.0
+1719,26143.0,,Roscommon,Michigan,3.0
+1720,26149.0,,St. Joseph,Michigan,6.0
+1721,26151.0,,Sanilac,Michigan,4.0
+1722,26153.0,,Schoolcraft,Michigan,0.0
+1723,26159.0,,Van Buren,Michigan,11.0
+1724,26165.0,,Wexford,Michigan,1.0
+1725,27001.0,,Aitkin,Minnesota,0.0
+1726,27005.0,,Becker,Minnesota,0.0
+1727,27007.0,,Beltrami,Minnesota,0.0
+1728,27009.0,,Benton,Minnesota,34.0
+1729,27011.0,,Big Stone,Minnesota,0.0
+1730,27013.0,,Blue Earth,Minnesota,11.0
+1731,27015.0,,Brown,Minnesota,0.0
+1732,27017.0,,Carlton,Minnesota,16.0
+1733,27019.0,,Carver,Minnesota,3.0
+1734,27021.0,,Cass,Minnesota,0.0
+1735,27023.0,,Chippewa,Minnesota,0.0
+1736,27025.0,,Chisago,Minnesota,2.0
+1737,27029.0,,Clearwater,Minnesota,0.0
+1738,27031.0,,Cook,Minnesota,0.0
+1739,27033.0,,Cottonwood,Minnesota,36.0
+1740,27035.0,,Crow Wing,Minnesota,0.0
+1741,27039.0,,Dodge,Minnesota,3.0
+1742,27041.0,,Douglas,Minnesota,0.0
+1743,27043.0,,Faribault,Minnesota,0.0
+1744,27045.0,,Fillmore,Minnesota,0.0
+1745,27047.0,,Freeborn,Minnesota,1.0
+1746,27049.0,,Goodhue,Minnesota,0.0
+1747,27051.0,,Grant,Minnesota,0.0
+1748,27055.0,,Houston,Minnesota,0.0
+1749,27057.0,,Hubbard,Minnesota,0.0
+1750,27059.0,,Isanti,Minnesota,0.0
+1751,27061.0,,Itasca,Minnesota,4.0
+1752,27063.0,,Jackson,Minnesota,12.0
+1753,27065.0,,Kanabec,Minnesota,0.0
+1754,27069.0,,Kittson,Minnesota,0.0
+1755,27071.0,,Koochiching,Minnesota,0.0
+1756,27073.0,,Lac qui Parle,Minnesota,0.0
+1757,27075.0,,Lake,Minnesota,0.0
+1758,27077.0,,Lake of the Woods,Minnesota,0.0
+1759,27079.0,,Le Sueur,Minnesota,2.0
+1760,27081.0,,Lincoln,Minnesota,0.0
+1761,27083.0,,Lyon,Minnesota,1.0
+1762,27085.0,,McLeod,Minnesota,0.0
+1763,27087.0,,Mahnomen,Minnesota,0.0
+1764,27089.0,,Marshall,Minnesota,0.0
+1765,27093.0,,Meeker,Minnesota,9.0
+1766,27095.0,,Mille Lacs,Minnesota,0.0
+1767,27097.0,,Morrison,Minnesota,28.0
+1768,27099.0,,Mower,Minnesota,1.0
+1769,27101.0,,Murray,Minnesota,10.0
+1770,27103.0,,Nicollet,Minnesota,1.0
+1771,27107.0,,Norman,Minnesota,3.0
+1772,27111.0,,Otter Tail,Minnesota,2.0
+1773,27113.0,,Pennington,Minnesota,0.0
+1774,27117.0,,Pipestone,Minnesota,0.0
+1775,27119.0,,Polk,Minnesota,10.0
+1776,27121.0,,Pope,Minnesota,0.0
+1777,27125.0,,Red Lake,Minnesota,0.0
+1778,27127.0,,Redwood,Minnesota,0.0
+1779,27129.0,,Renville,Minnesota,0.0
+1780,27131.0,,Rice,Minnesota,5.0
+1781,27133.0,,Rock,Minnesota,8.0
+1782,27135.0,,Roseau,Minnesota,0.0
+1783,27137.0,,St. Louis,Minnesota,15.0
+1784,27139.0,,Scott,Minnesota,18.0
+1785,27141.0,,Sherburne,Minnesota,5.0
+1786,27143.0,,Sibley,Minnesota,0.0
+1787,27147.0,,Steele,Minnesota,5.0
+1788,27149.0,,Stevens,Minnesota,0.0
+1789,27151.0,,Swift,Minnesota,0.0
+1790,27153.0,,Todd,Minnesota,2.0
+1791,27155.0,,Traverse,Minnesota,0.0
+1792,27157.0,,Wabasha,Minnesota,0.0
+1793,27159.0,,Wadena,Minnesota,0.0
+1794,27161.0,,Waseca,Minnesota,0.0
+1795,27165.0,,Watonwan,Minnesota,8.0
+1796,27167.0,,Wilkin,Minnesota,2.0
+1797,27169.0,,Winona,Minnesota,5.0
+1798,27171.0,,Wright,Minnesota,11.0
+1799,27173.0,,Yellow Medicine,Minnesota,0.0
+1800,28003.0,,Alcorn,Mississippi,2.0
+1801,28005.0,,Amite,Mississippi,7.0
+1802,28009.0,,Benton,Mississippi,2.0
+1803,28013.0,,Calhoun,Mississippi,4.0
+1804,28017.0,,Chickasaw,Mississippi,16.0
+1805,28019.0,,Choctaw,Mississippi,1.0
+1806,28021.0,,Claiborne,Mississippi,7.0
+1807,28023.0,,Clarke,Mississippi,17.0
+1808,28025.0,,Clay,Mississippi,11.0
+1809,28027.0,,Coahoma,Mississippi,9.0
+1810,28031.0,,Covington,Mississippi,21.0
+1811,28037.0,,Franklin,Mississippi,3.0
+1812,28039.0,,George,Mississippi,2.0
+1813,28041.0,,Greene,Mississippi,1.0
+1814,28043.0,,Grenada,Mississippi,5.0
+1815,28045.0,,Hancock,Mississippi,8.0
+1816,28053.0,,Humphreys,Mississippi,8.0
+1817,28055.0,,Issaquena,Mississippi,0.0
+1818,28057.0,,Itawamba,Mississippi,30.0
+1819,28061.0,,Jasper,Mississippi,14.0
+1820,28063.0,,Jefferson,Mississippi,7.0
+1821,28065.0,,Jefferson Davis,Mississippi,13.0
+1822,28073.0,,Lamar,Mississippi,27.0
+1823,28077.0,,Lawrence,Mississippi,21.0
+1824,28081.0,,Lee,Mississippi,11.0
+1825,28087.0,,Lowndes,Mississippi,15.0
+1826,28091.0,,Marion,Mississippi,21.0
+1827,28093.0,,Marshall,Mississippi,4.0
+1828,28097.0,,Montgomery,Mississippi,7.0
+1829,28105.0,,Oktibbeha,Mississippi,7.0
+1830,28107.0,,Panola,Mississippi,6.0
+1831,28111.0,,Perry,Mississippi,5.0
+1832,28115.0,,Pontotoc,Mississippi,2.0
+1833,28117.0,,Prentiss,Mississippi,6.0
+1834,28119.0,,Quitman,Mississippi,0.0
+1835,28125.0,,Sharkey,Mississippi,1.0
+1836,28127.0,,Simpson,Mississippi,8.0
+1837,28129.0,,Smith,Mississippi,26.0
+1838,28131.0,,Stone,Mississippi,0.0
+1839,28133.0,,Sunflower,Mississippi,3.0
+1840,28135.0,,Tallahatchie,Mississippi,1.0
+1841,28137.0,,Tate,Mississippi,7.0
+1842,28139.0,,Tippah,Mississippi,4.0
+1843,28141.0,,Tishomingo,Mississippi,1.0
+1844,28143.0,,Tunica,Mississippi,3.0
+1845,28145.0,,Union,Mississippi,3.0
+1846,28147.0,,Walthall,Mississippi,6.0
+1847,28151.0,,Washington,Mississippi,1.0
+1848,28153.0,,Wayne,Mississippi,6.0
+1849,28155.0,,Webster,Mississippi,2.0
+1850,28157.0,,Wilkinson,Mississippi,4.0
+1851,28159.0,,Winston,Mississippi,8.0
+1852,28161.0,,Yalobusha,Mississippi,3.0
+1853,29001.0,,Adair,Missouri,0.0
+1854,29003.0,,Andrew,Missouri,0.0
+1855,29005.0,,Atchison,Missouri,0.0
+1856,29007.0,,Audrain,Missouri,0.0
+1857,29009.0,,Barry,Missouri,1.0
+1858,29011.0,,Barton,Missouri,0.0
+1859,29013.0,,Bates,Missouri,0.0
+1860,29015.0,,Benton,Missouri,2.0
+1861,29017.0,,Bollinger,Missouri,0.0
+1862,29019.0,,Boone,Missouri,3.0
+1863,29023.0,,Butler,Missouri,0.0
+1864,29025.0,,Caldwell,Missouri,0.0
+1865,29027.0,,Callaway,Missouri,0.0
+1866,29029.0,,Camden,Missouri,3.0
+1867,29031.0,,Cape Girardeau,Missouri,10.0
+1868,29033.0,,Carroll,Missouri,0.0
+1869,29035.0,,Carter,Missouri,0.0
+1870,29037.0,,Cass,Missouri,11.0
+1871,29039.0,,Cedar,Missouri,0.0
+1872,29041.0,,Chariton,Missouri,0.0
+1873,29043.0,,Christian,Missouri,1.0
+1874,29045.0,,Clark,Missouri,0.0
+1875,29047.0,,Clay,Missouri,6.0
+1876,29049.0,,Clinton,Missouri,0.0
+1877,29051.0,,Cole,Missouri,7.0
+1878,29053.0,,Cooper,Missouri,1.0
+1879,29055.0,,Crawford,Missouri,1.0
+1880,29057.0,,Dade,Missouri,0.0
+1881,29059.0,,Dallas,Missouri,0.0
+1882,29061.0,,Daviess,Missouri,0.0
+1883,29063.0,,DeKalb,Missouri,0.0
+1884,29065.0,,Dent,Missouri,0.0
+1885,29067.0,,Douglas,Missouri,0.0
+1886,29069.0,,Dunklin,Missouri,2.0
+1887,29071.0,,Franklin,Missouri,13.0
+1888,29073.0,,Gasconade,Missouri,0.0
+1889,29075.0,,Gentry,Missouri,0.0
+1890,29077.0,,Greene,Missouri,5.0
+1891,29079.0,,Grundy,Missouri,0.0
+1892,29081.0,,Harrison,Missouri,0.0
+1893,29083.0,,Henry,Missouri,1.0
+1894,29085.0,,Hickory,Missouri,0.0
+1895,29087.0,,Holt,Missouri,0.0
+1896,29089.0,,Howard,Missouri,0.0
+1897,29091.0,,Howell,Missouri,0.0
+1898,29093.0,,Iron,Missouri,0.0
+1899,29097.0,,Jasper,Missouri,1.0
+1900,29101.0,,Johnson,Missouri,2.0
+1901,29103.0,,Knox,Missouri,0.0
+1902,29105.0,,Laclede,Missouri,0.0
+1903,29107.0,,Lafayette,Missouri,6.0
+1904,29109.0,,Lawrence,Missouri,0.0
+1905,29111.0,,Lewis,Missouri,0.0
+1906,29113.0,,Lincoln,Missouri,15.0
+1907,29115.0,,Linn,Missouri,0.0
+1908,29117.0,,Livingston,Missouri,0.0
+1909,29119.0,,McDonald,Missouri,0.0
+1910,29121.0,,Macon,Missouri,0.0
+1911,29123.0,,Madison,Missouri,0.0
+1912,29125.0,,Maries,Missouri,0.0
+1913,29127.0,,Marion,Missouri,0.0
+1914,29129.0,,Mercer,Missouri,0.0
+1915,29131.0,,Miller,Missouri,0.0
+1916,29137.0,,Monroe,Missouri,0.0
+1917,29139.0,,Montgomery,Missouri,0.0
+1918,29141.0,,Morgan,Missouri,0.0
+1919,29143.0,,New Madrid,Missouri,1.0
+1920,29145.0,,Newton,Missouri,1.0
+1921,29147.0,,Nodaway,Missouri,0.0
+1922,29149.0,,Oregon,Missouri,0.0
+1923,29151.0,,Osage,Missouri,0.0
+1924,29153.0,,Ozark,Missouri,0.0
+1925,29155.0,,Pemiscot,Missouri,11.0
+1926,29157.0,,Perry,Missouri,5.0
+1927,29159.0,,Pettis,Missouri,16.0
+1928,29161.0,,Phelps,Missouri,0.0
+1929,29163.0,,Pike,Missouri,4.0
+1930,29165.0,,Platte,Missouri,3.0
+1931,29167.0,,Polk,Missouri,0.0
+1932,29169.0,,Pulaski,Missouri,2.0
+1933,29171.0,,Putnam,Missouri,0.0
+1934,29173.0,,Ralls,Missouri,0.0
+1935,29175.0,,Randolph,Missouri,0.0
+1936,29177.0,,Ray,Missouri,2.0
+1937,29179.0,,Reynolds,Missouri,0.0
+1938,29181.0,,Ripley,Missouri,1.0
+1939,29185.0,,St. Clair,Missouri,0.0
+1940,29186.0,,Ste. Genevieve,Missouri,0.0
+1941,29187.0,,St. Francois,Missouri,3.0
+1942,29197.0,,Schuyler,Missouri,0.0
+1943,29199.0,,Scotland,Missouri,0.0
+1944,29201.0,,Scott,Missouri,11.0
+1945,29203.0,,Shannon,Missouri,0.0
+1946,29205.0,,Shelby,Missouri,0.0
+1947,29207.0,,Stoddard,Missouri,2.0
+1948,29209.0,,Stone,Missouri,0.0
+1949,29211.0,,Sullivan,Missouri,0.0
+1950,29213.0,,Taney,Missouri,2.0
+1951,29215.0,,Texas,Missouri,0.0
+1952,29217.0,,Vernon,Missouri,0.0
+1953,29219.0,,Warren,Missouri,1.0
+1954,29221.0,,Washington,Missouri,1.0
+1955,29223.0,,Wayne,Missouri,0.0
+1956,29225.0,,Webster,Missouri,4.0
+1957,29227.0,,Worth,Missouri,0.0
+1958,29229.0,,Wright,Missouri,1.0
+1959,30001.0,,Beaverhead,Montana,0.0
+1960,30003.0,,Big Horn,Montana,0.0
+1961,30005.0,,Blaine,Montana,0.0
+1962,30007.0,,Broadwater,Montana,0.0
+1963,30009.0,,Carbon,Montana,0.0
+1964,30011.0,,Carter,Montana,0.0
+1965,30013.0,,Cascade,Montana,1.0
+1966,30015.0,,Chouteau,Montana,0.0
+1967,30017.0,,Custer,Montana,0.0
+1968,30019.0,,Daniels,Montana,0.0
+1969,30021.0,,Dawson,Montana,0.0
+1970,30023.0,,Deer Lodge,Montana,0.0
+1971,30025.0,,Fallon,Montana,0.0
+1972,30027.0,,Fergus,Montana,-1.0
+1973,30029.0,,Flathead,Montana,0.0
+1974,30033.0,,Garfield,Montana,0.0
+1975,30035.0,,Glacier,Montana,1.0
+1976,30037.0,,Golden Valley,Montana,0.0
+1977,30039.0,,Granite,Montana,0.0
+1978,30041.0,,Hill,Montana,0.0
+1979,30043.0,,Jefferson,Montana,0.0
+1980,30045.0,,Judith Basin,Montana,0.0
+1981,30047.0,,Lake,Montana,0.0
+1982,30049.0,,Lewis and Clark,Montana,1.0
+1983,30051.0,,Liberty,Montana,0.0
+1984,30053.0,,Lincoln,Montana,0.0
+1985,30055.0,,McCone,Montana,0.0
+1986,30057.0,,Madison,Montana,0.0
+1987,30059.0,,Meagher,Montana,0.0
+1988,30061.0,,Mineral,Montana,0.0
+1989,30063.0,,Missoula,Montana,0.0
+1990,30065.0,,Musselshell,Montana,0.0
+1991,30067.0,,Park,Montana,0.0
+1992,30069.0,,Petroleum,Montana,0.0
+1993,30071.0,,Phillips,Montana,0.0
+1994,30073.0,,Pondera,Montana,0.0
+1995,30075.0,,Powder River,Montana,0.0
+1996,30077.0,,Powell,Montana,0.0
+1997,30079.0,,Prairie,Montana,0.0
+1998,30081.0,,Ravalli,Montana,0.0
+1999,30083.0,,Richland,Montana,0.0
+2000,30085.0,,Roosevelt,Montana,1.0
+2001,30087.0,,Rosebud,Montana,0.0
+2002,30089.0,,Sanders,Montana,0.0
+2003,30091.0,,Sheridan,Montana,0.0
+2004,30093.0,,Silver Bow,Montana,0.0
+2005,30095.0,,Stillwater,Montana,0.0
+2006,30097.0,,Sweet Grass,Montana,0.0
+2007,30099.0,,Teton,Montana,0.0
+2008,30101.0,,Toole,Montana,1.0
+2009,30103.0,,Treasure,Montana,0.0
+2010,30105.0,,Valley,Montana,0.0
+2011,30107.0,,Wheatland,Montana,0.0
+2012,30109.0,,Wibaux,Montana,0.0
+2013,30111.0,,Yellowstone,Montana,3.0
+2014,31003.0,,Antelope,Nebraska,0.0
+2015,31005.0,,Arthur,Nebraska,0.0
+2016,31007.0,,Banner,Nebraska,0.0
+2017,31009.0,,Blaine,Nebraska,0.0
+2018,31011.0,,Boone,Nebraska,0.0
+2019,31013.0,,Box Butte,Nebraska,0.0
+2020,31015.0,,Boyd,Nebraska,0.0
+2021,31017.0,,Brown,Nebraska,0.0
+2022,31021.0,,Burt,Nebraska,0.0
+2023,31023.0,,Butler,Nebraska,2.0
+2024,31025.0,,Cass,Nebraska,0.0
+2025,31027.0,,Cedar,Nebraska,0.0
+2026,31029.0,,Chase,Nebraska,0.0
+2027,31031.0,,Cherry,Nebraska,0.0
+2028,31033.0,,Cheyenne,Nebraska,1.0
+2029,31035.0,,Clay,Nebraska,4.0
+2030,31039.0,,Cuming,Nebraska,6.0
+2031,31041.0,,Custer,Nebraska,1.0
+2032,31045.0,,Dawes,Nebraska,-1.0
+2033,31049.0,,Deuel,Nebraska,0.0
+2034,31051.0,,Dixon,Nebraska,12.0
+2035,31053.0,,Dodge,Nebraska,17.0
+2036,31057.0,,Dundy,Nebraska,0.0
+2037,31059.0,,Fillmore,Nebraska,0.0
+2038,31061.0,,Franklin,Nebraska,1.0
+2039,31063.0,,Frontier,Nebraska,-1.0
+2040,31065.0,,Furnas,Nebraska,0.0
+2041,31067.0,,Gage,Nebraska,8.0
+2042,31069.0,,Garden,Nebraska,0.0
+2043,31071.0,,Garfield,Nebraska,0.0
+2044,31073.0,,Gosper,Nebraska,1.0
+2045,31075.0,,Grant,Nebraska,0.0
+2046,31077.0,,Greeley,Nebraska,2.0
+2047,31081.0,,Hamilton,Nebraska,9.0
+2048,31083.0,,Harlan,Nebraska,0.0
+2049,31085.0,,Hayes,Nebraska,0.0
+2050,31087.0,,Hitchcock,Nebraska,-1.0
+2051,31089.0,,Holt,Nebraska,0.0
+2052,31091.0,,Hooker,Nebraska,0.0
+2053,31093.0,,Howard,Nebraska,4.0
+2054,31095.0,,Jefferson,Nebraska,0.0
+2055,31097.0,,Johnson,Nebraska,1.0
+2056,31099.0,,Kearney,Nebraska,0.0
+2057,31101.0,,Keith,Nebraska,0.0
+2058,31103.0,,Keya Paha,Nebraska,0.0
+2059,31105.0,,Kimball,Nebraska,0.0
+2060,31107.0,,Knox,Nebraska,0.0
+2061,31111.0,,Lincoln,Nebraska,9.0
+2062,31113.0,,Logan,Nebraska,0.0
+2063,31115.0,,Loup,Nebraska,0.0
+2064,31117.0,,McPherson,Nebraska,0.0
+2065,31121.0,,Merrick,Nebraska,3.0
+2066,31123.0,,Morrill,Nebraska,0.0
+2067,31125.0,,Nance,Nebraska,0.0
+2068,31127.0,,Nemaha,Nebraska,0.0
+2069,31129.0,,Nuckolls,Nebraska,0.0
+2070,31131.0,,Otoe,Nebraska,0.0
+2071,31133.0,,Pawnee,Nebraska,0.0
+2072,31135.0,,Perkins,Nebraska,0.0
+2073,31137.0,,Phelps,Nebraska,6.0
+2074,31139.0,,Pierce,Nebraska,0.0
+2075,31143.0,,Polk,Nebraska,9.0
+2076,31145.0,,Red Willow,Nebraska,1.0
+2077,31147.0,,Richardson,Nebraska,0.0
+2078,31149.0,,Rock,Nebraska,0.0
+2079,31155.0,,Saunders,Nebraska,1.0
+2080,31157.0,,Scotts Bluff,Nebraska,5.0
+2081,31159.0,,Seward,Nebraska,2.0
+2082,31161.0,,Sheridan,Nebraska,0.0
+2083,31163.0,,Sherman,Nebraska,0.0
+2084,31165.0,,Sioux,Nebraska,0.0
+2085,31167.0,,Stanton,Nebraska,1.0
+2086,31169.0,,Thayer,Nebraska,0.0
+2087,31171.0,,Thomas,Nebraska,0.0
+2088,31173.0,,Thurston,Nebraska,6.0
+2089,31175.0,,Valley,Nebraska,0.0
+2090,31177.0,,Washington,Nebraska,1.0
+2091,31179.0,,Wayne,Nebraska,0.0
+2092,31181.0,,Webster,Nebraska,1.0
+2093,31183.0,,Wheeler,Nebraska,0.0
+2094,31185.0,,York,Nebraska,3.0
+2095,32001.0,,Churchill,Nevada,0.0
+2096,32005.0,,Douglas,Nevada,3.0
+2097,32007.0,,Elko,Nevada,2.0
+2098,32009.0,,Esmeralda,Nevada,0.0
+2099,32011.0,,Eureka,Nevada,0.0
+2100,32013.0,,Humboldt,Nevada,5.0
+2101,32015.0,,Lander,Nevada,0.0
+2102,32017.0,,Lincoln,Nevada,0.0
+2103,32019.0,,Lyon,Nevada,8.0
+2104,32021.0,,Mineral,Nevada,2.0
+2105,32023.0,,Nye,Nevada,8.0
+2106,32027.0,,Pershing,Nevada,0.0
+2107,32029.0,,Storey,Nevada,0.0
+2108,32033.0,,White Pine,Nevada,0.0
+2109,32510.0,,Carson City,Nevada,12.0
+2110,33001.0,,Belknap,New Hampshire,6.0
+2111,33003.0,,Carroll,New Hampshire,0.0
+2112,33005.0,,Cheshire,New Hampshire,4.0
+2113,33007.0,,Coos,New Hampshire,0.0
+2114,33009.0,,Grafton,New Hampshire,3.0
+2115,33019.0,,Sullivan,New Hampshire,2.0
+2116,35003.0,,Catron,New Mexico,0.0
+2117,35005.0,,Chaves,New Mexico,0.0
+2118,35006.0,,Cibola,New Mexico,14.0
+2119,35007.0,,Colfax,New Mexico,0.0
+2120,35009.0,,Curry,New Mexico,6.0
+2121,35011.0,,De Baca,New Mexico,0.0
+2122,35015.0,,Eddy,New Mexico,2.0
+2123,35017.0,,Grant,New Mexico,0.0
+2124,35019.0,,Guadalupe,New Mexico,5.0
+2125,35021.0,,Harding,New Mexico,0.0
+2126,35023.0,,Hidalgo,New Mexico,0.0
+2127,35025.0,,Lea,New Mexico,0.0
+2128,35027.0,,Lincoln,New Mexico,0.0
+2129,35028.0,,Los Alamos,New Mexico,0.0
+2130,35029.0,,Luna,New Mexico,1.0
+2131,35033.0,,Mora,New Mexico,0.0
+2132,35035.0,,Otero,New Mexico,0.0
+2133,35037.0,,Quay,New Mexico,0.0
+2134,35039.0,,Rio Arriba,New Mexico,3.0
+2135,35041.0,,Roosevelt,New Mexico,4.0
+2136,35047.0,,San Miguel,New Mexico,0.0
+2137,35049.0,,Santa Fe,New Mexico,8.0
+2138,35051.0,,Sierra,New Mexico,0.0
+2139,35053.0,,Socorro,New Mexico,7.0
+2140,35055.0,,Taos,New Mexico,3.0
+2141,35057.0,,Torrance,New Mexico,2.0
+2142,35059.0,,Union,New Mexico,0.0
+2143,35061.0,,Valencia,New Mexico,9.0
+2144,36003.0,,Allegany,New York,6.0
+2145,36005.0,,Bronx,New York,0.0
+2146,36009.0,,Cattaraugus,New York,9.0
+2147,36011.0,,Cayuga,New York,9.0
+2148,36013.0,,Chautauqua,New York,5.0
+2149,36017.0,,Chenango,New York,12.0
+2150,36019.0,,Clinton,New York,4.0
+2151,36023.0,,Cortland,New York,3.0
+2152,36025.0,,Delaware,New York,5.0
+2153,36031.0,,Essex,New York,6.0
+2154,36033.0,,Franklin,New York,1.0
+2155,36041.0,,Hamilton,New York,0.0
+2156,36043.0,,Herkimer,New York,4.0
+2157,36047.0,,Kings,New York,0.0
+2158,36049.0,,Lewis,New York,1.0
+2159,36053.0,,Madison,New York,15.0
+2160,36057.0,,Montgomery,New York,11.0
+2161,36069.0,,Ontario,New York,14.0
+2162,36075.0,,Oswego,New York,10.0
+2163,36077.0,,Otsego,New York,13.0
+2164,36081.0,,Queens,New York,0.0
+2165,36085.0,,Richmond,New York,0.0
+2166,36095.0,,Schoharie,New York,9.0
+2167,36097.0,,Schuyler,New York,0.0
+2168,36099.0,,Seneca,New York,9.0
+2169,36109.0,,Tompkins,New York,5.0
+2170,36117.0,,Wayne,New York,13.0
+2171,36121.0,,Wyoming,New York,14.0
+2172,36123.0,,Yates,New York,6.0
+2173,37003.0,,Alexander,North Carolina,0.0
+2174,37005.0,,Alleghany,North Carolina,1.0
+2175,37007.0,,Anson,North Carolina,6.0
+2176,37009.0,,Ashe,North Carolina,1.0
+2177,37011.0,,Avery,North Carolina,0.0
+2178,37013.0,,Beaufort,North Carolina,5.0
+2179,37015.0,,Bertie,North Carolina,10.0
+2180,37017.0,,Bladen,North Carolina,38.0
+2181,37019.0,,Brunswick,North Carolina,6.0
+2182,37027.0,,Caldwell,North Carolina,7.0
+2183,37029.0,,Camden,North Carolina,0.0
+2184,37031.0,,Carteret,North Carolina,5.0
+2185,37033.0,,Caswell,North Carolina,8.0
+2186,37035.0,,Catawba,North Carolina,8.0
+2187,37039.0,,Cherokee,North Carolina,1.0
+2188,37041.0,,Chowan,North Carolina,1.0
+2189,37043.0,,Clay,North Carolina,0.0
+2190,37045.0,,Cleveland,North Carolina,0.0
+2191,37049.0,,Craven,North Carolina,3.0
+2192,37053.0,,Currituck,North Carolina,0.0
+2193,37055.0,,Dare,North Carolina,2.0
+2194,37059.0,,Davie,North Carolina,5.0
+2195,37073.0,,Gates,North Carolina,1.0
+2196,37075.0,,Graham,North Carolina,0.0
+2197,37079.0,,Greene,North Carolina,3.0
+2198,37083.0,,Halifax,North Carolina,18.0
+2199,37087.0,,Haywood,North Carolina,5.0
+2200,37091.0,,Hertford,North Carolina,19.0
+2201,37095.0,,Hyde,North Carolina,0.0
+2202,37097.0,,Iredell,North Carolina,18.0
+2203,37099.0,,Jackson,North Carolina,16.0
+2204,37103.0,,Jones,North Carolina,3.0
+2205,37109.0,,Lincoln,North Carolina,5.0
+2206,37111.0,,McDowell,North Carolina,5.0
+2207,37113.0,,Macon,North Carolina,0.0
+2208,37115.0,,Madison,North Carolina,0.0
+2209,37117.0,,Martin,North Carolina,4.0
+2210,37121.0,,Mitchell,North Carolina,0.0
+2211,37123.0,,Montgomery,North Carolina,19.0
+2212,37127.0,,Nash,North Carolina,4.0
+2213,37129.0,,New Hanover,North Carolina,3.0
+2214,37131.0,,Northampton,North Carolina,12.0
+2215,37133.0,,Onslow,North Carolina,5.0
+2216,37137.0,,Pamlico,North Carolina,1.0
+2217,37139.0,,Pasquotank,North Carolina,7.0
+2218,37141.0,,Pender,North Carolina,3.0
+2219,37143.0,,Perquimans,North Carolina,0.0
+2220,37145.0,,Person,North Carolina,3.0
+2221,37147.0,,Pitt,North Carolina,22.0
+2222,37149.0,,Polk,North Carolina,14.0
+2223,37153.0,,Richmond,North Carolina,14.0
+2224,37157.0,,Rockingham,North Carolina,5.0
+2225,37165.0,,Scotland,North Carolina,6.0
+2226,37167.0,,Stanly,North Carolina,6.0
+2227,37169.0,,Stokes,North Carolina,0.0
+2228,37171.0,,Surry,North Carolina,0.0
+2229,37173.0,,Swain,North Carolina,0.0
+2230,37175.0,,Transylvania,North Carolina,0.0
+2231,37177.0,,Tyrrell,North Carolina,0.0
+2232,37185.0,,Warren,North Carolina,12.0
+2233,37187.0,,Washington,North Carolina,1.0
+2234,37189.0,,Watauga,North Carolina,0.0
+2235,37193.0,,Wilkes,North Carolina,27.0
+2236,37197.0,,Yadkin,North Carolina,3.0
+2237,37199.0,,Yancey,North Carolina,0.0
+2238,38001.0,,Adams,North Dakota,0.0
+2239,38003.0,,Barnes,North Dakota,0.0
+2240,38005.0,,Benson,North Dakota,0.0
+2241,38007.0,,Billings,North Dakota,0.0
+2242,38009.0,,Bottineau,North Dakota,0.0
+2243,38011.0,,Bowman,North Dakota,0.0
+2244,38013.0,,Burke,North Dakota,0.0
+2245,38015.0,,Burleigh,North Dakota,14.0
+2246,38019.0,,Cavalier,North Dakota,0.0
+2247,38021.0,,Dickey,North Dakota,0.0
+2248,38023.0,,Divide,North Dakota,0.0
+2249,38025.0,,Dunn,North Dakota,2.0
+2250,38027.0,,Eddy,North Dakota,0.0
+2251,38029.0,,Emmons,North Dakota,0.0
+2252,38031.0,,Foster,North Dakota,0.0
+2253,38033.0,,Golden Valley,North Dakota,0.0
+2254,38037.0,,Grant,North Dakota,0.0
+2255,38039.0,,Griggs,North Dakota,0.0
+2256,38041.0,,Hettinger,North Dakota,0.0
+2257,38043.0,,Kidder,North Dakota,0.0
+2258,38045.0,,LaMoure,North Dakota,0.0
+2259,38047.0,,Logan,North Dakota,0.0
+2260,38049.0,,McHenry,North Dakota,0.0
+2261,38051.0,,McIntosh,North Dakota,0.0
+2262,38053.0,,McKenzie,North Dakota,3.0
+2263,38055.0,,McLean,North Dakota,0.0
+2264,38057.0,,Mercer,North Dakota,0.0
+2265,38059.0,,Morton,North Dakota,3.0
+2266,38061.0,,Mountrail,North Dakota,5.0
+2267,38063.0,,Nelson,North Dakota,0.0
+2268,38065.0,,Oliver,North Dakota,0.0
+2269,38067.0,,Pembina,North Dakota,2.0
+2270,38069.0,,Pierce,North Dakota,0.0
+2271,38071.0,,Ramsey,North Dakota,0.0
+2272,38073.0,,Ransom,North Dakota,0.0
+2273,38075.0,,Renville,North Dakota,0.0
+2274,38077.0,,Richland,North Dakota,1.0
+2275,38079.0,,Rolette,North Dakota,0.0
+2276,38081.0,,Sargent,North Dakota,0.0
+2277,38083.0,,Sheridan,North Dakota,0.0
+2278,38085.0,,Sioux,North Dakota,0.0
+2279,38087.0,,Slope,North Dakota,0.0
+2280,38089.0,,Stark,North Dakota,13.0
+2281,38091.0,,Steele,North Dakota,0.0
+2282,38093.0,,Stutsman,North Dakota,2.0
+2283,38095.0,,Towner,North Dakota,0.0
+2284,38097.0,,Traill,North Dakota,0.0
+2285,38099.0,,Walsh,North Dakota,1.0
+2286,38101.0,,Ward,North Dakota,0.0
+2287,38103.0,,Wells,North Dakota,0.0
+2288,38105.0,,Williams,North Dakota,1.0
+2289,39001.0,,Adams,Ohio,0.0
+2290,39005.0,,Ashland,Ohio,1.0
+2291,39009.0,,Athens,Ohio,0.0
+2292,39011.0,,Auglaize,Ohio,7.0
+2293,39015.0,,Brown,Ohio,0.0
+2294,39019.0,,Carroll,Ohio,4.0
+2295,39021.0,,Champaign,Ohio,3.0
+2296,39025.0,,Clermont,Ohio,22.0
+2297,39027.0,,Clinton,Ohio,3.0
+2298,39031.0,,Coshocton,Ohio,1.0
+2299,39033.0,,Crawford,Ohio,9.0
+2300,39037.0,,Darke,Ohio,13.0
+2301,39039.0,,Defiance,Ohio,4.0
+2302,39041.0,,Delaware,Ohio,30.0
+2303,39043.0,,Erie,Ohio,17.0
+2304,39047.0,,Fayette,Ohio,2.0
+2305,39051.0,,Fulton,Ohio,5.0
+2306,39053.0,,Gallia,Ohio,0.0
+2307,39057.0,,Greene,Ohio,7.0
+2308,39059.0,,Guernsey,Ohio,2.0
+2309,39063.0,,Hancock,Ohio,6.0
+2310,39065.0,,Hardin,Ohio,6.0
+2311,39067.0,,Harrison,Ohio,1.0
+2312,39069.0,,Henry,Ohio,1.0
+2313,39071.0,,Highland,Ohio,2.0
+2314,39073.0,,Hocking,Ohio,9.0
+2315,39075.0,,Holmes,Ohio,1.0
+2316,39077.0,,Huron,Ohio,6.0
+2317,39079.0,,Jackson,Ohio,0.0
+2318,39081.0,,Jefferson,Ohio,9.0
+2319,39083.0,,Knox,Ohio,2.0
+2320,39087.0,,Lawrence,Ohio,2.0
+2321,39091.0,,Logan,Ohio,3.0
+2322,39097.0,,Madison,Ohio,18.0
+2323,39103.0,,Medina,Ohio,18.0
+2324,39105.0,,Meigs,Ohio,0.0
+2325,39107.0,,Mercer,Ohio,4.0
+2326,39111.0,,Monroe,Ohio,0.0
+2327,39115.0,,Morgan,Ohio,0.0
+2328,39117.0,,Morrow,Ohio,16.0
+2329,39119.0,,Muskingum,Ohio,2.0
+2330,39121.0,,Noble,Ohio,0.0
+2331,39123.0,,Ottawa,Ohio,3.0
+2332,39125.0,,Paulding,Ohio,1.0
+2333,39127.0,,Perry,Ohio,1.0
+2334,39131.0,,Pike,Ohio,0.0
+2335,39135.0,,Preble,Ohio,3.0
+2336,39139.0,,Richland,Ohio,15.0
+2337,39141.0,,Ross,Ohio,9.0
+2338,39143.0,,Sandusky,Ohio,7.0
+2339,39145.0,,Scioto,Ohio,2.0
+2340,39147.0,,Seneca,Ohio,2.0
+2341,39149.0,,Shelby,Ohio,0.0
+2342,39159.0,,Union,Ohio,4.0
+2343,39161.0,,Van Wert,Ohio,0.0
+2344,39163.0,,Vinton,Ohio,-5.0
+2345,39171.0,,Williams,Ohio,8.0
+2346,39175.0,,Wyandot,Ohio,3.0
+2347,40001.0,,Adair,Oklahoma,14.0
+2348,40003.0,,Alfalfa,Oklahoma,0.0
+2349,40005.0,,Atoka,Oklahoma,0.0
+2350,40007.0,,Beaver,Oklahoma,9.0
+2351,40009.0,,Beckham,Oklahoma,1.0
+2352,40011.0,,Blaine,Oklahoma,0.0
+2353,40013.0,,Bryan,Oklahoma,1.0
+2354,40015.0,,Caddo,Oklahoma,14.0
+2355,40017.0,,Canadian,Oklahoma,17.0
+2356,40019.0,,Carter,Oklahoma,0.0
+2357,40021.0,,Cherokee,Oklahoma,0.0
+2358,40023.0,,Choctaw,Oklahoma,0.0
+2359,40025.0,,Cimarron,Oklahoma,0.0
+2360,40029.0,,Coal,Oklahoma,0.0
+2361,40031.0,,Comanche,Oklahoma,6.0
+2362,40033.0,,Cotton,Oklahoma,0.0
+2363,40035.0,,Craig,Oklahoma,2.0
+2364,40037.0,,Creek,Oklahoma,6.0
+2365,40039.0,,Custer,Oklahoma,1.0
+2366,40041.0,,Delaware,Oklahoma,0.0
+2367,40043.0,,Dewey,Oklahoma,0.0
+2368,40045.0,,Ellis,Oklahoma,0.0
+2369,40047.0,,Garfield,Oklahoma,6.0
+2370,40049.0,,Garvin,Oklahoma,1.0
+2371,40051.0,,Grady,Oklahoma,9.0
+2372,40053.0,,Grant,Oklahoma,0.0
+2373,40057.0,,Harmon,Oklahoma,0.0
+2374,40059.0,,Harper,Oklahoma,0.0
+2375,40061.0,,Haskell,Oklahoma,0.0
+2376,40063.0,,Hughes,Oklahoma,0.0
+2377,40065.0,,Jackson,Oklahoma,2.0
+2378,40067.0,,Jefferson,Oklahoma,0.0
+2379,40069.0,,Johnston,Oklahoma,0.0
+2380,40071.0,,Kay,Oklahoma,0.0
+2381,40073.0,,Kingfisher,Oklahoma,1.0
+2382,40075.0,,Kiowa,Oklahoma,0.0
+2383,40077.0,,Latimer,Oklahoma,0.0
+2384,40079.0,,Le Flore,Oklahoma,3.0
+2385,40081.0,,Lincoln,Oklahoma,4.0
+2386,40083.0,,Logan,Oklahoma,3.0
+2387,40085.0,,Love,Oklahoma,0.0
+2388,40089.0,,McCurtain,Oklahoma,0.0
+2389,40091.0,,McIntosh,Oklahoma,0.0
+2390,40093.0,,Major,Oklahoma,0.0
+2391,40095.0,,Marshall,Oklahoma,0.0
+2392,40097.0,,Mayes,Oklahoma,3.0
+2393,40099.0,,Murray,Oklahoma,0.0
+2394,40101.0,,Muskogee,Oklahoma,5.0
+2395,40103.0,,Noble,Oklahoma,0.0
+2396,40105.0,,Nowata,Oklahoma,4.0
+2397,40107.0,,Okfuskee,Oklahoma,0.0
+2398,40111.0,,Okmulgee,Oklahoma,2.0
+2399,40113.0,,Osage,Oklahoma,8.0
+2400,40115.0,,Ottawa,Oklahoma,4.0
+2401,40117.0,,Pawnee,Oklahoma,1.0
+2402,40119.0,,Payne,Oklahoma,5.0
+2403,40121.0,,Pittsburg,Oklahoma,9.0
+2404,40123.0,,Pontotoc,Oklahoma,0.0
+2405,40125.0,,Pottawatomie,Oklahoma,7.0
+2406,40127.0,,Pushmataha,Oklahoma,0.0
+2407,40129.0,,Roger Mills,Oklahoma,0.0
+2408,40131.0,,Rogers,Oklahoma,17.0
+2409,40133.0,,Seminole,Oklahoma,2.0
+2410,40135.0,,Sequoyah,Oklahoma,0.0
+2411,40137.0,,Stephens,Oklahoma,4.0
+2412,40141.0,,Tillman,Oklahoma,0.0
+2413,40149.0,,Washita,Oklahoma,0.0
+2414,40151.0,,Woods,Oklahoma,0.0
+2415,40153.0,,Woodward,Oklahoma,0.0
+2416,41001.0,,Baker,Oregon,0.0
+2417,41003.0,,Benton,Oregon,2.0
+2418,41007.0,,Clatsop,Oregon,0.0
+2419,41009.0,,Columbia,Oregon,2.0
+2420,41011.0,,Coos,Oregon,17.0
+2421,41013.0,,Crook,Oregon,0.0
+2422,41015.0,,Curry,Oregon,0.0
+2423,41017.0,,Deschutes,Oregon,9.0
+2424,41019.0,,Douglas,Oregon,3.0
+2425,41021.0,,Gilliam,Oregon,0.0
+2426,41023.0,,Grant,Oregon,0.0
+2427,41025.0,,Harney,Oregon,0.0
+2428,41027.0,,Hood River,Oregon,1.0
+2429,41029.0,,Jackson,Oregon,0.0
+2430,41031.0,,Jefferson,Oregon,9.0
+2431,41033.0,,Josephine,Oregon,0.0
+2432,41035.0,,Klamath,Oregon,3.0
+2433,41037.0,,Lake,Oregon,0.0
+2434,41039.0,,Lane,Oregon,0.0
+2435,41041.0,,Lincoln,Oregon,0.0
+2436,41043.0,,Linn,Oregon,16.0
+2437,41045.0,,Malheur,Oregon,1.0
+2438,41049.0,,Morrow,Oregon,0.0
+2439,41053.0,,Polk,Oregon,4.0
+2440,41055.0,,Sherman,Oregon,0.0
+2441,41057.0,,Tillamook,Oregon,1.0
+2442,41061.0,,Union,Oregon,0.0
+2443,41063.0,,Wallowa,Oregon,0.0
+2444,41065.0,,Wasco,Oregon,2.0
+2445,41069.0,,Wheeler,Oregon,0.0
+2446,41071.0,,Yamhill,Oregon,4.0
+2447,42005.0,,Armstrong,Pennsylvania,7.0
+2448,42009.0,,Bedford,Pennsylvania,6.0
+2449,42013.0,,Blair,Pennsylvania,5.0
+2450,42015.0,,Bradford,Pennsylvania,6.0
+2451,42021.0,,Cambria,Pennsylvania,7.0
+2452,42023.0,,Cameron,Pennsylvania,0.0
+2453,42031.0,,Clarion,Pennsylvania,4.0
+2454,42033.0,,Clearfield,Pennsylvania,2.0
+2455,42035.0,,Clinton,Pennsylvania,12.0
+2456,42039.0,,Crawford,Pennsylvania,1.0
+2457,42047.0,,Elk,Pennsylvania,0.0
+2458,42049.0,,Erie,Pennsylvania,25.0
+2459,42051.0,,Fayette,Pennsylvania,5.0
+2460,42053.0,,Forest,Pennsylvania,0.0
+2461,42057.0,,Fulton,Pennsylvania,1.0
+2462,42059.0,,Greene,Pennsylvania,0.0
+2463,42063.0,,Indiana,Pennsylvania,9.0
+2464,42065.0,,Jefferson,Pennsylvania,0.0
+2465,42067.0,,Juniata,Pennsylvania,8.0
+2466,42073.0,,Lawrence,Pennsylvania,4.0
+2467,42081.0,,Lycoming,Pennsylvania,26.0
+2468,42083.0,,McKean,Pennsylvania,1.0
+2469,42085.0,,Mercer,Pennsylvania,-1.0
+2470,42087.0,,Mifflin,Pennsylvania,11.0
+2471,42093.0,,Montour,Pennsylvania,3.0
+2472,42097.0,,Northumberland,Pennsylvania,7.0
+2473,42099.0,,Perry,Pennsylvania,6.0
+2474,42105.0,,Potter,Pennsylvania,0.0
+2475,42109.0,,Snyder,Pennsylvania,5.0
+2476,42111.0,,Somerset,Pennsylvania,5.0
+2477,42113.0,,Sullivan,Pennsylvania,0.0
+2478,42115.0,,Susquehanna,Pennsylvania,11.0
+2479,42117.0,,Tioga,Pennsylvania,3.0
+2480,42119.0,,Union,Pennsylvania,8.0
+2481,42121.0,,Venango,Pennsylvania,1.0
+2482,42123.0,,Warren,Pennsylvania,0.0
+2483,42125.0,,Washington,Pennsylvania,21.0
+2484,42127.0,,Wayne,Pennsylvania,19.0
+2485,42131.0,,Wyoming,Pennsylvania,5.0
+2486,45001.0,,Abbeville,South Carolina,8.0
+2487,45003.0,,Aiken,South Carolina,21.0
+2488,45005.0,,Allendale,South Carolina,2.0
+2489,45007.0,,Anderson,South Carolina,25.0
+2490,45009.0,,Bamberg,South Carolina,2.0
+2491,45011.0,,Barnwell,South Carolina,10.0
+2492,45017.0,,Calhoun,South Carolina,1.0
+2493,45021.0,,Cherokee,South Carolina,3.0
+2494,45023.0,,Chester,South Carolina,7.0
+2495,45025.0,,Chesterfield,South Carolina,10.0
+2496,45029.0,,Colleton,South Carolina,2.0
+2497,45033.0,,Dillon,South Carolina,23.0
+2498,45035.0,,Dorchester,South Carolina,13.0
+2499,45037.0,,Edgefield,South Carolina,9.0
+2500,45039.0,,Fairfield,South Carolina,7.0
+2501,45043.0,,Georgetown,South Carolina,7.0
+2502,45047.0,,Greenwood,South Carolina,11.0
+2503,45049.0,,Hampton,South Carolina,3.0
+2504,45053.0,,Jasper,South Carolina,3.0
+2505,45057.0,,Lancaster,South Carolina,16.0
+2506,45059.0,,Laurens,South Carolina,8.0
+2507,45061.0,,Lee,South Carolina,16.0
+2508,45065.0,,McCormick,South Carolina,0.0
+2509,45067.0,,Marion,South Carolina,11.0
+2510,45069.0,,Marlboro,South Carolina,10.0
+2511,45071.0,,Newberry,South Carolina,5.0
+2512,45073.0,,Oconee,South Carolina,6.0
+2513,45075.0,,Orangeburg,South Carolina,22.0
+2514,45077.0,,Pickens,South Carolina,12.0
+2515,45081.0,,Saluda,South Carolina,25.0
+2516,45087.0,,Union,South Carolina,3.0
+2517,46003.0,,Aurora,South Dakota,0.0
+2518,46005.0,,Beadle,South Dakota,1.0
+2519,46007.0,,Bennett,South Dakota,0.0
+2520,46009.0,,Bon Homme,South Dakota,0.0
+2521,46011.0,,Brookings,South Dakota,2.0
+2522,46013.0,,Brown,South Dakota,11.0
+2523,46015.0,,Brule,South Dakota,0.0
+2524,46017.0,,Buffalo,South Dakota,0.0
+2525,46019.0,,Butte,South Dakota,0.0
+2526,46021.0,,Campbell,South Dakota,0.0
+2527,46023.0,,Charles Mix,South Dakota,0.0
+2528,46025.0,,Clark,South Dakota,0.0
+2529,46027.0,,Clay,South Dakota,0.0
+2530,46029.0,,Codington,South Dakota,0.0
+2531,46031.0,,Corson,South Dakota,0.0
+2532,46033.0,,Custer,South Dakota,0.0
+2533,46035.0,,Davison,South Dakota,0.0
+2534,46037.0,,Day,South Dakota,0.0
+2535,46039.0,,Deuel,South Dakota,0.0
+2536,46041.0,,Dewey,South Dakota,0.0
+2537,46043.0,,Douglas,South Dakota,0.0
+2538,46045.0,,Edmunds,South Dakota,0.0
+2539,46047.0,,Fall River,South Dakota,0.0
+2540,46049.0,,Faulk,South Dakota,0.0
+2541,46051.0,,Grant,South Dakota,0.0
+2542,46053.0,,Gregory,South Dakota,0.0
+2543,46055.0,,Haakon,South Dakota,0.0
+2544,46057.0,,Hamlin,South Dakota,0.0
+2545,46059.0,,Hand,South Dakota,0.0
+2546,46061.0,,Hanson,South Dakota,0.0
+2547,46063.0,,Harding,South Dakota,0.0
+2548,46065.0,,Hughes,South Dakota,1.0
+2549,46067.0,,Hutchinson,South Dakota,0.0
+2550,46069.0,,Hyde,South Dakota,0.0
+2551,46071.0,,Jackson,South Dakota,0.0
+2552,46073.0,,Jerauld,South Dakota,1.0
+2553,46075.0,,Jones,South Dakota,0.0
+2554,46077.0,,Kingsbury,South Dakota,0.0
+2555,46079.0,,Lake,South Dakota,0.0
+2556,46081.0,,Lawrence,South Dakota,0.0
+2557,46085.0,,Lyman,South Dakota,0.0
+2558,46087.0,,McCook,South Dakota,0.0
+2559,46089.0,,McPherson,South Dakota,0.0
+2560,46091.0,,Marshall,South Dakota,0.0
+2561,46093.0,,Meade,South Dakota,0.0
+2562,46095.0,,Mellette,South Dakota,0.0
+2563,46097.0,,Miner,South Dakota,0.0
+2564,46101.0,,Moody,South Dakota,2.0
+2565,46102.0,,Oglala Lakota,South Dakota,0.0
+2566,46103.0,,Pennington,South Dakota,2.0
+2567,46105.0,,Perkins,South Dakota,0.0
+2568,46107.0,,Potter,South Dakota,0.0
+2569,46109.0,,Roberts,South Dakota,0.0
+2570,46111.0,,Sanborn,South Dakota,0.0
+2571,46115.0,,Spink,South Dakota,0.0
+2572,46117.0,,Stanley,South Dakota,6.0
+2573,46119.0,,Sully,South Dakota,0.0
+2574,46121.0,,Todd,South Dakota,0.0
+2575,46123.0,,Tripp,South Dakota,0.0
+2576,46125.0,,Turner,South Dakota,3.0
+2577,46127.0,,Union,South Dakota,7.0
+2578,46129.0,,Walworth,South Dakota,0.0
+2579,46135.0,,Yankton,South Dakota,-1.0
+2580,46137.0,,Ziebach,South Dakota,0.0
+2581,47001.0,,Anderson,Tennessee,5.0
+2582,47005.0,,Benton,Tennessee,0.0
+2583,47009.0,,Blount,Tennessee,6.0
+2584,47011.0,,Bradley,Tennessee,9.0
+2585,47013.0,,Campbell,Tennessee,2.0
+2586,47015.0,,Cannon,Tennessee,2.0
+2587,47017.0,,Carroll,Tennessee,4.0
+2588,47019.0,,Carter,Tennessee,2.0
+2589,47021.0,,Cheatham,Tennessee,16.0
+2590,47023.0,,Chester,Tennessee,1.0
+2591,47025.0,,Claiborne,Tennessee,0.0
+2592,47027.0,,Clay,Tennessee,1.0
+2593,47029.0,,Cocke,Tennessee,4.0
+2594,47031.0,,Coffee,Tennessee,11.0
+2595,47033.0,,Crockett,Tennessee,0.0
+2596,47035.0,,Cumberland,Tennessee,13.0
+2597,47039.0,,Decatur,Tennessee,0.0
+2598,47041.0,,DeKalb,Tennessee,2.0
+2599,47043.0,,Dickson,Tennessee,15.0
+2600,47045.0,,Dyer,Tennessee,5.0
+2601,47047.0,,Fayette,Tennessee,9.0
+2602,47049.0,,Fentress,Tennessee,0.0
+2603,47051.0,,Franklin,Tennessee,7.0
+2604,47053.0,,Gibson,Tennessee,11.0
+2605,47055.0,,Giles,Tennessee,1.0
+2606,47057.0,,Grainger,Tennessee,0.0
+2607,47059.0,,Greene,Tennessee,8.0
+2608,47061.0,,Grundy,Tennessee,0.0
+2609,47063.0,,Hamblen,Tennessee,4.0
+2610,47067.0,,Hancock,Tennessee,0.0
+2611,47069.0,,Hardeman,Tennessee,3.0
+2612,47071.0,,Hardin,Tennessee,1.0
+2613,47073.0,,Hawkins,Tennessee,1.0
+2614,47075.0,,Haywood,Tennessee,4.0
+2615,47077.0,,Henderson,Tennessee,1.0
+2616,47079.0,,Henry,Tennessee,2.0
+2617,47083.0,,Houston,Tennessee,0.0
+2618,47085.0,,Humphreys,Tennessee,2.0
+2619,47087.0,,Jackson,Tennessee,0.0
+2620,47089.0,,Jefferson,Tennessee,3.0
+2621,47091.0,,Johnson,Tennessee,0.0
+2622,47097.0,,Lauderdale,Tennessee,5.0
+2623,47099.0,,Lawrence,Tennessee,3.0
+2624,47101.0,,Lewis,Tennessee,0.0
+2625,47103.0,,Lincoln,Tennessee,2.0
+2626,47105.0,,Loudon,Tennessee,7.0
+2627,47109.0,,McNairy,Tennessee,1.0
+2628,47111.0,,Macon,Tennessee,2.0
+2629,47115.0,,Marion,Tennessee,1.0
+2630,47117.0,,Marshall,Tennessee,3.0
+2631,47119.0,,Maury,Tennessee,5.0
+2632,47121.0,,Meigs,Tennessee,2.0
+2633,47123.0,,Monroe,Tennessee,6.0
+2634,47127.0,,Moore,Tennessee,0.0
+2635,47129.0,,Morgan,Tennessee,0.0
+2636,47131.0,,Obion,Tennessee,2.0
+2637,47133.0,,Overton,Tennessee,1.0
+2638,47135.0,,Perry,Tennessee,1.0
+2639,47137.0,,Pickett,Tennessee,0.0
+2640,47139.0,,Polk,Tennessee,1.0
+2641,47143.0,,Rhea,Tennessee,1.0
+2642,47145.0,,Roane,Tennessee,0.0
+2643,47151.0,,Scott,Tennessee,2.0
+2644,47153.0,,Sequatchie,Tennessee,0.0
+2645,47155.0,,Sevier,Tennessee,13.0
+2646,47159.0,,Smith,Tennessee,5.0
+2647,47161.0,,Stewart,Tennessee,1.0
+2648,47163.0,,Sullivan,Tennessee,2.0
+2649,47171.0,,Unicoi,Tennessee,0.0
+2650,47173.0,,Union,Tennessee,0.0
+2651,47175.0,,Van Buren,Tennessee,0.0
+2652,47177.0,,Warren,Tennessee,1.0
+2653,47179.0,,Washington,Tennessee,6.0
+2654,47181.0,,Wayne,Tennessee,0.0
+2655,47183.0,,Weakley,Tennessee,9.0
+2656,47185.0,,White,Tennessee,1.0
+2657,48001.0,,Anderson,Texas,18.0
+2658,48003.0,,Andrews,Texas,3.0
+2659,48007.0,,Aransas,Texas,0.0
+2660,48009.0,,Archer,Texas,0.0
+2661,48011.0,,Armstrong,Texas,0.0
+2662,48013.0,,Atascosa,Texas,5.0
+2663,48015.0,,Austin,Texas,1.0
+2664,48017.0,,Bailey,Texas,0.0
+2665,48019.0,,Bandera,Texas,1.0
+2666,48023.0,,Baylor,Texas,0.0
+2667,48025.0,,Bee,Texas,1.0
+2668,48031.0,,Blanco,Texas,1.0
+2669,48033.0,,Borden,Texas,0.0
+2670,48035.0,,Bosque,Texas,0.0
+2671,48037.0,,Bowie,Texas,2.0
+2672,48043.0,,Brewster,Texas,0.0
+2673,48045.0,,Briscoe,Texas,0.0
+2674,48047.0,,Brooks,Texas,0.0
+2675,48049.0,,Brown,Texas,10.0
+2676,48051.0,,Burleson,Texas,2.0
+2677,48053.0,,Burnet,Texas,5.0
+2678,48055.0,,Caldwell,Texas,3.0
+2679,48057.0,,Calhoun,Texas,6.0
+2680,48059.0,,Callahan,Texas,0.0
+2681,48063.0,,Camp,Texas,1.0
+2682,48065.0,,Carson,Texas,0.0
+2683,48067.0,,Cass,Texas,1.0
+2684,48069.0,,Castro,Texas,0.0
+2685,48071.0,,Chambers,Texas,3.0
+2686,48073.0,,Cherokee,Texas,2.0
+2687,48075.0,,Childress,Texas,0.0
+2688,48077.0,,Clay,Texas,0.0
+2689,48079.0,,Cochran,Texas,0.0
+2690,48081.0,,Coke,Texas,0.0
+2691,48083.0,,Coleman,Texas,0.0
+2692,48087.0,,Collingsworth,Texas,0.0
+2693,48089.0,,Colorado,Texas,2.0
+2694,48091.0,,Comal,Texas,9.0
+2695,48093.0,,Comanche,Texas,0.0
+2696,48095.0,,Concho,Texas,0.0
+2697,48097.0,,Cooke,Texas,2.0
+2698,48101.0,,Cottle,Texas,0.0
+2699,48103.0,,Crane,Texas,0.0
+2700,48105.0,,Crockett,Texas,0.0
+2701,48107.0,,Crosby,Texas,0.0
+2702,48109.0,,Culberson,Texas,0.0
+2703,48111.0,,Dallam,Texas,3.0
+2704,48115.0,,Dawson,Texas,6.0
+2705,48117.0,,Deaf Smith,Texas,17.0
+2706,48119.0,,Delta,Texas,0.0
+2707,48123.0,,DeWitt,Texas,1.0
+2708,48125.0,,Dickens,Texas,0.0
+2709,48127.0,,Dimmit,Texas,0.0
+2710,48129.0,,Donley,Texas,0.0
+2711,48131.0,,Duval,Texas,0.0
+2712,48133.0,,Eastland,Texas,0.0
+2713,48135.0,,Ector,Texas,19.0
+2714,48137.0,,Edwards,Texas,0.0
+2715,48143.0,,Erath,Texas,1.0
+2716,48145.0,,Falls,Texas,0.0
+2717,48147.0,,Fannin,Texas,5.0
+2718,48149.0,,Fayette,Texas,1.0
+2719,48151.0,,Fisher,Texas,0.0
+2720,48153.0,,Floyd,Texas,0.0
+2721,48155.0,,Foard,Texas,0.0
+2722,48159.0,,Franklin,Texas,0.0
+2723,48161.0,,Freestone,Texas,0.0
+2724,48163.0,,Frio,Texas,10.0
+2725,48165.0,,Gaines,Texas,0.0
+2726,48169.0,,Garza,Texas,-1.0
+2727,48171.0,,Gillespie,Texas,0.0
+2728,48173.0,,Glasscock,Texas,-1.0
+2729,48175.0,,Goliad,Texas,1.0
+2730,48177.0,,Gonzales,Texas,17.0
+2731,48179.0,,Gray,Texas,34.0
+2732,48181.0,,Grayson,Texas,12.0
+2733,48183.0,,Gregg,Texas,16.0
+2734,48185.0,,Grimes,Texas,6.0
+2735,48187.0,,Guadalupe,Texas,17.0
+2736,48189.0,,Hale,Texas,7.0
+2737,48191.0,,Hall,Texas,0.0
+2738,48193.0,,Hamilton,Texas,1.0
+2739,48195.0,,Hansford,Texas,3.0
+2740,48197.0,,Hardeman,Texas,0.0
+2741,48199.0,,Hardin,Texas,10.0
+2742,48205.0,,Hartley,Texas,1.0
+2743,48207.0,,Haskell,Texas,0.0
+2744,48211.0,,Hemphill,Texas,0.0
+2745,48213.0,,Henderson,Texas,6.0
+2746,48217.0,,Hill,Texas,3.0
+2747,48219.0,,Hockley,Texas,3.0
+2748,48221.0,,Hood,Texas,3.0
+2749,48223.0,,Hopkins,Texas,0.0
+2750,48225.0,,Houston,Texas,0.0
+2751,48227.0,,Howard,Texas,0.0
+2752,48229.0,,Hudspeth,Texas,0.0
+2753,48231.0,,Hunt,Texas,5.0
+2754,48233.0,,Hutchinson,Texas,4.0
+2755,48235.0,,Irion,Texas,0.0
+2756,48237.0,,Jack,Texas,0.0
+2757,48239.0,,Jackson,Texas,1.0
+2758,48241.0,,Jasper,Texas,5.0
+2759,48243.0,,Jeff Davis,Texas,0.0
+2760,48247.0,,Jim Hogg,Texas,4.0
+2761,48249.0,,Jim Wells,Texas,0.0
+2762,48251.0,,Johnson,Texas,17.0
+2763,48255.0,,Karnes,Texas,0.0
+2764,48257.0,,Kaufman,Texas,30.0
+2765,48259.0,,Kendall,Texas,2.0
+2766,48261.0,,Kenedy,Texas,0.0
+2767,48263.0,,Kent,Texas,0.0
+2768,48265.0,,Kerr,Texas,0.0
+2769,48267.0,,Kimble,Texas,0.0
+2770,48269.0,,King,Texas,0.0
+2771,48271.0,,Kinney,Texas,0.0
+2772,48273.0,,Kleberg,Texas,1.0
+2773,48275.0,,Knox,Texas,0.0
+2774,48279.0,,Lamb,Texas,0.0
+2775,48281.0,,Lampasas,Texas,0.0
+2776,48283.0,,La Salle,Texas,0.0
+2777,48285.0,,Lavaca,Texas,0.0
+2778,48287.0,,Lee,Texas,0.0
+2779,48289.0,,Leon,Texas,0.0
+2780,48291.0,,Liberty,Texas,9.0
+2781,48293.0,,Limestone,Texas,2.0
+2782,48295.0,,Lipscomb,Texas,-1.0
+2783,48297.0,,Live Oak,Texas,0.0
+2784,48299.0,,Llano,Texas,0.0
+2785,48301.0,,Loving,Texas,0.0
+2786,48305.0,,Lynn,Texas,0.0
+2787,48307.0,,McCulloch,Texas,0.0
+2788,48309.0,,McLennan,Texas,9.0
+2789,48311.0,,McMullen,Texas,0.0
+2790,48313.0,,Madison,Texas,0.0
+2791,48315.0,,Marion,Texas,5.0
+2792,48317.0,,Martin,Texas,0.0
+2793,48319.0,,Mason,Texas,82.0
+2794,48321.0,,Matagorda,Texas,2.0
+2795,48323.0,,Maverick,Texas,2.0
+2796,48325.0,,Medina,Texas,4.0
+2797,48327.0,,Menard,Texas,0.0
+2798,48329.0,,Midland,Texas,16.0
+2799,48331.0,,Milam,Texas,3.0
+2800,48333.0,,Mills,Texas,0.0
+2801,48335.0,,Mitchell,Texas,0.0
+2802,48337.0,,Montague,Texas,0.0
+2803,48343.0,,Morris,Texas,1.0
+2804,48345.0,,Motley,Texas,0.0
+2805,48349.0,,Navarro,Texas,6.0
+2806,48351.0,,Newton,Texas,0.0
+2807,48353.0,,Nolan,Texas,0.0
+2808,48359.0,,Oldham,Texas,0.0
+2809,48361.0,,Orange,Texas,7.0
+2810,48363.0,,Palo Pinto,Texas,0.0
+2811,48367.0,,Parker,Texas,7.0
+2812,48369.0,,Parmer,Texas,3.0
+2813,48371.0,,Pecos,Texas,2.0
+2814,48373.0,,Polk,Texas,3.0
+2815,48377.0,,Presidio,Texas,0.0
+2816,48379.0,,Rains,Texas,0.0
+2817,48383.0,,Reagan,Texas,0.0
+2818,48385.0,,Real,Texas,0.0
+2819,48387.0,,Red River,Texas,0.0
+2820,48389.0,,Reeves,Texas,0.0
+2821,48391.0,,Refugio,Texas,0.0
+2822,48393.0,,Roberts,Texas,0.0
+2823,48395.0,,Robertson,Texas,0.0
+2824,48399.0,,Runnels,Texas,0.0
+2825,48401.0,,Rusk,Texas,7.0
+2826,48403.0,,Sabine,Texas,0.0
+2827,48405.0,,San Augustine,Texas,3.0
+2828,48407.0,,San Jacinto,Texas,0.0
+2829,48409.0,,San Patricio,Texas,3.0
+2830,48411.0,,San Saba,Texas,0.0
+2831,48413.0,,Schleicher,Texas,0.0
+2832,48415.0,,Scurry,Texas,0.0
+2833,48417.0,,Shackelford,Texas,0.0
+2834,48421.0,,Sherman,Texas,6.0
+2835,48425.0,,Somervell,Texas,0.0
+2836,48427.0,,Starr,Texas,2.0
+2837,48429.0,,Stephens,Texas,0.0
+2838,48431.0,,Sterling,Texas,0.0
+2839,48433.0,,Stonewall,Texas,0.0
+2840,48435.0,,Sutton,Texas,0.0
+2841,48437.0,,Swisher,Texas,1.0
+2842,48443.0,,Terrell,Texas,0.0
+2843,48445.0,,Terry,Texas,2.0
+2844,48447.0,,Throckmorton,Texas,0.0
+2845,48449.0,,Titus,Texas,4.0
+2846,48451.0,,Tom Green,Texas,15.0
+2847,48455.0,,Trinity,Texas,1.0
+2848,48457.0,,Tyler,Texas,0.0
+2849,48459.0,,Upshur,Texas,3.0
+2850,48461.0,,Upton,Texas,0.0
+2851,48463.0,,Uvalde,Texas,0.0
+2852,48465.0,,Val Verde,Texas,2.0
+2853,48467.0,,Van Zandt,Texas,2.0
+2854,48473.0,,Waller,Texas,6.0
+2855,48475.0,,Ward,Texas,0.0
+2856,48481.0,,Wharton,Texas,0.0
+2857,48483.0,,Wheeler,Texas,12.0
+2858,48485.0,,Wichita,Texas,5.0
+2859,48487.0,,Wilbarger,Texas,0.0
+2860,48489.0,,Willacy,Texas,3.0
+2861,48493.0,,Wilson,Texas,8.0
+2862,48495.0,,Winkler,Texas,0.0
+2863,48497.0,,Wise,Texas,4.0
+2864,48499.0,,Wood,Texas,1.0
+2865,48501.0,,Yoakum,Texas,0.0
+2866,48503.0,,Young,Texas,0.0
+2867,48505.0,,Zapata,Texas,1.0
+2868,48507.0,,Zavala,Texas,0.0
+2869,49001.0,,Beaver,Utah,0.0
+2870,49003.0,,Box Elder,Utah,0.0
+2871,49005.0,,Cache,Utah,0.0
+2872,49007.0,,Carbon,Utah,0.0
+2873,49009.0,,Daggett,Utah,0.0
+2874,49013.0,,Duchesne,Utah,0.0
+2875,49015.0,,Emery,Utah,0.0
+2876,49017.0,,Garfield,Utah,0.0
+2877,49019.0,,Grand,Utah,0.0
+2878,49021.0,,Iron,Utah,0.0
+2879,49023.0,,Juab,Utah,0.0
+2880,49025.0,,Kane,Utah,0.0
+2881,49027.0,,Millard,Utah,0.0
+2882,49029.0,,Morgan,Utah,0.0
+2883,49031.0,,Piute,Utah,0.0
+2884,49033.0,,Rich,Utah,0.0
+2885,49037.0,,San Juan,Utah,9.0
+2886,49039.0,,Sanpete,Utah,0.0
+2887,49041.0,,Sevier,Utah,0.0
+2888,49045.0,,Tooele,Utah,19.0
+2889,49047.0,,Uintah,Utah,0.0
+2890,49051.0,,Wasatch,Utah,22.0
+2891,49053.0,,Washington,Utah,0.0
+2892,49055.0,,Wayne,Utah,0.0
+2893,50001.0,,Addison,Vermont,0.0
+2894,50003.0,,Bennington,Vermont,8.0
+2895,50005.0,,Caledonia,Vermont,2.0
+2896,50009.0,,Essex,Vermont,0.0
+2897,50011.0,,Franklin,Vermont,17.0
+2898,50013.0,,Grand Isle,Vermont,0.0
+2899,50015.0,,Lamoille,Vermont,1.0
+2900,50017.0,,Orange,Vermont,0.0
+2901,50019.0,,Orleans,Vermont,0.0
+2902,50021.0,,Rutland,Vermont,3.0
+2903,50023.0,,Washington,Vermont,0.0
+2904,50025.0,,Windham,Vermont,4.0
+2905,50027.0,,Windsor,Vermont,4.0
+2906,51005.0,,Alleghany,Virginia,1.0
+2907,51007.0,,Amelia,Virginia,1.0
+2908,51009.0,,Amherst,Virginia,2.0
+2909,51011.0,,Appomattox,Virginia,7.0
+2910,51015.0,,Augusta,Virginia,12.0
+2911,51017.0,,Bath,Virginia,0.0
+2912,51019.0,,Bedford,Virginia,8.0
+2913,51021.0,,Bland,Virginia,0.0
+2914,51023.0,,Botetourt,Virginia,4.0
+2915,51025.0,,Brunswick,Virginia,3.0
+2916,51027.0,,Buchanan,Virginia,1.0
+2917,51031.0,,Campbell,Virginia,2.0
+2918,51033.0,,Caroline,Virginia,5.0
+2919,51035.0,,Carroll,Virginia,52.0
+2920,51036.0,,Charles City,Virginia,2.0
+2921,51037.0,,Charlotte,Virginia,0.0
+2922,51043.0,,Clarke,Virginia,1.0
+2923,51045.0,,Craig,Virginia,0.0
+2924,51049.0,,Cumberland,Virginia,3.0
+2925,51051.0,,Dickenson,Virginia,0.0
+2926,51053.0,,Dinwiddie,Virginia,3.0
+2927,51057.0,,Essex,Virginia,3.0
+2928,51063.0,,Floyd,Virginia,0.0
+2929,51065.0,,Fluvanna,Virginia,13.0
+2930,51067.0,,Franklin,Virginia,4.0
+2931,51071.0,,Giles,Virginia,0.0
+2932,51073.0,,Gloucester,Virginia,1.0
+2933,51075.0,,Goochland,Virginia,16.0
+2934,51077.0,,Grayson,Virginia,0.0
+2935,51079.0,,Greene,Virginia,2.0
+2936,51081.0,,Greensville,Virginia,14.0
+2937,51083.0,,Halifax,Virginia,4.0
+2938,51089.0,,Henry,Virginia,3.0
+2939,51091.0,,Highland,Virginia,1.0
+2940,51095.0,,James City,Virginia,9.0
+2941,51097.0,,King and Queen,Virginia,0.0
+2942,51099.0,,King George,Virginia,9.0
+2943,51101.0,,King William,Virginia,1.0
+2944,51103.0,,Lancaster,Virginia,0.0
+2945,51105.0,,Lee,Virginia,1.0
+2946,51109.0,,Louisa,Virginia,7.0
+2947,51111.0,,Lunenburg,Virginia,0.0
+2948,51113.0,,Madison,Virginia,2.0
+2949,51115.0,,Mathews,Virginia,0.0
+2950,51119.0,,Middlesex,Virginia,2.0
+2951,51121.0,,Montgomery,Virginia,6.0
+2952,51125.0,,Nelson,Virginia,1.0
+2953,51127.0,,New Kent,Virginia,4.0
+2954,51133.0,,Northumberland,Virginia,1.0
+2955,51135.0,,Nottoway,Virginia,3.0
+2956,51137.0,,Orange,Virginia,7.0
+2957,51141.0,,Patrick,Virginia,0.0
+2958,51143.0,,Pittsylvania,Virginia,3.0
+2959,51145.0,,Powhatan,Virginia,2.0
+2960,51147.0,,Prince Edward,Virginia,19.0
+2961,51149.0,,Prince George,Virginia,5.0
+2962,51155.0,,Pulaski,Virginia,1.0
+2963,51157.0,,Rappahannock,Virginia,5.0
+2964,51161.0,,Roanoke,Virginia,17.0
+2965,51163.0,,Rockbridge,Virginia,1.0
+2966,51167.0,,Russell,Virginia,0.0
+2967,51169.0,,Scott,Virginia,1.0
+2968,51173.0,,Smyth,Virginia,2.0
+2969,51181.0,,Surry,Virginia,0.0
+2970,51183.0,,Sussex,Virginia,8.0
+2971,51185.0,,Tazewell,Virginia,1.0
+2972,51187.0,,Warren,Virginia,16.0
+2973,51191.0,,Washington,Virginia,6.0
+2974,51193.0,,Westmoreland,Virginia,5.0
+2975,51195.0,,Wise,Virginia,3.0
+2976,51197.0,,Wythe,Virginia,1.0
+2977,51199.0,,York,Virginia,5.0
+2978,51520.0,,Bristol,Virginia,0.0
+2979,51530.0,,Buena Vista,Virginia,0.0
+2980,51540.0,,Charlottesville,Virginia,11.0
+2981,51570.0,,Colonial Heights,Virginia,19.0
+2982,51580.0,,Covington,Virginia,0.0
+2983,51590.0,,Danville,Virginia,6.0
+2984,51595.0,,Emporia,Virginia,7.0
+2985,51600.0,,Fairfax City,Virginia,1.0
+2986,51620.0,,Franklin City,Virginia,5.0
+2987,51630.0,,Fredericksburg,Virginia,14.0
+2988,51640.0,,Galax,Virginia,0.0
+2989,51650.0,,Hampton,Virginia,21.0
+2990,51670.0,,Hopewell,Virginia,4.0
+2991,51678.0,,Lexington,Virginia,0.0
+2992,51680.0,,Lynchburg,Virginia,8.0
+2993,51685.0,,Manassas Park,Virginia,27.0
+2994,51690.0,,Martinsville,Virginia,0.0
+2995,51700.0,,Newport News,Virginia,17.0
+2996,51720.0,,Norton,Virginia,0.0
+2997,51730.0,,Petersburg,Virginia,7.0
+2998,51735.0,,Poquoson,Virginia,0.0
+2999,51750.0,,Radford,Virginia,0.0
+3000,51790.0,,Staunton,Virginia,3.0
+3001,51820.0,,Waynesboro,Virginia,2.0
+3002,51830.0,,Williamsburg,Virginia,1.0
+3003,51840.0,,Winchester,Virginia,6.0
+3004,53001.0,,Adams,Washington,3.0
+3005,53003.0,,Asotin,Washington,4.0
+3006,53009.0,,Clallam,Washington,3.0
+3007,53013.0,,Columbia,Washington,0.0
+3008,53015.0,,Cowlitz,Washington,9.0
+3009,53017.0,,Douglas,Washington,19.0
+3010,53019.0,,Ferry,Washington,0.0
+3011,53023.0,,Garfield,Washington,0.0
+3012,53025.0,,Grant,Washington,15.0
+3013,53027.0,,Grays Harbor,Washington,2.0
+3014,53031.0,,Jefferson,Washington,0.0
+3015,53037.0,,Kittitas,Washington,1.0
+3016,53039.0,,Klickitat,Washington,1.0
+3017,53041.0,,Lewis,Washington,5.0
+3018,53043.0,,Lincoln,Washington,0.0
+3019,53045.0,,Mason,Washington,2.0
+3020,53047.0,,Okanogan,Washington,5.0
+3021,53049.0,,Pacific,Washington,1.0
+3022,53051.0,,Pend Oreille,Washington,0.0
+3023,53055.0,,San Juan,Washington,0.0
+3024,53059.0,,Skamania,Washington,0.0
+3025,53065.0,,Stevens,Washington,0.0
+3026,53067.0,,Thurston,Washington,9.0
+3027,53069.0,,Wahkiakum,Washington,0.0
+3028,53071.0,,Walla Walla,Washington,25.0
+3029,53075.0,,Whitman,Washington,0.0
+3030,54001.0,,Barbour,West Virginia,0.0
+3031,54005.0,,Boone,West Virginia,0.0
+3032,54007.0,,Braxton,West Virginia,0.0
+3033,54009.0,,Brooke,West Virginia,0.0
+3034,54011.0,,Cabell,West Virginia,6.0
+3035,54013.0,,Calhoun,West Virginia,0.0
+3036,54015.0,,Clay,West Virginia,0.0
+3037,54017.0,,Doddridge,West Virginia,0.0
+3038,54019.0,,Fayette,West Virginia,7.0
+3039,54021.0,,Gilmer,West Virginia,0.0
+3040,54023.0,,Grant,West Virginia,0.0
+3041,54025.0,,Greenbrier,West Virginia,0.0
+3042,54027.0,,Hampshire,West Virginia,1.0
+3043,54029.0,,Hancock,West Virginia,4.0
+3044,54031.0,,Hardy,West Virginia,1.0
+3045,54033.0,,Harrison,West Virginia,0.0
+3046,54041.0,,Lewis,West Virginia,0.0
+3047,54043.0,,Lincoln,West Virginia,0.0
+3048,54045.0,,Logan,West Virginia,2.0
+3049,54047.0,,McDowell,West Virginia,0.0
+3050,54049.0,,Marion,West Virginia,2.0
+3051,54051.0,,Marshall,West Virginia,2.0
+3052,54053.0,,Mason,West Virginia,2.0
+3053,54055.0,,Mercer,West Virginia,2.0
+3054,54057.0,,Mineral,West Virginia,6.0
+3055,54059.0,,Mingo,West Virginia,0.0
+3056,54063.0,,Monroe,West Virginia,0.0
+3057,54065.0,,Morgan,West Virginia,1.0
+3058,54067.0,,Nicholas,West Virginia,1.0
+3059,54069.0,,Ohio,West Virginia,3.0
+3060,54071.0,,Pendleton,West Virginia,0.0
+3061,54073.0,,Pleasants,West Virginia,0.0
+3062,54075.0,,Pocahontas,West Virginia,0.0
+3063,54077.0,,Preston,West Virginia,2.0
+3064,54079.0,,Putnam,West Virginia,5.0
+3065,54081.0,,Raleigh,West Virginia,1.0
+3066,54083.0,,Randolph,West Virginia,0.0
+3067,54085.0,,Ritchie,West Virginia,0.0
+3068,54087.0,,Roane,West Virginia,0.0
+3069,54089.0,,Summers,West Virginia,0.0
+3070,54091.0,,Taylor,West Virginia,1.0
+3071,54093.0,,Tucker,West Virginia,0.0
+3072,54095.0,,Tyler,West Virginia,0.0
+3073,54097.0,,Upshur,West Virginia,0.0
+3074,54099.0,,Wayne,West Virginia,18.0
+3075,54101.0,,Webster,West Virginia,0.0
+3076,54103.0,,Wetzel,West Virginia,0.0
+3077,54105.0,,Wirt,West Virginia,0.0
+3078,54107.0,,Wood,West Virginia,5.0
+3079,54109.0,,Wyoming,West Virginia,0.0
+3080,55001.0,,Adams,Wisconsin,0.0
+3081,55003.0,,Ashland,Wisconsin,0.0
+3082,55005.0,,Barron,Wisconsin,0.0
+3083,55007.0,,Bayfield,Wisconsin,0.0
+3084,55011.0,,Buffalo,Wisconsin,0.0
+3085,55013.0,,Burnett,Wisconsin,0.0
+3086,55015.0,,Calumet,Wisconsin,7.0
+3087,55017.0,,Chippewa,Wisconsin,3.0
+3088,55019.0,,Clark,Wisconsin,4.0
+3089,55021.0,,Columbia,Wisconsin,0.0
+3090,55023.0,,Crawford,Wisconsin,0.0
+3091,55027.0,,Dodge,Wisconsin,9.0
+3092,55029.0,,Door,Wisconsin,2.0
+3093,55031.0,,Douglas,Wisconsin,0.0
+3094,55033.0,,Dunn,Wisconsin,0.0
+3095,55035.0,,Eau Claire,Wisconsin,5.0
+3096,55037.0,,Florence,Wisconsin,0.0
+3097,55039.0,,Fond du Lac,Wisconsin,0.0
+3098,55041.0,,Forest,Wisconsin,0.0
+3099,55043.0,,Grant,Wisconsin,15.0
+3100,55045.0,,Green,Wisconsin,2.0
+3101,55047.0,,Green Lake,Wisconsin,0.0
+3102,55049.0,,Iowa,Wisconsin,1.0
+3103,55051.0,,Iron,Wisconsin,0.0
+3104,55053.0,,Jackson,Wisconsin,2.0
+3105,55055.0,,Jefferson,Wisconsin,10.0
+3106,55057.0,,Juneau,Wisconsin,4.0
+3107,55061.0,,Kewaunee,Wisconsin,3.0
+3108,55063.0,,La Crosse,Wisconsin,2.0
+3109,55065.0,,Lafayette,Wisconsin,0.0
+3110,55067.0,,Langlade,Wisconsin,0.0
+3111,55069.0,,Lincoln,Wisconsin,0.0
+3112,55071.0,,Manitowoc,Wisconsin,2.0
+3113,55073.0,,Marathon,Wisconsin,3.0
+3114,55075.0,,Marinette,Wisconsin,1.0
+3115,55077.0,,Marquette,Wisconsin,0.0
+3116,55078.0,,Menominee,Wisconsin,0.0
+3117,55081.0,,Monroe,Wisconsin,-1.0
+3118,55083.0,,Oconto,Wisconsin,2.0
+3119,55085.0,,Oneida,Wisconsin,0.0
+3120,55087.0,,Outagamie,Wisconsin,18.0
+3121,55089.0,,Ozaukee,Wisconsin,8.0
+3122,55091.0,,Pepin,Wisconsin,0.0
+3123,55093.0,,Pierce,Wisconsin,1.0
+3124,55095.0,,Polk,Wisconsin,0.0
+3125,55097.0,,Portage,Wisconsin,0.0
+3126,55099.0,,Price,Wisconsin,0.0
+3127,55103.0,,Richland,Wisconsin,2.0
+3128,55107.0,,Rusk,Wisconsin,0.0
+3129,55109.0,,St. Croix,Wisconsin,4.0
+3130,55111.0,,Sauk,Wisconsin,8.0
+3131,55113.0,,Sawyer,Wisconsin,0.0
+3132,55115.0,,Shawano,Wisconsin,2.0
+3133,55117.0,,Sheboygan,Wisconsin,5.0
+3134,55119.0,,Taylor,Wisconsin,0.0
+3135,55121.0,,Trempealeau,Wisconsin,0.0
+3136,55123.0,,Vernon,Wisconsin,0.0
+3137,55125.0,,Vilas,Wisconsin,0.0
+3138,55129.0,,Washburn,Wisconsin,0.0
+3139,55131.0,,Washington,Wisconsin,9.0
+3140,55135.0,,Waupaca,Wisconsin,1.0
+3141,55137.0,,Waushara,Wisconsin,0.0
+3142,55139.0,,Winnebago,Wisconsin,10.0
+3143,55141.0,,Wood,Wisconsin,0.0
+3144,56001.0,,Albany,Wyoming,1.0
+3145,56003.0,,Big Horn,Wyoming,0.0
+3146,56005.0,,Campbell,Wyoming,5.0
+3147,56007.0,,Carbon,Wyoming,0.0
+3148,56009.0,,Converse,Wyoming,5.0
+3149,56011.0,,Crook,Wyoming,1.0
+3150,56015.0,,Goshen,Wyoming,0.0
+3151,56017.0,,Hot Springs,Wyoming,0.0
+3152,56019.0,,Johnson,Wyoming,2.0
+3153,56023.0,,Lincoln,Wyoming,1.0
+3154,56025.0,,Natrona,Wyoming,6.0
+3155,56027.0,,Niobrara,Wyoming,0.0
+3156,56029.0,,Park,Wyoming,0.0
+3157,56031.0,,Platte,Wyoming,0.0
+3158,56033.0,,Sheridan,Wyoming,1.0
+3159,56035.0,,Sublette,Wyoming,0.0
+3160,56037.0,,Sweetwater,Wyoming,3.0
+3161,56041.0,,Uinta,Wyoming,1.0
+3162,56043.0,,Washakie,Wyoming,1.0
+3163,56045.0,,Weston,Wyoming,0.0
