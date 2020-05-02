@@ -14,6 +14,7 @@ import time
 import sys
 import datetime
 import numpy as np
+import threading
 
 
 def get_now():
@@ -23,37 +24,6 @@ def get_now():
 
 def log(msg):
     print(get_now() + " " + msg, file=sys.stdout)
-
-
-# TODO: Do we still use this??????????????????????????
-# def interactive_map():
-#     log("Start generating interactive map")
-#     df_sample = pd.read_csv(
-#         'https://raw.githubusercontent.com/plotly/datasets/master/minoritymajority.csv')
-#     df_sample_r = df_sample[df_sample['STNAME'] == 'California']
-
-#     values = df_sample_r['TOT_POP'].tolist()
-#     fips = df_sample_r['FIPS'].tolist()
-
-#     colorscale = [
-#         'rgb(193, 193, 193)',
-#         'rgb(239,239,239)',
-#         'rgb(195, 196, 222)',
-#         'rgb(144,148,194)',
-#         'rgb(101,104,168)',
-#         'rgb(65, 53, 132)'
-#     ]
-
-#     fig = ff.create_choropleth(
-#         fips=fips, values=values, scope=[
-#             'CA', 'AZ', 'Nevada', 'Oregon', ' Idaho'],
-#         binning_endpoints=[14348, 63983, 134827, 426762, 2081313], colorscale=colorscale,
-#         county_outline={'color': 'rgb(255,255,255)', 'width': 0.5}, round_legend_values=True,
-#         legend_title='Population by County', title='California and Nearby States'
-#     )
-#     fig.layout.template = None
-#     fig.show()
-#     log("End generating interactive map")
 
 
 def update_mobility():
@@ -205,13 +175,13 @@ def generate_map():
     df['FIPS'] = df['FIPS'].astype('int32').astype('str').str.zfill(5)
     df['ML'] = df['ML'].fillna(0)
     df['ML'] = df['ML'].astype('str')
-   
-    df['text'] = 'County: ' + df['County'] +'</br>'+'Rt: ' + df['ML'] 
+
+    df['text'] = 'State: ' + df['State'] + '</br>' + 'County: ' + df['County'] + '</br>' + 'Rt: ' + df['ML']
     fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Prediction',  hover_name='text',
                         color_continuous_scale="Viridis",
                         range_color=(0, 100),
                         scope="usa",
-                        labels={'County': 'New cases'}
+                        labels={'FIPS': 'FIPS ID', 'Prediction': '7-Day New Case Prediction'}
                         )
     # Set the map footer.
     fig.add_annotation(text="Updated on " + get_now(),
@@ -226,7 +196,7 @@ def generate_map():
 
 def arima_forecast():
     # Load data , train the model, and get prediction
-    #get_predictions()
+    get_predictions()
 
     # Generate the map
     generate_map()
@@ -234,7 +204,9 @@ def arima_forecast():
 
 def prepare_mobility(scheduler):
     ## Update Mobility ####
-    # update_mobility()
+    thread = threading.Thread(target=update_mobility, args=())
+    thread.daemon = True
+    thread.start()\
 
     # Set scheduling every Saturday
     scheduler.add_job(func=update_mobility,
@@ -246,15 +218,17 @@ def prepare_mobility(scheduler):
 
 
 def prepare_forecast(scheduler):
-    arima_forecast()
+    thread = threading.Thread(target=arima_forecast, args=())
+    thread.daemon = True
+    thread.start()
 
     # Set scheduling every 9pm
-    #scheduler.add_job(func=arima_forecast,
-    #                  trigger="cron",
-    #                  hour="21",
-    #                  id="get_predictions",
-    #                 name="get_predictions",
-    #                  replace_existing=True)
+    scheduler.add_job(func=arima_forecast,
+                      trigger="cron",
+                      hour="21",
+                      id="get_predictions",
+                      name="get_predictions",
+                      replace_existing=True)
 
 
 def prepare_model():
@@ -262,7 +236,7 @@ def prepare_model():
     scheduler = BackgroundScheduler()
     scheduler.start()
 
-    #prepare_mobility(scheduler)
+    prepare_mobility(scheduler)
 
     prepare_forecast(scheduler)
 
