@@ -223,7 +223,7 @@ def generate_map():
 
 def arima_forecast():
     # Load data , train the model, and get prediction
-    get_predictions()
+    #get_predictions()
 
     # Generate the map
     generate_map()
@@ -256,12 +256,12 @@ def prepare_forecast(scheduler):
 
 def prepare_model():
 
-    scheduler = BackgroundScheduler()
-    scheduler.start()
+    # scheduler = BackgroundScheduler()
+    # scheduler.start()
 
-    prepare_mobility(scheduler)
+    #prepare_mobility(scheduler)
 
-    prepare_forecast(scheduler)
+    #prepare_forecast(scheduler)
 
     # Shut down the scheduler when exiting the app
     atexit.register(lambda: scheduler.shutdown())
