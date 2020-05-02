@@ -201,9 +201,11 @@ def generate_map():
 
     with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
         counties = json.load(response)
-    df = pd.read_csv("predictions.csv")
+    df = pd.read_csv("ML_results.csv")
     df['FIPS'] = df['FIPS'].astype('int32').astype('str').str.zfill(5)
-    df['text'] = 'County: ' + df['County']
+    df['ML'] = df['ML'].astype('str')
+   
+    df['text'] = 'County: ' + df['County'] +'</br>'+'ML: ' + df['ML']
     fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Prediction',  hover_name='text',
                         color_continuous_scale="Viridis",
                         range_color=(0, 100),
@@ -246,22 +248,22 @@ def prepare_forecast(scheduler):
     arima_forecast()
 
     # Set scheduling every 9pm
-    scheduler.add_job(func=arima_forecast,
-                      trigger="cron",
-                      hour="21",
-                      id="get_predictions",
-                      name="get_predictions",
-                      replace_existing=True)
+    #scheduler.add_job(func=arima_forecast,
+    #                  trigger="cron",
+    #                  hour="21",
+    #                  id="get_predictions",
+    #                 name="get_predictions",
+    #                  replace_existing=True)
 
 
 def prepare_model():
 
-    # scheduler = BackgroundScheduler()
-    # scheduler.start()
+    scheduler = BackgroundScheduler()
+    scheduler.start()
 
     #prepare_mobility(scheduler)
 
-    #prepare_forecast(scheduler)
+    prepare_forecast(scheduler)
 
     # Shut down the scheduler when exiting the app
     atexit.register(lambda: scheduler.shutdown())
