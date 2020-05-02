@@ -203,9 +203,10 @@ def generate_map():
         counties = json.load(response)
     df = pd.read_csv("ML_results.csv")
     df['FIPS'] = df['FIPS'].astype('int32').astype('str').str.zfill(5)
+    df['ML'] = df['ML'].fillna(0)
     df['ML'] = df['ML'].astype('str')
    
-    df['text'] = 'County: ' + df['County'] +'</br>'+'ML: ' + df['ML']
+    df['text'] = 'County: ' + df['County'] +'</br>'+'ML: ' + df['ML'] 
     fig = px.choropleth(df, geojson=counties, locations='FIPS', color='Prediction',  hover_name='text',
                         color_continuous_scale="Viridis",
                         range_color=(0, 100),
