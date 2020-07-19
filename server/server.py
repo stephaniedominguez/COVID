@@ -22,4 +22,4 @@ app.add_url_rule('/map/', view_func=ui.map)
 service.prepare_model()
 
 # Run application
-app.run(host='0.0.0.0', port=80)
+app.run(host='localhost', port=8080)
